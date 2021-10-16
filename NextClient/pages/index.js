@@ -1,10 +1,10 @@
-import Head from 'next/head'
-
 function Home() {
-  return (    
+  return ( 
+    <>   
       <div>
         Hello MBM (Next JS structure)
       </div>
+    </>  
   )
 }
 
