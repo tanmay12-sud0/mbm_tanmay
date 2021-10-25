@@ -1,15 +1,16 @@
 import React from "react";
-import { Alert } from "react-bootstrap";
 import BreadcrumbComponent from "../../components/common/BreadcrumbComponent.jsx";
 import MenuBar from "../../components/modules/MenuBar";
 
 function Home() {
   const items = [
     { title: "home", link: "#!" },
+    { title: "categories", link: "#!" },
     { title: "articles", link: "#!" },
+    { title: "article page", link: "#!" },
   ];
   const sideContent = (
-    <div style={{ padding: "10px", width: "25vw" }}>
+    <div style={{ padding: "10px", width: "25vw", height: "45vh" }}>
       <h3>Item 1</h3>
       <p>
         in publishing and graphic design, Lorem ipsum is a placeholder text
@@ -24,9 +25,8 @@ function Home() {
   return (
     <React.Fragment>
       <MenuBar sideContent={sideContent}>
-        <br/>
+        <br />
         <BreadcrumbComponent items={items} />
-        <Alert variant="success">Hello MBM, we are using react-bootstrap</Alert>
       </MenuBar>
     </React.Fragment>
   );

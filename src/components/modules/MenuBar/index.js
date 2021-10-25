@@ -26,6 +26,7 @@ const MenuBar = ({ children, sideContent }) => {
         open={sidebarOpen}
         docked={sidebarDocked}
         onSetOpen={onSetSidebarOpen}
+        pullRight={true}
       >
         {children}
       </Sidebar>
