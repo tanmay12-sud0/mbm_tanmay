@@ -1,7 +1,7 @@
 function Home() {
   return ( 
     <>   
-      <div>
+      <div className="text-danger"> 
         Hello MBM (Next JS structure)
       </div>
     </>  
