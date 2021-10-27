@@ -31,7 +31,7 @@ function MenuList({menus}) {
                 >
                     {
                         item.links.map((link) => (
-                           <NavDropdown.Item key={link}> <Link href={`/${link}`}><a className="anchor">{link}</a></Link></NavDropdown.Item>
+                           <NavDropdown.Item key={link}> <Link href={`/${item.type}/${link}`}><a className="anchor">{link}</a></Link></NavDropdown.Item>
                         ))
                     }
                 </NavDropdown>
