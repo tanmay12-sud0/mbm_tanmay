@@ -1,5 +1,6 @@
 import Layout from '../components/layouts'
 import '../styles/globals.css';
+import "../styles/home.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const menus=[
