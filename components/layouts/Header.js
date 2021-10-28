@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Container } from "react-bootstrap";
 import { IoIosMailOpen } from "react-icons/io";
 import MenuList from "../UI/MenuList";
 export default function Header({ menus }) {
@@ -11,7 +11,7 @@ export default function Header({ menus }) {
         <title>MBM University</title>
         <meta name="description" content="MBM University" />
       </Head>
-      <Navbar className="mbm-main-header" expand="lg">
+      <Navbar fixed="top" className="mbm-main-header" expand="lg">
         <Container className="header-container" fluid>
         <div className="w-100 d-flex flex-wrap">
           <Link href="/">
@@ -22,9 +22,9 @@ export default function Header({ menus }) {
                 className="mbm-logo mx-2"
                 src="https://mbm.ac.in/wp-content/uploads/2020/12/cropped-MBM-LOGO-80x80.png"
               />
-              <div>
-                <h2 className="text-white">MBM University</h2>
-                <p className="m-0 font-weight-100 text-whitegray">
+              <div className="m-auto">
+                <h2 className="text-white m-auto">MBM University</h2>
+                <p className="m-0 font-weight-100 text-whitegray d-xs-none">
                   Mugneeram Bangur Memorial Engineering College
                 </p>
               </div>

@@ -27,7 +27,9 @@ body {
 
 :root {
   --red-theme: #660000;
-  --blue-theme: #251c4d;
+  --ciyan-theme: #035452;
+  --blue-theme: #171966;
+  --brown-theme: #73310b;
   --white: #ffffff;
   --whitegray: rgb(251 251 251 / 76%);
   --black: rgb(55, 63, 80);
@@ -131,7 +133,7 @@ text-decoration: line-through;
 
 .mbm-main-header{
   padding: 0!important;
-  background:  var(--blue-theme)!important;
+  background:  var(--ciyan-theme)!important;
   color: var(--white)!important;
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 19%);
 }
@@ -149,8 +151,37 @@ text-decoration: line-through;
   max-height: 50vh!important;
 }
 
+.carousel-image{
+   background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.dropdown-toggle.nav-link{
+  color: var(--white)!important;
+}
+
+.main-layout{
+  position: relative;
+  top: 140px;
+}
+
+.dropdown-toggle.nav-link{
+ display: flex;
+ justify-content: center;
+}
+
 @media screen and (max-width: 950px) {
   .d-xs-none {
     display: none!important;
   } 
+  .carousel-image{
+     background-size: cover;
+     background-repeat: no-repeat;
+     height:200px;
+     background-position: bottom;
+ }
+ .Home-content .carousel-indicators{
+   display: none;
+ }
 }
