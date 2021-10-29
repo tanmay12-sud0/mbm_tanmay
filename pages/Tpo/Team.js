@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Tpo() {
+export default function Team() {
     return (
         <div>
-            
+            Hello team
         </div>
     )
 }

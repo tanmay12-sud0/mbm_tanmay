@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function team() {
+export default function Content() {
     return (
         <div>
-            Hello team
+            Hello
         </div>
     )
 }

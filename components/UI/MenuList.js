@@ -13,7 +13,7 @@ function MenuList({menus}) {
           <Link href="/"><Button variant="link" className="anchor-white">Home</Button></Link>
           {
             menus.map((item) => <>  
-                <NavDropdown
+               <NavDropdown
                     key={item.type}
                     id={item.type}
                     className="header-menus-dropdown"
@@ -25,7 +25,7 @@ function MenuList({menus}) {
                         document.getElementById(item.type).click()
                         }
                     >
-                        {item.type}
+                        <Link href={`${item.type}`}><a className="anchor-white">{item.type}</a></Link>
                     </Button>
                     }
                 >
