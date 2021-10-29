@@ -13,6 +13,8 @@ function Home() {
             ]}
           />
           <Highlights />
+          <Highlights />
+          <Highlights />
         </div>
     </>
   );
