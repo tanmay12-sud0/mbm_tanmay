@@ -6,7 +6,12 @@ const Highlights = () => {
     <Card style={{ width: "100%" }}>
       <Card.Header
         className="text-center"
-        style={{ color: "black", background: "transparent" }}
+        style={{
+          color: "black",
+          background: "transparent",
+          color: "white",
+          backgroundColor: "#246a64",
+        }}
       >
         Highlights
       </Card.Header>

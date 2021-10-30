@@ -1,6 +1,6 @@
 import HomeCarousel from "../components/UI/HomeCarousel";
 import Highlights from "../components/UI/Highlights";
-import Layout from "../components/layouts";
+// import Layout from "../components/layouts";
 import MainBody from "../components/UI/MainBody";
 import Links from "../components/UI/Links";
 function Home() {
