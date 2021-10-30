@@ -3,6 +3,8 @@ import Highlights from "../components/UI/Highlights";
 // import Layout from "../components/layouts";
 import MainBody from "../components/UI/MainBody";
 import Links from "../components/UI/Links";
+import BreadcrumbComponent from "../components/UI/BreadcrumbComponent";
+
 function Home() {
   return (
     <>
@@ -15,9 +17,10 @@ function Home() {
         />
         <div className="m-md-5 m-2">
           <div container className="col-12 mt-5 ">
+            <BreadcrumbComponent />
             <div className="row d-flex mr-5 ml-5">
               <div className="d-flex col-md-8 col-12">
-                <MainBody></MainBody>
+                <MainBody />
               </div>
               <div
                 className="d-flex col-md-4 col-12  "
@@ -27,7 +30,7 @@ function Home() {
                   <Highlights />
                 </div>
                 <div className="d-flex mt-5">
-                  <Links></Links>
+                  <Links />
                 </div>
               </div>
             </div>
