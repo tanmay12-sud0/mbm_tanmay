@@ -5,6 +5,7 @@ import Link from "next/link";
 
 const BreadcrumbComponent = () => {
   const {Category=null, content=[]} = useRouter().query;
+  const router = useRouter();
   console.log(Category, content)
   return (
     <div>
@@ -14,7 +15,7 @@ const BreadcrumbComponent = () => {
         {
           content.map((item) => (
             <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
-              <Link href={`/${item}`}><a>{item}</a></Link>
+              <Link href={`/${item}`}><a onClick={()=>router.push(`/${item}`)}>{item}</a></Link>
             </Breadcrumb.Item>
           ))
         }
