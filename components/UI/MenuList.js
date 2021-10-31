@@ -20,7 +20,6 @@ function MenuList({menus}) {
                     title={
                     <Button
                         variant="link"
-                        container="true"
                         className="p-1 anchor-white"
                         onMouseEnter={() =>
                         document.getElementById(item.type).click()
@@ -31,8 +30,12 @@ function MenuList({menus}) {
                     }
                 >
                     {
-                        item.links.map((link) => (
-                           <NavDropdown.Item key={link}> <Link href={`/${item.type}/${link}`}><a className="anchor">{link}</a></Link></NavDropdown.Item>
+                        item.links.map((linkType) => (
+                          <div>
+                         {linkType.map((link) => (
+                            <NavDropdown.Item key={link}> <Link href={`/${item.type}/${link}`}><a className="anchor">{link}</a></Link></NavDropdown.Item>
+                          ))}
+                          </div>
                         ))
                     }
                 </NavDropdown>

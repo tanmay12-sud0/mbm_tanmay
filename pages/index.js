@@ -15,21 +15,20 @@ function Home() {
             "https://mbm.ac.in/wp-content/uploads/2021/01/banner3.png",
           ]}
         />
-        <div className="m-md-5 m-2">
-          <div container className="col-12 mt-5 ">
+        <div className="container mt-5">
+          <div container className="col-12">
             <BreadcrumbComponent />
-            <div className="row d-flex mr-5 ml-5">
+            <div className="row d-flex">
               <div className="d-flex col-md-8 col-12">
                 <MainBody />
               </div>
               <div
-                className="d-flex col-md-4 col-12  "
-                style={{ flexDirection: "column" }}
+                className="d-flex col-md-4 col-12 flex-column"
               >
                 <div className="d-flex ">
                   <Highlights />
                 </div>
-                <div className="d-flex mt-5">
+                <div className="d-flex">
                   <Links />
                 </div>
               </div>

@@ -175,7 +175,12 @@ h6 {
   justify-content: center;
 }
 
-@media screen and (max-width: 950px) {
+.header-menus-dropdown .dropdown-menu.show{
+  display: flex;
+  padding: 10px;
+}
+
+@media screen and (max-width: 990px) {
   .d-xs-none {
     display: none !important;
   }
@@ -187,5 +192,9 @@ h6 {
   }
   .Home-content .carousel-indicators {
     display: none;
+  }
+  .main-layout {
+    position: relative;
+    top: 100px;
   }
 }
