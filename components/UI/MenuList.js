@@ -27,12 +27,12 @@ function MenuList({ menus }) {
                   <Button
                     variant="link"
                     className="p-1 anchor-white"
-                    onClick={() => router.push(`${item.type}`)}
+                    onClick={() => router.push(`/${item.type}`)}
                     onMouseEnter={() =>
                       document.getElementById(item.type).click()
                     }
                   >
-                    <Link href={`${item.type}`}>
+                    <Link href={`/${item.type}`}>
                       <a
                         className="anchor-white"
                       >
