@@ -5,13 +5,6 @@ function content() {
     const router = useRouter();
     const {content=[]} = router.query;
     console.log(content);
-    // if(content.length===1){
-    //     return (
-    //         <div>
-    //            Hey {content[0]}
-    //         </div>
-    //     )
-    // }
     return (
         <div>
             Hey content 
