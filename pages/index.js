@@ -16,20 +16,22 @@ function Home() {
           ]}
         />
         <div className="container mt-5">
-          <div container className="col-12">
-            <BreadcrumbComponent />
-            <div className="row d-flex">
-              <div className="d-flex col-md-8 col-12">
-                <MainBody />
-              </div>
-              <div
-                className="d-flex col-md-4 col-12 flex-column"
-              >
-                <div className="d-flex ">
-                  <Highlights />
+          <div className="row"> 
+            <div container className="col-10 col-md-12 m-auto">
+              <BreadcrumbComponent />
+              <div className="row d-flex">
+                <div className="col-md-8 col-12">
+                  <MainBody />
                 </div>
-                <div className="d-flex">
-                  <Links />
+                <div
+                  className="col-md-4 col-12 flex-column"
+                >
+                  <div className="d-flex ">
+                    <Highlights />
+                  </div>
+                  <div className="d-flex">
+                    <Links />
+                  </div>
                 </div>
               </div>
             </div>

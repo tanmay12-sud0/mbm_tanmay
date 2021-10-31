@@ -25,6 +25,7 @@ function MainBody() {
       <img
         src="https://imgr.search.brave.com/_vbNjlk8qkT6Z2BVqFMZ88LU-tIKqlMB61o0QaOOjPo/fit/920/225/ce/1/aHR0cHM6Ly90c2U0/LmV4cGxpY2l0LmJp/bmcubmV0L3RoP2lk/PU9JUC5Nc1p0elRv/M2dwOE1vcEFpejFU/R0xnSGFEMCZwaWQ9/QXBp"
         alt=" placement"
+        className="w-100"
       />
       <p>
         At unde quaerat ipsa magnam iste vel perferendis corrupti facilis solut
