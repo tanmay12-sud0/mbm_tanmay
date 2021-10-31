@@ -20,6 +20,7 @@ function MenuList({menus}) {
                     title={
                     <Button
                         variant="link"
+                        container="true"
                         className="p-1 anchor-white"
                         onMouseEnter={() =>
                         document.getElementById(item.type).click()

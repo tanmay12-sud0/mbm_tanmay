@@ -1,7 +1,6 @@
 import React from "react";
 import { Card, ListGroup } from "react-bootstrap";
-
-const Highlights = () => {
+function Links() {
   return (
     <Card style={{ width: "100%" }}>
       <Card.Header
@@ -13,7 +12,7 @@ const Highlights = () => {
           backgroundColor: "#246a64",
         }}
       >
-        Highlights
+        Hyper Links
       </Card.Header>
       <ListGroup variant="flush">
         <ListGroup.Item>Cras justo odio</ListGroup.Item>
@@ -22,6 +21,6 @@ const Highlights = () => {
       </ListGroup>
     </Card>
   );
-};
+}
 
-export default Highlights;
+export default Links;

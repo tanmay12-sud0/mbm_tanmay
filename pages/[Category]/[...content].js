@@ -1,6 +1,6 @@
 import React from 'react';
 import {useRouter} from "next/router";
-import CustomBreadcrumb from '../../components/UI/CustomBreadcrump';
+import BreadcrumbComponent from '../../components/UI/CustomBreadcrumb';
 
 function content() {
     const router = useRouter();
@@ -9,7 +9,7 @@ function content() {
     
     return (
         <div>
-          <CustomBreadcrumb content={content}/>
+          <BreadcrumbComponent/>
         </div>
     )
 }
