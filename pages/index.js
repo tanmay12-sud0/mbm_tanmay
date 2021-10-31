@@ -1,7 +1,5 @@
 import HomeCarousel from "../components/UI/HomeCarousel";
 import Highlights from "../components/UI/Highlights";
-import Layout from '../components/layouts'
-
 function Home() {
   return (
     <>
