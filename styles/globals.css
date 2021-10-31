@@ -161,6 +161,12 @@ h6 {
   height: 430px;
 }
 
+.banner-image{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
 .dropdown-toggle.nav-link {
   color: var(--white) !important;
 }

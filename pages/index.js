@@ -1,4 +1,4 @@
-import HomeCarousel from "../components/UI/CustomCarousel";
+import CustomCarousel from "../components/UI/CustomCarousel";
 import Highlights from "../components/UI/Highlights";
 // import Layout from "../components/layouts";
 import MainBody from "../components/UI/MainBody";
@@ -9,7 +9,7 @@ function Home() {
   return (
     <>
       <div className="Home-content home-display">
-        <HomeCarousel
+        <CustomCarousel
           images={[
             "https://mbm.ac.in/wp-content/uploads/2021/01/banner2.png",
             "https://mbm.ac.in/wp-content/uploads/2021/01/banner3.png",

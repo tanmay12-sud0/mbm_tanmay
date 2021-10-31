@@ -1,13 +1,18 @@
 import React from 'react';
 import {useRouter} from "next/router";
+import BreadcrumbComponent from '../../components/UI/CustomBreadcrumb';
+import CustomBanner from '../../components/UI/CustomBanner';
 
-function content() {
-    const router = useRouter();
+function Category() {
+    
     return (
         <div>
-            Hey content 
+          <CustomBanner/>
+          <div className="container">
+            <BreadcrumbComponent/>
+          </div>
         </div>
     )
 }
 
-export default content;
+export default Category;
