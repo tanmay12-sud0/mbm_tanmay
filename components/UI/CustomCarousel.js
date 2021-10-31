@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 
-function HomeCarousel({ images }) {
+function CustomCarousel({ images }) {
   return (
     <div>
       <Carousel>
@@ -20,4 +20,4 @@ function HomeCarousel({ images }) {
   );
 }
 
-export default HomeCarousel;
+export default CustomCarousel;

@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 function MainBody() {
   return (
-    <Card style={{ width: "100%", padding: "20px", textAlign: "center" }}>
+    <div>
       <h2>Where does it come from?</h2>
       <p>
         Contrary to popular belief, Lorem Ipsum is not simply random text. It
@@ -61,7 +61,7 @@ function MainBody() {
         aaaaa delectus laboriosam, voluptatum deserunt enim cumque id vitae cum
         ipsam impedit hic dolorem quidem, quasi nemo natus quam? Eaque.
       </p>
-    </Card>
+    </div>
   );
 }
 
