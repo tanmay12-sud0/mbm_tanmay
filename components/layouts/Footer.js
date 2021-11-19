@@ -2,6 +2,10 @@ import React from "react";
 import Head from "next/head";
 import { IoIosMailOpen } from "react-icons/io";
 import Link from "next/link";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import FacebookIcon from "@mui/icons-material/Facebook";
+
 export default function FooterCard({ menus }) {
   return (
     <>
@@ -12,107 +16,127 @@ export default function FooterCard({ menus }) {
       <footer className="mainfooter" role="contentinfo">
         <div className="footer-middle">
           <div className="container">
-            <div className="row">
-              <div className="col-md-3 col-sm-6">
+            <div className="row align-items-center">
+              <div className="col-md-4">
                 <div className="footer-pad">
-                  <h4 className="text-white ">Heading 1</h4>
-                  <ul className="list-unstyled">
-                    <li>
-                      <a href="#"></a>
-                    </li>
-                    <li>
-                      <a href="#">Payment Center</a>
-                    </li>
-                    <li>
-                      <a href="#">Contact Directory</a>
-                    </li>
-                    <li>
-                      <a href="#">Forms</a>
-                    </li>
-                    <li>
-                      <a href="#">News and Updates</a>
-                    </li>
-                    <li>
-                      <a href="#">FAQs</a>
-                    </li>
-                  </ul>
+                  <img
+                    src="https://res.cloudinary.com/dzsnoyohi/image/upload/v1636602578/samples/MBM_LOGO_fq7956.png"
+                    alt="MBM LOGO"
+                    className="footer-logo"
+                  />
                 </div>
               </div>
-              <div className="col-md-3 col-sm-6">
-                <div className="footer-pad">
-                  <h4 className="text-white ">Heading 2</h4>
-                  <ul className="list-unstyled">
-                    <li>
-                      <a href="#">Website Tutorial</a>
-                    </li>
-                    <li>
-                      <a href="#">Accessibility</a>
-                    </li>
-                    <li>
-                      <a href="#">Disclaimer</a>
-                    </li>
-                    <li>
-                      <a href="#">Privacy Policy</a>
-                    </li>
-                    <li>
-                      <a href="#">FAQs</a>
-                    </li>
-                    <li>
-                      <a href="#">Webmaster</a>
-                    </li>
-                  </ul>
+              <div className="col">
+                <div className="row">
+                  <div className="col footer-quick-links">
+                    <p>Quick Links</p>
+                  </div>
+                  <hr />
                 </div>
-              </div>
-              <div className="col-md-3 col-sm-6">
-                <div className="footer-pad">
-                  <h4 className="text-white ">Heading 3</h4>
-                  <ul className="list-unstyled">
-                    <li>
-                      <a href="#">Parks and Recreation</a>
-                    </li>
-                    <li>
-                      <a href="#">Public Works</a>
-                    </li>
-                    <li>
-                      <a href="#">Police Department</a>
-                    </li>
-                    <li>
-                      <a href="#">Fire</a>
-                    </li>
-                    <li>
-                      <a href="#">Mayor and City Council</a>
-                    </li>
-                    <li>
-                      <a href="#"></a>
-                    </li>
-                  </ul>
+                <div className="row align-items-center mt-2">
+                  <div className="col">
+                    <div className="footer-pad">
+                      <ul className="list-unstyled">
+                        <li>
+                          <a href="#">Site Home</a>
+                        </li>
+                        <li>
+                          <a href="#">Vision & Mission</a>
+                        </li>
+                        <li>
+                          <a href="#">University Handbook</a>
+                        </li>
+                        <li>
+                          <a href="#">Public Tenders</a>
+                        </li>
+                        <li>
+                          <a href="#">Telephone Directory</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="col">
+                    <div className="footer-pad">
+                      <ul className="list-unstyled">
+                        <li>
+                          <a href="#">Registration & Collaboration</a>
+                        </li>
+                        <li>
+                          <a href="#">Administration</a>
+                        </li>
+                        <li>
+                          <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                          <a href="#">Student Grievance Redressal</a>
+                        </li>
+                        <li>
+                          <a href="#">MBMEC Alumni Association</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="col">
+                    <div className="footer-pad">
+                      <ul className="list-unstyled">
+                        <li>
+                          <p>This Website is</p>
+                        </li>
+                        <li>
+                          <p>Developed & Maintained by</p>
+                        </li>
+                        <li>
+                          <a
+                            href="#!"
+                            style={{
+                              marginBottom: "7px",
+                              textDecoration: "underline",
+                            }}
+                          >
+                            Our Students & Teachers
+                          </a>
+                        </li>
+                        <li>
+                          <p>Follow MBM University on</p>
+                        </li>
+                        <li>
+                          <div className="row">
+                            <div className="col">
+                              <a href="#">
+                                <InstagramIcon />
+                              </a>
+                            </div>
+                            <div className="col">
+                              <a href="#">
+                                <FacebookIcon />
+                              </a>
+                            </div>
+                            <div className="col">
+                              <a href="#">
+                                <TwitterIcon />
+                              </a>
+                            </div>
+                            <div className="col-md-6"></div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="col-md-3">
-                <h4 className="text-white ">Follow Us</h4>
-                <ul className="social-network social-circle">
-                  <li>
-                    <a href="#" className="icoFacebook" title="Facebook">
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="icoLinkedin" title="Linkedin">
-                      <i className="fa fa-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-12 copy">
-                <p className="text-center">
-                  &copy; Copyright 2021 - MBM UNIVERSITY. All rights reserved.
-                </p>
+                <div className="row">
+                  <div className="col-md-12 copy">
+                    <p className="text-right h6">
+                      &copy; Copyright 2021 MBM University, Jodhpur
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <br />
+        <br />
+        <br />
       </footer>
     </>
   );
