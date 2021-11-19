@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 // import HomeCarousel from "../components/UI/HomeCarousel";
-=======
-import CustomCarousel from "../components/UI/CustomCarousel";
->>>>>>> a16abb0c08e08697c9a4cedccab54c09a2656572
 import Highlights from "../components/UI/Highlights";
 // import Layout from "../components/layouts";
 import MainBody from "../components/UI/MainBody";
