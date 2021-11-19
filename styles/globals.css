@@ -161,13 +161,19 @@ h6 {
   height: 430px;
 }
 
+.banner-image{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
 .dropdown-toggle.nav-link {
   color: var(--white) !important;
 }
 
 .main-layout {
   position: relative;
-  top: 140px;
+  top: 148px;
 }
 
 .dropdown-toggle.nav-link {
@@ -175,7 +181,12 @@ h6 {
   justify-content: center;
 }
 
-@media screen and (max-width: 950px) {
+.header-menus-dropdown .dropdown-menu.show{
+  display: flex;
+  padding: 10px;
+}
+
+@media screen and (max-width: 990px) {
   .d-xs-none {
     display: none !important;
   }
@@ -187,5 +198,9 @@ h6 {
   }
   .Home-content .carousel-indicators {
     display: none;
+  }
+  .main-layout {
+    position: relative;
+    top: 100px;
   }
 }

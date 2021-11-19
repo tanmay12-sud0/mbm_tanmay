@@ -1,6 +1,5 @@
 @media screen and (max-width: 768px) {
   .home-display {
-    display: grid;
     justify-content: center;
   }
   .header-title{

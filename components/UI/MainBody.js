@@ -1,10 +1,13 @@
+// import { Button } from 'bootstrap';
 import React from "react";
-import { Card } from "react-bootstrap";
-function MainBody() {
-  
+
+import { Col, Container, Image, Row } from "react-bootstrap";
+
+function Newpost2() {
   return (
-    <Card style={{ width: "100%", padding: "20px", }}>
-      <h4>Where does it come from?</h4>
+    <div>
+      <h2>Where does it come from?</h2>
+
       <p>
         Contrary to popular belief, Lorem Ipsum is not simply random text. It
         has roots in a piece of classical Latin literature from 45 BC, making it
@@ -23,12 +26,13 @@ function MainBody() {
         exact original form, accompanied by English versions from the 1914
         translation by H. Rackham.
       </p>
-      <figure className="text-center">
-        <img
-          src="https://imgr.search.brave.com/_vbNjlk8qkT6Z2BVqFMZ88LU-tIKqlMB61o0QaOOjPo/fit/920/225/ce/1/aHR0cHM6Ly90c2U0/LmV4cGxpY2l0LmJp/bmcubmV0L3RoP2lk/PU9JUC5Nc1p0elRv/M2dwOE1vcEFpejFU/R0xnSGFEMCZwaWQ9/QXBp"
-          alt=" placement"
-        />
-      </figure>
+
+      <img
+        src="https://imgr.search.brave.com/_vbNjlk8qkT6Z2BVqFMZ88LU-tIKqlMB61o0QaOOjPo/fit/920/225/ce/1/aHR0cHM6Ly90c2U0/LmV4cGxpY2l0LmJp/bmcubmV0L3RoP2lk/PU9JUC5Nc1p0elRv/M2dwOE1vcEFpejFU/R0xnSGFEMCZwaWQ9/QXBp"
+        alt=" placement"
+        className="w-100"
+      />
+
       <p>
         At unde quaerat ipsa magnam iste vel perferendis corrupti facilis solut
         aaaaa delectus laboriosam, voluptatum deserunt enim cumque id vitae cum
@@ -64,8 +68,21 @@ function MainBody() {
         aaaaa delectus laboriosam, voluptatum deserunt enim cumque id vitae cum
         ipsam impedit hic dolorem quidem, quasi nemo natus quam? Eaque.
       </p>
-    </Card>
+    </div>
   );
 }
 
-export default MainBody;
+export default Newpost2;
+
+const footerContainer = {
+  minHeight: "210px",
+  background: "white",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+};
+
+const colStyle = {
+  display: "flex",
+  justifyContent: "center",
+};
