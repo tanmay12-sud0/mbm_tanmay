@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 // import HomeCarousel from "../components/UI/HomeCarousel";
+=======
+import CustomCarousel from "../components/UI/CustomCarousel";
+>>>>>>> a16abb0c08e08697c9a4cedccab54c09a2656572
 import Highlights from "../components/UI/Highlights";
 // import Layout from "../components/layouts";
 import MainBody from "../components/UI/MainBody";
 import Links from "../components/UI/Links";
-import BreadcrumbComponent from "../components/UI/BreadcrumbComponent";
+import BreadcrumbComponent from "../components/UI/CustomBreadcrumb";
 
 function Home() {
   return (
@@ -23,8 +27,15 @@ function Home() {
                 <div className="d-flex ">
                   <Highlights />
                 </div>
-                <div className="d-flex mt-5">
-                  <Links />
+                <div
+                  className="col-md-4 col-12 flex-column"
+                >
+                  <div className="d-flex ">
+                    <Highlights />
+                  </div>
+                  <div className="d-flex">
+                    <Links />
+                  </div>
                 </div>
               </div>
             </div>
