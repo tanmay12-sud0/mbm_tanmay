@@ -6,7 +6,7 @@ import Link from "next/link";
 const BreadcrumbComponent = () => {
   const { Category = null, content = [] } = useRouter().query;
   const router = useRouter();
-  console.log(Category, content);
+  // console.log(Category, content);
   return (
     <Breadcrumb>
       <Breadcrumb.Item href="#">
