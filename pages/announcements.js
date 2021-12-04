@@ -1,7 +1,15 @@
 import React from "react";
 import Button from "@mui/material/Button";
 import BreadcrumbComponent from "../components/UI/CustomBreadcrumb";
+import ArticleCard from "../components/UI/ArticleCard";
+
 function announcements() {
+  const lst = [];
+  const data = `I don't need to compromise my principles, because they don't have
+  the slightest bearing on what happens to me anyway. Some quick
+  example text to build on the card title and make up the bulk of the
+  card's content.`;
+  for (let i = 0; i < 12; i++) lst.push(data);
   return (
     <div>
       <BreadcrumbComponent></BreadcrumbComponent>
@@ -15,12 +23,11 @@ function announcements() {
         className="container"
       >
         <h1 style={{ textAlign: "center", marginBottom: "30px" }}>
-          # Annocuments
+          # Announcements
         </h1>
         <small>
           Find all latest public announcements from University Offices.
         </small>
-
         <hr />
       </div>
       <div
@@ -28,10 +35,14 @@ function announcements() {
           marginTop: "50px",
           alignItems: "center",
           justifyContent: "center",
-          textAlign: "center",
+          display: "flex",
+          flexFlow: "wrap",
         }}
         className="container"
       >
+        {lst.map((data) => (
+          <ArticleCard desc={data} />
+        ))}
         <Button variant="outlined" style={{ color: "rgba(55,63,80,1)" }}>
           LOAD MORE...
         </Button>

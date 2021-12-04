@@ -2,6 +2,7 @@ import '../styles/globals.css';
 import "../styles/home.css";
 import "../styles/footer.css";
 import "../styles/header.css";
+import "../styles/article-card.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from '../components/layouts'
 
