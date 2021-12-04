@@ -4,7 +4,7 @@
 import MainBody from "../components/UI/MainBody";
 // import Links from "../components/UI/Links";
 import BreadcrumbComponent from "../components/UI/CustomBreadcrumb";
-
+import RelatedLinks from "../components/UI/RelatedLinks";
 function Home() {
   return (
     <>
@@ -34,6 +34,7 @@ function Home() {
         <div className="m-md-5 m-2">
           <div className="row d-flex mr-5 ml-5">
             <div className="d-flex  col-12">
+              <RelatedLinks></RelatedLinks>
               <MainBody />
             </div>
           </div>
