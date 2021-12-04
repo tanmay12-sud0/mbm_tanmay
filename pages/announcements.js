@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "@mui/material/Button";
 import BreadcrumbComponent from "../components/UI/CustomBreadcrumb";
-function annocuments() {
+function announcements() {
   return (
     <div>
       <BreadcrumbComponent></BreadcrumbComponent>
@@ -17,7 +17,9 @@ function annocuments() {
         <h1 style={{ textAlign: "center", marginBottom: "30px" }}>
           # Annocuments
         </h1>
-        <small>Posted by Admin under Announcements on 1 may, 2021</small>
+        <small>
+          Find all latest public announcements from University Offices.
+        </small>
 
         <hr />
       </div>
@@ -38,4 +40,4 @@ function annocuments() {
   );
 }
 
-export default annocuments;
+export default announcements;
