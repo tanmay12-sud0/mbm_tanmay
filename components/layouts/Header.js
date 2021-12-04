@@ -39,7 +39,7 @@ export default function Header({ menus, globalVariables }) {
         <div style={{ display: "flex", flexFlow: "wrap" }}>
           <a href="#!" className="header-contact-link">
             <ContactPhoneIcon />
-            {"   "}Contact Information
+            Contact Information
           </a>
           {"  |  "}
           <a href="#!" className="header-contact-link">
