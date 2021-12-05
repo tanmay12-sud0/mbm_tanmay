@@ -1,7 +1,21 @@
+/* <<<<<<< HEAD
 header {
   background: hsl(212, 39%, 33%);
+=======
+:root {
+  --base-color: hsl(212, 40%, 27%);
+}
+}
+/* header {
+  background: var(--base-color);
+>>>>>>> b174596c26a8a801cbbe44e7340fd6bbc23209f8
   color: white;
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 19%);
+} */
+.header-contact-popup-button {
+  border: none;
+  background-color: white;
+  color: var(--base-color);
 }
 
 .header-logo {
@@ -9,7 +23,7 @@ header {
   width: 270px;
 }
 
-.header-right-content {
+/* .header-right-content {
   padding-right: 30px;
   padding-top: 20px;
 }
@@ -22,7 +36,7 @@ header {
     text-align: center;
     padding-right: 0px;
   }
-}
+} */
 
 .header-contact-link {
   color: hsl(212, 40%, 27%);
@@ -39,4 +53,11 @@ header {
 
 .header-nav-link:hover {
   color: "black";
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 700px !important;
+    margin: 1.75rem auto;
+  }
 }

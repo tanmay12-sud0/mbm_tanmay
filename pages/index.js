@@ -1,15 +1,16 @@
 import React from "react";
 
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Avatar from "@mui/material/Avatar";
+import HeaderCarousel from "../components/ui/HeaderCarousel";
+
 function home() {
   return (
     <div>
+      <HeaderCarousel />
       <div className="container">
         <div className="row">
           <div className="col-lg-5 col-12">
@@ -151,7 +152,7 @@ function home() {
                         fontSize: "18px",
                         color: "red",
                         marginBottom: "2px",
-                        fontWeight:"bold",
+                        fontWeight: "bold",
                         marginTop: "6px",
                       }}
                     >
