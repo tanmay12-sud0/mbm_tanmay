@@ -2,9 +2,12 @@ import React from "react";
 
 const HeaderCarousel = () => {
   return (
-    <div className="header-carousel">
+    <div className="header-carousel mb-5">
       <div className="header-carousel-content">
-        <h1>MBM</h1>
+        <h2>
+          74th Foundation Day Celebration{" "}
+          <span style={{ color: "red" }}>@MBM</span>
+        </h2>
         <hr />
         <p>
           In publishing and graphic design, Lorem ipsum is a placeholder text
