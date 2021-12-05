@@ -1,8 +1,17 @@
-header {
+:root {
+  --base-color: hsl(212, 40%, 27%);
+}
 
-  background: hsl(212, 40%, 27%);
+header {
+  background: var(--base-color);
   color: white;
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 19%);
+}
+
+.header-contact-popup-button {
+  border: none;
+  background-color: white;
+  color: var(--base-color);
 }
 
 .header-logo {
