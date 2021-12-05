@@ -3,6 +3,7 @@
   --carousel-image-height: 415px;
   --carousel-height: 460px;
   --carousel-base-height: 110px;
+  --carousel-content-width: 600px;
 }
 
 .header-carousel {
