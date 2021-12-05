@@ -256,6 +256,79 @@ function home() {
           </div>
         </div>
       </div>
+
+      <div class="container text-center text-weight-bold my-5">
+        <h1>Meet Our Team</h1>
+
+        <div class="w-50 mx-auto"></div>
+      </div>
+
+      <div class="container-fluid">
+        <div
+          class="row my-5"
+          style={{ overflow: "hidden", alignItems: "center" }}
+        >
+          <div
+            class="col-10 col-md-4 mx-auto my-2"
+            style={{ alignItems: "center" }}
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <div class="flip-card m-auto">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    src="img/dsc_linear.jpg"
+                    alt="heading of dsc"
+                    style={{ marginTop: "10px" }}
+                    width="240px;"
+                    height="22px;"
+                  />
+
+                  <img
+                    src="<%=member.image%>"
+                    alt="<%=member.name%>"
+                    class="rounded-circle m-2 team-image"
+                  />
+
+                  <div class="card-body">
+                    <h4 class="font-weight-bold tname"></h4>
+                    <h5 class="font-weight-bold tfield"></h5>
+                  </div>
+                </div>
+                <div class="flip-card-back">
+                  <div class="card-body">
+                    <h4 class="font-weight-bold">About me</h4>
+
+                    <div style={{ height: "135px", padding: "13px" }}>
+                      <p></p>
+                    </div>
+
+                    <ul class="list-inline">
+                      <li
+                        class="list-inline-item"
+                        style={{
+                          backgroundColor: "white",
+                          width: "42px",
+                          borderRadius: "12px",
+                        }}
+                      >
+                        {" "}
+                        <a href="#">
+                          <i class="fa icon fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                    </ul>
+
+                    <h5 class="font-weight-bold mt-2"></h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
