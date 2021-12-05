@@ -3,6 +3,7 @@
   --carousel-image-height: 415px;
   --carousel-height: 500px;
   --carousel-base-height: 170px;
+  --carousel-content-width: 600px;
 }
 
 .header-carousel {
@@ -16,7 +17,7 @@
   top: 30px;
   z-index: 2;
   color: var(--base-color);
-  width: 600px;
+  width: var(--carousel-content-width);
 }
 
 .header-carousel-content h2 {
@@ -43,9 +44,14 @@
   bottom: 0;
 }
 
-/* @media screen and (max-width: 720px) {
+@media screen and (max-width: 720px) {
   :root {
-    --side-width: 5vw;
-    --base-width: 80vw;
+    --carousel-content-width: 90vw;
   }
-} */
+  .header-carousel-image {
+    display: none;
+  }
+  .header-carousel-content {
+    left: 10px;
+  }
+}
