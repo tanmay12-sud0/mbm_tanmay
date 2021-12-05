@@ -1,0 +1,15 @@
+:root {
+  --image-width: 500px;
+  --carousel-base-height: 100px;
+}
+
+.header-carousel-image {
+  border: 5px solid var(--base-color);
+  width: var(--image-width);
+}
+
+.header-carousel-footer {
+  width: 98.5vw;
+  height: var(--carousel-base-height);
+  background-color: var(--base-color);
+}

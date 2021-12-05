@@ -3,6 +3,7 @@ import "../styles/home.css";
 import "../styles/footer.css";
 import "../styles/header.css";
 import "../styles/article-card.css";
+import "../styles/header-carousel.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from '../components/layouts'
 
