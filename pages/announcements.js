@@ -6,7 +6,7 @@ import ArticleCard from "../components/UI/ArticleCard";
 function announcements() {
   const lst = [];
   const data = `I don't need to compromise my principles, because they don't have the slightest bearing on what happens to me anyway. Some quick example text to build on the card title and make up the bulk of thecard's content.`;
-  for (let i = 0; i < 12; i++) lst.push(data);
+  for (let i = 0; i < 12; i++) lst.push({ data: data, i: i });
   return (
     <div>
       <BreadcrumbComponent></BreadcrumbComponent>
@@ -37,10 +37,13 @@ function announcements() {
         }}
         className="container"
       >
-        {lst.map((data) => (
-          <ArticleCard desc={data} />
+        {lst.map(({ data, i }) => (
+          <ArticleCard desc={data} key={i} />
         ))}
-        <Button variant="outlined" style={{ color: "rgba(55,63,80,1)" , marginTop:"30px"}}>
+        <Button
+          variant="outlined"
+          style={{ color: "rgba(55,63,80,1)", marginTop: "30px" }}
+        >
           LOAD MORE...
         </Button>
       </div>
