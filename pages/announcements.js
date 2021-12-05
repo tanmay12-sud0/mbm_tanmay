@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "@mui/material/Button";
-import BreadcrumbComponent from "../components/UI/CustomBreadcrumb";
-import ArticleCard from "../components/UI/ArticleCard";
+import BreadcrumbComponent from "../components/ui/CustomBreadcrumb";
+import ArticleCard from "../components/ui/ArticleCard";
 
 function announcements() {
   const lst = [];

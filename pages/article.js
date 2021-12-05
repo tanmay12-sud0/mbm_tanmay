@@ -1,6 +1,6 @@
 import React from "react";
-import ArticleSingle from "../components/UI/ArticleSingle";
-import BreadcrumbComponent from "../components/UI/CustomBreadcrumb";
+import ArticleSingle from "../components/ui/ArticleSingle";
+import BreadcrumbComponent from "../components/ui/CustomBreadcrumb";
 import Button from "@mui/material/Button";
 function article() {
   return (
