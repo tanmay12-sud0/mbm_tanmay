@@ -4,7 +4,7 @@ const HeaderCarousel = () => {
   return (
     <div className="header-carousel">
       <div className="header-carousel-content">
-        <h1>MBM KI MAA KA</h1>
+        <h1>MBM</h1>
         <hr />
         <p>
           In publishing and graphic design, Lorem ipsum is a placeholder text
