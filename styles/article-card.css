@@ -23,6 +23,7 @@ div.article-card-container {
 
 figure.snip1208 {
   border: 3px solid var(--base-color);
+  line-break: auto;
   font-family: "Raleway", Arial, sans-serif;
   color: #fff;
   position: relative;
@@ -33,7 +34,7 @@ figure.snip1208 {
   background-color: #ffffff;
   color: #000000;
   text-align: left;
-  font-size: 16px;
+  font-size: 18px;
   display: grid;
   place-items: center;
   margin: 0;
@@ -152,4 +153,7 @@ p.article-card-footer-text {
     --side-width: 5vw;
     --base-width: 80vw;
   }
+}
+h3 {
+  color: #29425f;
 }

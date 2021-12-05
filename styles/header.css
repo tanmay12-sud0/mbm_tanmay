@@ -1,5 +1,5 @@
 header {
-  background: hsl(212, 40%, 27%);
+  background: hsl(212, 39%, 33%);
   color: white;
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 19%);
 }
@@ -11,6 +11,7 @@ header {
 
 .header-right-content {
   padding-right: 30px;
+  padding-top: 20px;
 }
 @media screen and (max-width: 650px) {
   .header-logo {
