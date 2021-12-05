@@ -132,11 +132,11 @@ function home() {
                       justifyContent: "center",
                       alignItems: "center",
                       margin: "auto",
-                      border: "2px solid #ef2727",
+                      border: "4px solid #ef2727",
                     }}
                     alt="Remy Sharp"
                     src="https://th.bing.com/th/id/OIP.wUk9lMqzmr9pthy8K3NHGwHaE2?pid=ImgDet&rs=1"
-                    sx={{ width: 250, height: 250 }}
+                    sx={{ width: 230, height: 230 }}
                   />
                   <div
                     style={{
@@ -148,9 +148,10 @@ function home() {
                   >
                     <p
                       style={{
-                        fontSize: "15px",
+                        fontSize: "18px",
                         color: "red",
                         marginBottom: "2px",
+                        fontWeight:"bold",
                         marginTop: "6px",
                       }}
                     >
@@ -158,7 +159,7 @@ function home() {
                     </p>
                     <p
                       style={{
-                        fontSize: "12px",
+                        fontSize: "14px",
                         marginBottom: "1px",
                         marginTop: "0px",
                       }}
@@ -167,7 +168,7 @@ function home() {
                     </p>
                     <p
                       style={{
-                        fontSize: "12px",
+                        fontSize: "14px",
                         marginBottom: "1px",
                         marginTop: "0px",
                       }}
@@ -176,7 +177,7 @@ function home() {
                     </p>
                     <p
                       style={{
-                        fontSize: "12px",
+                        fontSize: "14px",
                         marginBottom: "15px",
                         marginTop: "0px",
                       }}
