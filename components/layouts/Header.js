@@ -21,11 +21,213 @@ export default function Header({ menus, globalVariables }) {
         <button className="header-contact-popup-button" onClick={handleShow}>
           {text}
         </button>
-        <Modal show={show} onHide={handleClose} animation={false}>
-          <Modal.Header closeButton>
-            <Modal.Title>Modal heading</Modal.Title>
+        <Modal
+          show={show}
+          onHide={handleClose}
+          animation={true}
+          dialogClassName="modal-container"
+        >
+          <Modal.Header closeButton style={{ height: "40px" }}>
+            <Modal.Title style={{ fontSize: "20px" }}>
+              <span
+                style={{
+                  fontSize: "1rem",
+                  fontWeight: "bold",
+                  color: "red",
+                }}
+              >
+                CONTACT
+              </span>{" "}
+              <span
+                style={{
+                  fontSize: "1rem",
+                  fontWeight: "bold",
+                }}
+              >
+                INFORMATION
+              </span>
+            </Modal.Title>
           </Modal.Header>
-          <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+          <Modal.Body>
+            <div className="col-12">
+              <div className="row">
+                <div className="col-8">
+                  <div>
+                    <p
+                      style={{
+                        fontSize: "1rem",
+                        fontWeight: "bold",
+                        color: "#29425f",
+                        marginBottom: "0px",
+                      }}
+                    >
+                      <span>
+                        VICE CHANCELLOR's SECRETARIAT{" "}
+                        <small style={{ color: "red" }}>[more info]</small>
+                      </span>{" "}
+                    </p>
+                    <p
+                      style={{
+                        fontSize: "1rem",
+                        fontWeight: "bold",
+                        color: "#29425f",
+                      }}
+                    >
+                      <span style={{ color: "red" }}>T:</span>{" "}
+                      <span>
+                        +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
+                        vc@mbm.ac.in
+                      </span>
+                    </p>
+                  </div>
+                  <div>
+                    <p
+                      style={{
+                        fontSize: "1rem",
+                        fontWeight: "bold",
+                        color: "#29425f",
+                        marginBottom: "0px",
+                      }}
+                    >
+                      <span>
+                        VICE CHANCELLOR's SECRETARIAT{" "}
+                        <small style={{ color: "red" }}>[more info]</small>
+                      </span>{" "}
+                    </p>
+                    <p
+                      style={{
+                        fontSize: "1rem",
+                        fontWeight: "bold",
+                        color: "#29425f",
+                      }}
+                    >
+                      <span style={{ color: "red" }}>T:</span>{" "}
+                      <span>
+                        +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
+                        vc@mbm.ac.in
+                      </span>
+                    </p>
+                  </div>
+                  <div>
+                    <p
+                      style={{
+                        fontSize: "1rem",
+                        fontWeight: "bold",
+                        color: "#29425f",
+                        marginBottom: "0px",
+                      }}
+                    >
+                      <span>
+                        VICE CHANCELLOR's SECRETARIAT{" "}
+                        <small style={{ color: "red" }}>[more info]</small>
+                      </span>{" "}
+                    </p>
+                    <p
+                      style={{
+                        fontSize: "1rem",
+                        fontWeight: "bold",
+                        color: "#29425f",
+                      }}
+                    >
+                      <span style={{ color: "red" }}>T:</span>{" "}
+                      <span>
+                        +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
+                        vc@mbm.ac.in
+                      </span>
+                    </p>
+                  </div>
+                  <div>
+                    <p
+                      style={{
+                        fontSize: "1rem",
+                        fontWeight: "bold",
+                        color: "#29425f",
+                        marginBottom: "0px",
+                      }}
+                    >
+                      <span>
+                        VICE CHANCELLOR's SECRETARIAT{" "}
+                        <small style={{ color: "red" }}>[more info]</small>
+                      </span>{" "}
+                    </p>
+                    <p
+                      style={{
+                        fontSize: "1rem",
+                        fontWeight: "bold",
+                        color: "#29425f",
+                      }}
+                    >
+                      <span style={{ color: "red" }}>T:</span>{" "}
+                      <span>
+                        +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
+                        vc@mbm.ac.in
+                      </span>
+                    </p>
+                  </div>
+                  <div>
+                    <p
+                      style={{
+                        fontSize: "1rem",
+                        fontWeight: "bold",
+                        color: "#29425f",
+                        marginBottom: "0px",
+                      }}
+                    >
+                      <span>
+                        VICE CHANCELLOR's SECRETARIAT{" "}
+                        <small style={{ color: "red" }}>[more info]</small>
+                      </span>{" "}
+                    </p>
+                    <p
+                      style={{
+                        fontSize: "1rem",
+                        fontWeight: "bold",
+                        color: "#29425f",
+                      }}
+                    >
+                      <span style={{ color: "red" }}>T:</span>{" "}
+                      <span>
+                        +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
+                        vc@mbm.ac.in
+                      </span>
+                    </p>
+                  </div>
+                  <div>
+                    <p
+                      style={{
+                        fontSize: "1rem",
+                        fontWeight: "bold",
+                        color: "#29425f",
+                        marginBottom: "0px",
+                      }}
+                    >
+                      <span>
+                        VICE CHANCELLOR's SECRETARIAT{" "}
+                        <small style={{ color: "red" }}>[more info]</small>
+                      </span>{" "}
+                    </p>
+                    <p
+                      style={{
+                        fontSize: "1rem",
+                        fontWeight: "bold",
+                        color: "#29425f",
+                      }}
+                    >
+                      <span style={{ color: "red" }}>T:</span>{" "}
+                      <span>
+                        +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
+                        vc@mbm.ac.in
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div className="col-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                  velit.
+                </div>
+              </div>
+            </div>
+          </Modal.Body>
         </Modal>
       </>
     );
