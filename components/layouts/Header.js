@@ -90,7 +90,7 @@ export default function Header({ menus, globalVariables }) {
                       }}
                     >
                       <span>
-                        VICE CHANCELLOR's SECRETARIAT{" "}
+                        REGISTRAR'S OFFICE
                         <small style={{ color: "red" }}>[more info]</small>
                       </span>{" "}
                     </p>
@@ -104,7 +104,7 @@ export default function Header({ menus, globalVariables }) {
                       <span style={{ color: "red" }}>T:</span>{" "}
                       <span>
                         +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
-                        vc@mbm.ac.in
+                        registrar@mbm.ac.in
                       </span>
                     </p>
                   </div>
@@ -118,7 +118,7 @@ export default function Header({ menus, globalVariables }) {
                       }}
                     >
                       <span>
-                        VICE CHANCELLOR's SECRETARIAT{" "}
+                        PUBLIC RELATION'S OFFICE
                         <small style={{ color: "red" }}>[more info]</small>
                       </span>{" "}
                     </p>
@@ -132,7 +132,7 @@ export default function Header({ menus, globalVariables }) {
                       <span style={{ color: "red" }}>T:</span>{" "}
                       <span>
                         +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
-                        vc@mbm.ac.in
+                        pro@mbm.ac.in
                       </span>
                     </p>
                   </div>
@@ -146,7 +146,7 @@ export default function Header({ menus, globalVariables }) {
                       }}
                     >
                       <span>
-                        VICE CHANCELLOR's SECRETARIAT{" "}
+                        DEAN (STUDENT AFFAIRS)
                         <small style={{ color: "red" }}>[more info]</small>
                       </span>{" "}
                     </p>
@@ -160,7 +160,7 @@ export default function Header({ menus, globalVariables }) {
                       <span style={{ color: "red" }}>T:</span>{" "}
                       <span>
                         +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
-                        vc@mbm.ac.in
+                        dean.sa@mbm.ac.in
                       </span>
                     </p>
                   </div>
@@ -174,7 +174,7 @@ export default function Header({ menus, globalVariables }) {
                       }}
                     >
                       <span>
-                        VICE CHANCELLOR's SECRETARIAT{" "}
+                        CHIEF PROCTOR
                         <small style={{ color: "red" }}>[more info]</small>
                       </span>{" "}
                     </p>
@@ -188,42 +188,130 @@ export default function Header({ menus, globalVariables }) {
                       <span style={{ color: "red" }}>T:</span>{" "}
                       <span>
                         +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
-                        vc@mbm.ac.in
-                      </span>
-                    </p>
-                  </div>
-                  <div>
-                    <p
-                      style={{
-                        fontSize: "1rem",
-                        fontWeight: "bold",
-                        color: "#29425f",
-                        marginBottom: "0px",
-                      }}
-                    >
-                      <span>
-                        VICE CHANCELLOR's SECRETARIAT{" "}
-                        <small style={{ color: "red" }}>[more info]</small>
-                      </span>{" "}
-                    </p>
-                    <p
-                      style={{
-                        fontSize: "1rem",
-                        fontWeight: "bold",
-                        color: "#29425f",
-                      }}
-                    >
-                      <span style={{ color: "red" }}>T:</span>{" "}
-                      <span>
-                        +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
-                        vc@mbm.ac.in
+                        proctor@mbm.ac.in
                       </span>
                     </p>
                   </div>
                 </div>
                 <div className="col-4">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
-                  velit.
+                  <div style={{ maxWidth: "200px", float: "right" }}>
+                    <div
+                      style={{
+                        border: "2px dashed #29425f",
+                        textAlign: "center",
+                        padding: "10px",
+                      }}
+                    >
+                      <p
+                        style={{
+                          fontSize: "1rem",
+                          fontWeight: "bold",
+                          color: "#29425f",
+                          margin: "0px",
+                        }}
+                      >
+                        POSTAL <span style={{ color: "red" }}>ADDRESS</span>
+                      </p>
+                      <p
+                        style={{
+                          fontSize: "1rem",
+
+                          color: "#29425f",
+                          marginBottom: "0px",
+                        }}
+                      >
+                        Ratanada, Jodhpur
+                      </p>
+                      <p
+                        style={{
+                          fontSize: "1rem",
+
+                          color: "red",
+                          marginBottom: "0px",
+                        }}
+                      >
+                        Rajasthan -342011
+                      </p>
+                    </div>{" "}
+                    <div
+                      style={{
+                        border: "2px dashed #29425f",
+                        textAlign: "center",
+                        padding: "10px",
+                      }}
+                    >
+                      <p
+                        style={{
+                          fontSize: "1rem",
+                          fontWeight: "bold",
+                          color: "#29425f",
+                          margin: "0px",
+                          marginBottom: "0px",
+                        }}
+                      >
+                        Office <span style={{ color: "red" }}>TIMINGS</span>
+                      </p>
+                      <p
+                        style={{
+                          fontSize: "1rem",
+
+                          color: "#29425f",
+                          marginBottom: "0px",
+                        }}
+                      >
+                        Monday-Saturday
+                      </p>
+                      <p
+                        style={{
+                          fontSize: "1rem",
+
+                          color: "red",
+                          marginBottom: "0px",
+                        }}
+                      >
+                        10 AM - 5 PM
+                      </p>
+                    </div>{" "}
+                    <div
+                      style={{
+                        border: "2px dashed #29425f",
+                        textAlign: "center",
+                        padding: "10px",
+                      }}
+                    >
+                      <p
+                        style={{
+                          fontSize: "1rem",
+                          fontWeight: "bold",
+                          color: "#29425f",
+                          margin: "0px",
+                          marginBottom: "0px",
+                        }}
+                      >
+                        ONLINE <span style={{ color: "red" }}>LINKS</span>
+                      </p>
+                      <p
+                        style={{
+                          fontSize: "1rem",
+
+                          color: "#29425f",
+                          marginBottom: "0px",
+                        }}
+                      >
+                        Ratanada, Jodhpur
+                      </p>
+                      <p
+                        style={{
+                          fontSize: "1rem",
+
+                          color: "red",
+                          marginBottom: "0px",
+                        }}
+                      >
+                        Rajasthan -342011
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
