@@ -2,7 +2,6 @@
 // import Highlights from "../components/UI/Highlights";
 // import Layout from "../components/layouts";
 import MainBody from "../components/UI/MainBody";
-import "../styles/about.css";
 
 // import Links from "../components/UI/Links";
 import BreadcrumbComponent from "../components/UI/CustomBreadcrumb";
