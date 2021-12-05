@@ -91,7 +91,7 @@ export default function Header({ menus, globalVariables }) {
                     >
                       <span>
                         REGISTRAR'S OFFICE
-                        <small style={{ color: "red" }}>[more info]</small>
+                        <small style={{ color: "red" }}> [more info]</small>
                       </span>{" "}
                     </p>
                     <p
@@ -119,7 +119,7 @@ export default function Header({ menus, globalVariables }) {
                     >
                       <span>
                         PUBLIC RELATION'S OFFICE
-                        <small style={{ color: "red" }}>[more info]</small>
+                        <small style={{ color: "red" }}> [more info]</small>
                       </span>{" "}
                     </p>
                     <p
@@ -147,7 +147,7 @@ export default function Header({ menus, globalVariables }) {
                     >
                       <span>
                         DEAN (STUDENT AFFAIRS)
-                        <small style={{ color: "red" }}>[more info]</small>
+                        <small style={{ color: "red" }}> [more info]</small>
                       </span>{" "}
                     </p>
                     <p
@@ -175,7 +175,7 @@ export default function Header({ menus, globalVariables }) {
                     >
                       <span>
                         CHIEF PROCTOR
-                        <small style={{ color: "red" }}>[more info]</small>
+                        <small style={{ color: "red" }}> [more info]</small>
                       </span>{" "}
                     </p>
                     <p
