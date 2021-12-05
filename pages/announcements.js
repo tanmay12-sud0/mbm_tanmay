@@ -5,10 +5,7 @@ import ArticleCard from "../components/UI/ArticleCard";
 
 function announcements() {
   const lst = [];
-  const data = `I don't need to compromise my principles, because they don't have
-  the slightest bearing on what happens to me anyway. Some quick
-  example text to build on the card title and make up the bulk of the
-  card's content.`;
+  const data = `I don't need to compromise my principles, because they don't have the slightest bearing on what happens to me anyway. Some quick example text to build on the card title and make up the bulk of thecard's content.`;
   for (let i = 0; i < 12; i++) lst.push(data);
   return (
     <div>
@@ -43,7 +40,7 @@ function announcements() {
         {lst.map((data) => (
           <ArticleCard desc={data} />
         ))}
-        <Button variant="outlined" style={{ color: "rgba(55,63,80,1)" }}>
+        <Button variant="outlined" style={{ color: "rgba(55,63,80,1)" , marginTop:"30px"}}>
           LOAD MORE...
         </Button>
       </div>

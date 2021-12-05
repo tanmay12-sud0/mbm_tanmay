@@ -138,6 +138,8 @@ div.article-card-container:hover div.article-card-footer {
 p.article-card-footer-text {
   color: white;
   text-align: left;
+  align-items: center;
+  justify-content: center;
   margin-left: var(--footer-height);
 }
 

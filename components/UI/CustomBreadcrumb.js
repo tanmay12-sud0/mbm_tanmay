@@ -49,7 +49,7 @@ const BreadcrumbComponent = () => {
       </div>
 
       <div className=" d-flex " style={{ justifyContent: "flex-end" }}>
-        ..a story of legacy, excellence and diversity
+        ...a story of legacy, excellence and diversity
       </div>
     </div>
   );

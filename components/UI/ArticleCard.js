@@ -14,16 +14,16 @@ const ArticleCard = ({desc}) => {
           alt="sample66"
         />
         <figcaption>
-          <p>
-            {desc}
-          </p>
+          <p>{desc}</p>
         </figcaption>
         <a href="#"></a>
       </figure>
       <div className="article-footer-triangle-left"></div>
       <div className="article-footer-triangle-right"></div>
       <div className="article-card-footer">
+        <a href="#" style={{textDecoration:"none"}}>
           <p className="article-card-footer-text">Read More</p>
+        </a>
       </div>
     </div>
   );
