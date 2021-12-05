@@ -39,3 +39,10 @@ header {
 .header-nav-link:hover {
   color: "black";
 }
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 700px !important;
+    margin: 1.75rem auto;
+  }
+}

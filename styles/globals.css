@@ -161,7 +161,7 @@ h6 {
   height: 430px;
 }
 
-.banner-image{
+.banner-image {
   background-size: cover;
   background-repeat: no-repeat;
   height: 200px;
@@ -181,7 +181,7 @@ h6 {
   justify-content: center;
 }
 
-.header-menus-dropdown .dropdown-menu.show{
+.header-menus-dropdown .dropdown-menu.show {
   display: flex;
   padding: 10px;
 }
