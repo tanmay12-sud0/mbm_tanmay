@@ -1,6 +1,6 @@
 import React from "react";
-import ArticleSingle from "../components/UI/ArticleSingle";
-import BreadcrumbComponent from "../components/UI/CustomBreadcrumb";
+import ArticleSingle from "../components/ui/ArticleSingle";
+import BreadcrumbComponent from "../components/ui/CustomBreadcrumb";
 import Button from "@mui/material/Button";
 function article() {
   return (
@@ -47,6 +47,7 @@ function article() {
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias,
           corrupti cum. Hic,git delectus ratione assumenda aut!
         </p>
+        <h3>What's changed?</h3>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias,
           corrupti cum. Hic, quis? Voluptates facere libero quae quidem.
@@ -62,6 +63,7 @@ function article() {
           reprehenderit rerum. Laborum omnis a nobis et ut obcaecati rem porro
           aliquam, dolor fugit delectus ratione assumenda aut!
         </p>
+        <h3>Thank You</h3>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias,
           corrupti cum. Hic, quis? Voluptaectetur rerum eos, corrupti sunt iste

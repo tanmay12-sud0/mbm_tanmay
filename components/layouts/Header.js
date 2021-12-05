@@ -1,14 +1,14 @@
 import React from "react";
-import Head from "next/head";
-import Link from "next/link";
+// import Head from "next/head";
+// import Link from "next/link";
 import { Button, Modal } from "react-bootstrap";
-import { IoIosMailOpen } from "react-icons/io";
-import MenuList from "../UI/MenuList";
-import PageTitle from "../UI/PageTitle";
+// import { IoIosMailOpen } from "react-icons/io";
+// import MenuList from "../UI/MenuList";
+import PageTitle from "../ui/PageTitle";
 import RoomIcon from "@mui/icons-material/Room";
 import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
 import { useState } from "react";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 export default function Header({ menus, globalVariables }) {
   const [show, setShow] = useState(false);

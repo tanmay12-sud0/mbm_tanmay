@@ -1,10 +1,12 @@
 // import HomeCarousel from "../components/UI/HomeCarousel";
 // import Highlights from "../components/UI/Highlights";
 // import Layout from "../components/layouts";
-import MainBody from "../components/UI/MainBody";
+
+import MainBody from "../components/ui/MainBody";
+
 // import Links from "../components/UI/Links";
-import BreadcrumbComponent from "../components/UI/CustomBreadcrumb";
-import RelatedLinks from "../components/UI/RelatedLinks";
+import BreadcrumbComponent from "../components/ui/CustomBreadcrumb";
+import RelatedLinks from "../components/ui/RelatedLinks";
 function Home() {
   return (
     <>
