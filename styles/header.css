@@ -1,5 +1,4 @@
 header {
-
   background: hsl(212, 40%, 27%);
   color: white;
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 19%);
@@ -7,11 +6,21 @@ header {
 
 .header-logo {
   height: 180px;
-  width: 350px;
+  width: 270px;
 }
 
 .header-right-content {
-  padding-right: 100px;
+  padding-right: 30px;
+}
+@media screen and (max-width: 650px) {
+  .header-logo {
+    height: 180px;
+    width: 500px;
+  }
+  .header-right-content {
+    text-align: center;
+    padding-right: 0px;
+  }
 }
 
 .header-contact-link {
