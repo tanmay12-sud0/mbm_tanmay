@@ -12,7 +12,7 @@ function home() {
     <div>
       <div className="container">
         <div className="row">
-          <div className="col-md-5 col-12">
+          <div className="col-lg-5 col-12">
             <div>
               <img
                 style={{ border: "3px solid rgba(55,63,80,1)" }}
@@ -22,8 +22,8 @@ function home() {
               />
             </div>
           </div>
-          <div className="col-md-1 col-12"></div>
-          <div className="col-md-6 col-12 mt-md-0 mt-4 ">
+          <div className="col-lg-1 col-12"></div>
+          <div className="col-lg-6 col-12 mt-md-0 mt-4 ">
             <h1>
               <span
                 style={{
@@ -94,7 +94,7 @@ function home() {
           </div>
         </div>
         <div className="row" style={{ marginTop: "100px" }}>
-          <div className="col-md-8 col-12">
+          <div className="col-lg-8 col-12">
             <h1 style={{ marginBottom: "30px" }}>
               <span
                 style={{
@@ -123,9 +123,9 @@ function home() {
               </span>
             </h1>
 
-            <div className="col-md-12 col-12">
+            <div className="col-lg-12 col-12">
               <div className="row d-flex">
-                <div className="col-md-5 col-12">
+                <div className="col-lg-5 col-12">
                   <Avatar
                     style={{
                       textAlign: "center",
@@ -136,7 +136,7 @@ function home() {
                     }}
                     alt="Remy Sharp"
                     src="https://th.bing.com/th/id/OIP.wUk9lMqzmr9pthy8K3NHGwHaE2?pid=ImgDet&rs=1"
-                    sx={{ width: 150, height: 150 }}
+                    sx={{ width: 250, height: 250 }}
                   />
                   <div
                     style={{
@@ -177,7 +177,7 @@ function home() {
                     <p
                       style={{
                         fontSize: "12px",
-                        marginBottom: "0px",
+                        marginBottom: "15px",
                         marginTop: "0px",
                       }}
                     >
@@ -185,7 +185,7 @@ function home() {
                     </p>
                   </div>
                 </div>
-                <div className="col-md-6 col-12">
+                <div className="col-lg-6 col-12">
                   <p style={{ textAlign: "justify" }}>
                     Lorem ipsum dolor sit amet consectetur ipsum eius vitae sint
                     id autem molestias asperiores, iste at voluptate sapiente
@@ -205,11 +205,11 @@ function home() {
                     omnis, voluptatum officia!
                   </p>
                 </div>
-                <div className="col-md-1 col-12"></div>
+                <div className="col-lg-1 col-12"></div>
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-12">
+          <div className="col-lg-4 col-12">
             <div>
               <div>
                 <h1 style={{ marginBottom: "30px" }}>
