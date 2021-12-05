@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "@mui/material/Button";
 
 const HeaderCarousel = () => {
   return (
@@ -22,7 +23,9 @@ const HeaderCarousel = () => {
         src="https://res.cloudinary.com/howardkacloudinary/image/upload/v1638701864/Screenshot_2021-12-05_162331_lblsd6.png"
         alt="image"
       />
-      <div className="header-carousel-footer"></div>
+      <div className="header-carousel-footer">
+        <Button>Know More {`>`}</Button>
+      </div>
     </div>
   );
 };
