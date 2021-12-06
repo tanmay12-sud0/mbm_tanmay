@@ -9,6 +9,7 @@ import HeaderCarousel from "../components/ui/HeaderCarousel";
 import abc1 from "../images/abc1.png";
 import abc2 from "../images/abc.png";
 import abc3 from "../images/abc3.png";
+import HomePageCards from "../components/UI/HomePageCards";
 function home() {
   return (
     <div>
@@ -418,6 +419,7 @@ function home() {
           </div>
         </div>
       </div>
+      <HomePageCards />
     </div>
   );
 }
