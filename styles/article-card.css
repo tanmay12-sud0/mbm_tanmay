@@ -56,6 +56,8 @@ figure.snip1208 figcaption {
   padding: 25px;
   position: relative;
   text-align: justify;
+
+  font-family: "PT Sans";
 }
 
 figure.snip1208 h3,
@@ -90,6 +92,7 @@ div.article-circle-container {
   left: 5%;
   top: 3%;
   width: 90%;
+  /* font-family: "PT Sans"; */
 }
 
 div.article-card-circle {
