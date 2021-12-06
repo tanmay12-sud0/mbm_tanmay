@@ -25,10 +25,19 @@ const HeaderCarousel = () => {
       />
       <div className="header-carousel-base">
         <div className="header-carousel-button">
-          <Button>Know More {`>`}</Button>
+          <Button
+            variant="outlined"
+            style={{
+              color: "white",
+              marginTop: "30px",
+              border: "2px solid white",
+            }}
+          >
+            Know More &gt;
+          </Button>
         </div>
         <p>
-          Lorem ipsum is a placeholder text commonly used to demonstrate the v
+          Lorem ipsum is a placeholder text commonly used to demonstrate .
         </p>
       </div>
     </div>

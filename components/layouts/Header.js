@@ -322,6 +322,7 @@ export default function Header({ menus, globalVariables }) {
   };
   return (
     <div
+      className="container"
       style={{
         display: "flex",
         justifyContent: "space-between",
