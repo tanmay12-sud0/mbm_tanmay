@@ -16,18 +16,10 @@ function Home() {
     <>
       <div>
         <BreadcrumbComponent />
-<<<<<<< HEAD
+
         <div className="container">
           <div className="row d-flex ">
-            <MainBody />
-=======
-        <div className="m-md-5 m-2">
-          <div className="row d-flex mr-5 ml-5">
-            <div className="d-flex  col-12">
-              <RelatedLinks />
-              <MainBody />
-            </div>
->>>>>>> 65cd7cc5a370f02d25de03b29cf5afdd8b4b0ca8
+            <MainBody />=
           </div>
         </div>
         <hr />
