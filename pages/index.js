@@ -15,7 +15,7 @@ function home() {
         <Mbmintro></Mbmintro>
         <Vcdesk />
       </div>
-      {/* <HomePageCards /> */}
+      <HomePageCards />
       <HomePagePro />
     </div>
   );
