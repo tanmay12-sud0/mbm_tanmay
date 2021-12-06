@@ -23,6 +23,7 @@ function Mbmintro() {
                 fontSize: "2.5rem",
                 fontWeight: "bold",
                 color: "red",
+                fontFamily: "Ubuntu",
               }}
             >
               MBM
@@ -31,6 +32,7 @@ function Mbmintro() {
               style={{
                 fontSize: "2.5rem",
                 fontWeight: "bold",
+                fontFamily: "Ubuntu",
               }}
             >
               UNIVERSITY

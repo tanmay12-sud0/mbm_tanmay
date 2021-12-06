@@ -68,7 +68,7 @@ function Newpost2() {
 
             color: "#4c6b8e",
 
-            fontFamily: "ubuntu",
+            fontFamily: "Ubuntu",
             letterSpacing: "2px",
           }}
         >
@@ -148,7 +148,7 @@ function Newpost2() {
 
             color: "#4c6b8e",
 
-            fontFamily: "ubuntu",
+            fontFamily: "Ubuntu",
             letterSpacing: "2px",
           }}
         >
@@ -214,7 +214,7 @@ function Newpost2() {
 
             color: "#4c6b8e",
 
-            fontFamily: "ubuntu",
+            fontFamily: "Ubuntu",
             letterSpacing: "2px",
           }}
         >

@@ -14,6 +14,7 @@ function Vcdesk() {
               style={{
                 fontSize: "1.8rem",
                 fontWeight: "bold",
+                fontFamily: "Ubuntu",
               }}
             >
               From{" "}
@@ -23,6 +24,7 @@ function Vcdesk() {
                 fontSize: "1.8rem",
                 fontWeight: "bold",
                 color: "red",
+                fontFamily: "Ubuntu",
               }}
             >
               Vice Chancellor's
@@ -31,6 +33,7 @@ function Vcdesk() {
               style={{
                 fontSize: "1.8rem",
                 fontWeight: "bold",
+                fontFamily: "Ubuntu",
               }}
             >
               Desk
@@ -133,6 +136,7 @@ function Vcdesk() {
                     fontSize: "1.8rem",
                     fontWeight: "bold",
                     color: "red",
+                    fontFamily: "Ubuntu",
                   }}
                 >
                   Recent
@@ -141,6 +145,7 @@ function Vcdesk() {
                   style={{
                     fontSize: "1.8rem",
                     fontWeight: "bold",
+                    fontFamily: "Ubuntu",
                   }}
                 >
                   Highlights
