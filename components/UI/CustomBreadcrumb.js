@@ -2,7 +2,8 @@ import React from "react";
 import { useRouter } from "next/router";
 import { Breadcrumb } from "react-bootstrap";
 import Link from "next/link";
-
+import HomeIcon from "@mui/icons-material/Home";
+import ArrowLeftIcon from "@mui/icons-material/ArrowLeft";
 const BreadcrumbComponent = () => {
   const { Category = null, content = [] } = useRouter().query;
   const router = useRouter();
@@ -13,46 +14,88 @@ const BreadcrumbComponent = () => {
       style={{
         color: "white",
         background: "#29425f",
-        paddingLeft: "30px",
-        paddingRight: "30px",
         alignItems: "center",
+        justifyContent: "center",
       }}
     >
-      <div
-        className=" d-flex "
-        style={{ flex: 1, width: "100%", alignItems: "center" }}
-      >
-        <Breadcrumb>
-          <Breadcrumb.Item href="#">
-            <Link
-              href="/"
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-6 col-12">
+            <p
               style={{
-                color: "white",
+                float: "left",
                 alignItems: "center",
-                textDecoration: "none",
+                justifyContent: "center",
+                margin: "auto",
+                padding: "3px",
+                // fontSize: "20px",
               }}
             >
-              Home
-              {/* <a style={{ color: "white", alignItems: "center", textDecoration:"none" }}>Home</a> */}
-            </Link>
-          </Breadcrumb.Item>
-          <Breadcrumb.Item href="#">{Category && Category}</Breadcrumb.Item>
-          {content.map((item) => (
-            <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
-              <Link href={`/${item}`}>
-                <a onClick={() => router.push(`/${item}`)}>{item}</a>
-              </Link>
-            </Breadcrumb.Item>
-          ))}
-        </Breadcrumb>
-       
-      </div>
-
-      <div className=" d-flex " style={{ justifyContent: "flex-end" }}>
-        ...a story of legacy, excellence and diversity
+              <a
+                style={{
+                  textDecoration: "none",
+                  color: "white",
+                }}
+                href=""
+              >
+                <HomeIcon style={{ marginTop: "-5px" }}></HomeIcon> home 
+                <ArrowLeftIcon></ArrowLeftIcon>
+              </a>
+            </p>
+           
+          </div>
+          <div className="col-lg-6 col-12 text-center">
+          
+            <p
+              style={{
+                float: "right",
+                alignItems: "center",
+                justifyContent: "center",
+                margin: "auto",
+                padding: "3px",
+                // fontSize: "20px",
+              }}
+            >
+              ...a story of legacy, excellence and diversity
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
 };
 
 export default BreadcrumbComponent;
+//  <div
+//         className=" d-flex "
+//         style={{ flex: 1, width: "100%", alignItems: "center" }}
+//       >
+//         <Breadcrumb>
+//           <Breadcrumb.Item href="#">
+//             <Link
+//               href="/"
+//               style={{
+//                 color: "white",
+//                 alignItems: "center",
+//                 textDecoration: "none",
+//               }}
+//             >
+//               Home
+//               {/* <a style={{ color: "white", alignItems: "center", textDecoration:"none" }}>Home</a> */}
+//             </Link>
+//           </Breadcrumb.Item>
+//           <Breadcrumb.Item href="#">{Category && Category}</Breadcrumb.Item>
+//           {content.map((item) => (
+//             <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
+//               <Link href={`/${item}`}>
+//                 <a onClick={() => router.push(`/${item}`)}>{item}</a>
+//               </Link>
+//             </Breadcrumb.Item>
+//           ))}
+//         </Breadcrumb>
+
+//       </div>
+
+//       <div className=" d-flex " style={{ justifyContent: "flex-end" }}>
+//
+//       </div>

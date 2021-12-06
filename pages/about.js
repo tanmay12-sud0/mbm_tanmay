@@ -10,14 +10,11 @@ import RelatedLinks from "../components/ui/RelatedLinks";
 function Home() {
   return (
     <>
-      <div className="Home-content home-display">
+      <div>
         <BreadcrumbComponent />
-        <div className="m-md-5 m-2">
-          <div className="row d-flex mr-5 ml-5">
-            <div className="d-flex  col-12">
-              <RelatedLinks></RelatedLinks>
-              <MainBody />
-            </div>
+        <div className="container">
+          <div className="row d-flex ">
+            <MainBody />
           </div>
         </div>
       </div>

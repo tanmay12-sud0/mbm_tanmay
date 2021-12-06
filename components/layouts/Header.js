@@ -321,8 +321,79 @@ export default function Header({ menus, globalVariables }) {
     );
   };
   return (
-    <div
-      className="container"
+    <div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-6 col-12">
+            <img
+              src="https://res.cloudinary.com/dzsnoyohi/image/upload/v1637565850/samples/MBM-LOGO-header_v3tebz.png"
+              alt="MBM LOGO"
+              className="img-responsive topHeaderLogo"
+            />
+          </div>
+          <div className="col-md-6 col-12 topLinks">
+            <div>
+              <div style={{}}>
+                <a
+                  href="#!"
+                  className="header-nav-link"
+                  style={{ color: "black" }}
+                >
+                  Placements
+                </a>
+                {"  |  "}
+                <a
+                  href="#!"
+                  className="header-nav-link"
+                  style={{ color: "black" }}
+                >
+                  New & Updates
+                </a>
+                {"  |  "}
+                <a
+                  href="#!"
+                  className="header-nav-link"
+                  style={{ color: "black" }}
+                >
+                  University IUMS
+                </a>
+              </div>
+            </div>
+            <div>
+              <div>
+                <a href="#!" className="header-contact-link">
+                  {
+                    <ContactPopup
+                      text={
+                        <>
+                          <ContactPhoneIcon /> Contact Information
+                        </>
+                      }
+                    />
+                  }
+                </a>
+                {"   |   "}
+                <a href="#!" className="header-contact-link">
+                  <RoomIcon />
+                  Locate on Map
+                </a>
+              </div>
+            </div>
+            <div style={{}}>
+              <div className="pageTitle">
+                <p style={{ color: "red" }}>ABOUT </p>
+                <p style={{ color: "#29425f" }}>MBM</p>
+                {/* <PageTitle title="ABOUT MBM" /> */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+{
+  /* <div
       style={{
         display: "flex",
         justifyContent: "space-between",
@@ -330,20 +401,21 @@ export default function Header({ menus, globalVariables }) {
       }}
     >
       <img
-        className="header-logo"
+        className="card-img img "
+        style={{ width: "18rem" }}
         src="https://res.cloudinary.com/dzsnoyohi/image/upload/v1637565850/samples/MBM-LOGO-header_v3tebz.png"
         alt="MBM LOGO"
       />
-      <div className="header-right-content">
+      <div >
         <div style={{ display: "flex", flexFlow: "wrap" }}>
           <p href="#!" className="header-nav-link">
             Placements
           </p>
-          {" | "}
+          {"  |  "}
           <p href="#!" className="header-nav-link">
             New & Updates
           </p>
-          {" | "}
+          {"  |  "}
           <p href="#!" className="header-nav-link">
             University IUMS
           </p>
@@ -360,14 +432,13 @@ export default function Header({ menus, globalVariables }) {
               />
             }
           </a>
-          {"  |  "}
+          {"   |   "}
           <a href="#!" className="header-contact-link">
             <RoomIcon />
-            {"   "}Locate on Map
+          Locate on Map
           </a>
         </div>
         <PageTitle title="ABOUT MBM" />
       </div>
-    </div>
-  );
+    </div> */
 }

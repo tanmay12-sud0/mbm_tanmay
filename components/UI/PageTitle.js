@@ -16,8 +16,9 @@ const PageTitle = ({ title }) => {
         display: "flex",
         fontSize: "3.5rem",
         fontWeight: "bold",
-        flexFlow: "wrap",
-        textAlign: "center",
+        
+        textAlign: "right",
+        marginTop: "25px",
       }}
     >
       <p style={{ color: "red" }}>{wordsArray[0]} </p>
