@@ -55,6 +55,7 @@ figure.snip1208 img {
 figure.snip1208 figcaption {
   padding: 25px;
   position: relative;
+  text-align: justify;
 }
 
 figure.snip1208 h3,

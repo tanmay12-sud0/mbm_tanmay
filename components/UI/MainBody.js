@@ -13,6 +13,7 @@ function Newpost2() {
               marginTop: "30px",
               // margin: "auto",
               lineHeight: "1.1",
+              textAlign: "justify",
               color: "#4c5e72",
               fontSize: "16px",
               fontFamily: "PT Sans",
@@ -33,6 +34,7 @@ function Newpost2() {
           <p
             style={{
               lineHeight: "1.1",
+              textAlign: "justify",
               color: "#4c5e72",
               fontSize: "16px",
               fontFamily: "PT Sans",
@@ -50,6 +52,7 @@ function Newpost2() {
           <p
             style={{
               lineHeight: "1.1",
+              textAlign: "justify",
               color: "#4c5e72",
               fontSize: "16px",
               fontFamily: "PT Sans",
@@ -67,6 +70,7 @@ function Newpost2() {
           <h4
             style={{
               lineHeight: "1.1",
+
               color: "#4c6b8e",
 
               fontFamily: "ubuntu",
@@ -91,6 +95,7 @@ function Newpost2() {
           <p
             style={{
               lineHeight: "1.1",
+              textAlign: "justify",
               color: "#4c5e72",
               fontSize: "16px",
               fontFamily: "PT Sans",
@@ -108,6 +113,7 @@ function Newpost2() {
           <p
             style={{
               lineHeight: "1.1",
+              textAlign: "justify",
               color: "#4c5e72",
               fontSize: "16px",
               fontFamily: "PT Sans",
@@ -125,6 +131,7 @@ function Newpost2() {
           <p
             style={{
               lineHeight: "1.1",
+              textAlign: "justify",
               color: "#4c5e72",
               fontSize: "16px",
               fontFamily: "PT Sans",
@@ -143,6 +150,7 @@ function Newpost2() {
           <h4
             style={{
               lineHeight: "1.1",
+
               color: "#4c6b8e",
 
               fontFamily: "ubuntu",
@@ -158,6 +166,7 @@ function Newpost2() {
           <p
             style={{
               lineHeight: "1.1",
+              textAlign: "justify",
               color: "#4c5e72",
               fontSize: "16px",
               fontFamily: "PT Sans",
@@ -188,6 +197,7 @@ function Newpost2() {
           <p
             style={{
               lineHeight: "1.1",
+              textAlign: "justify",
               color: "#4c5e72",
               fontSize: "16px",
               fontFamily: "PT Sans",
@@ -206,6 +216,7 @@ function Newpost2() {
           <h4
             style={{
               lineHeight: "1.1",
+
               color: "#4c6b8e",
 
               fontFamily: "ubuntu",
@@ -221,6 +232,7 @@ function Newpost2() {
           <p
             style={{
               lineHeight: "1.1",
+              textAlign: "justify",
               color: "#4c5e72",
               fontSize: "16px",
               fontFamily: "PT Sans",
@@ -238,6 +250,7 @@ function Newpost2() {
           <p
             style={{
               lineHeight: "1.1",
+              textAlign: "justify",
               color: "#4c5e72",
               fontSize: "16px",
               fontFamily: "PT Sans",
@@ -255,6 +268,7 @@ function Newpost2() {
           <p
             style={{
               lineHeight: "1.1",
+              textAlign: "justify",
               color: "#4c5e72",
               fontSize: "16px",
               fontFamily: "PT Sans",
