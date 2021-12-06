@@ -66,7 +66,7 @@ function Newpost2() {
           <br />
           <h4
             style={{
-              lineHeight: "1.1",
+              lineHeight: "0.5",
               color: "#4c6b8e",
 
               fontFamily: "ubuntu",
