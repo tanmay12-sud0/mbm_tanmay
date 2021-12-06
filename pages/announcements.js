@@ -32,6 +32,7 @@ function announcements() {
           marginTop: "50px",
           alignItems: "center",
           justifyContent: "center",
+          textAlign: "justify",
           display: "flex",
           flexFlow: "wrap",
         }}
@@ -40,12 +41,14 @@ function announcements() {
         {lst.map(({ data, i }) => (
           <ArticleCard desc={data} key={i} />
         ))}
-        <Button
-          variant="outlined"
-          style={{ color: "rgba(55,63,80,1)", marginTop: "30px" }}
-        >
-          LOAD MORE...
-        </Button>
+        <div>
+          <Button
+            variant="outlined"
+            style={{ color: "rgba(55,63,80,1)", marginTop: "30px" }}
+          >
+            LOAD MORE...
+          </Button>
+        </div>
       </div>
     </div>
   );

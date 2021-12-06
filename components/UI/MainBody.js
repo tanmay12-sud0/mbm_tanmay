@@ -15,6 +15,7 @@ function Newpost2() {
               lineHeight: "1.1",
               color: "#4c5e72",
               fontSize: "16px",
+              textAlign: "justify",
               fontFamily: "PT Sans",
               // width: "95%",
               // background: "blue",
@@ -34,6 +35,7 @@ function Newpost2() {
             style={{
               lineHeight: "1.1",
               color: "#4c5e72",
+              textAlign: "justify",
               fontSize: "16px",
               fontFamily: "PT Sans",
             }}
@@ -52,6 +54,7 @@ function Newpost2() {
               lineHeight: "1.1",
               color: "#4c5e72",
               fontSize: "16px",
+              textAlign: "justify",
               fontFamily: "PT Sans",
             }}
           >
@@ -66,7 +69,7 @@ function Newpost2() {
           <br />
           <h4
             style={{
-              lineHeight: "0.5",
+              lineHeight: "0.1",
               color: "#4c6b8e",
 
               fontFamily: "ubuntu",
@@ -92,6 +95,27 @@ function Newpost2() {
             style={{
               lineHeight: "1.1",
               color: "#4c5e72",
+
+              textAlign: "justify",
+              fontSize: "16px",
+              fontFamily: "PT Sans",
+              marginTop: "-8px",
+            }}
+          >
+            Thinking about sugars, do you also imagine coke, cakes, or candies?
+            But not everyone shares the same imagination. In 2020, according to
+            International Diabetic Federation (IDF), around 77 million people in
+            India and 463 million people globally suffer from diabetes(1). This
+            large proportion will refrain from sugars not because they don’t
+            like it but consuming sugars is not good for their overall health.
+            Let’s find out why this happens
+          </p>
+
+          <p
+            style={{
+              lineHeight: "1.1",
+              color: "#4c5e72",
+              textAlign: "justify",
               fontSize: "16px",
               fontFamily: "PT Sans",
             }}
@@ -109,23 +133,7 @@ function Newpost2() {
             style={{
               lineHeight: "1.1",
               color: "#4c5e72",
-              fontSize: "16px",
-              fontFamily: "PT Sans",
-            }}
-          >
-            Thinking about sugars, do you also imagine coke, cakes, or candies?
-            But not everyone shares the same imagination. In 2020, according to
-            International Diabetic Federation (IDF), around 77 million people in
-            India and 463 million people globally suffer from diabetes(1). This
-            large proportion will refrain from sugars not because they don’t
-            like it but consuming sugars is not good for their overall health.
-            Let’s find out why this happens
-          </p>
-
-          <p
-            style={{
-              lineHeight: "1.1",
-              color: "#4c5e72",
+              textAlign: "justify",
               fontSize: "16px",
               fontFamily: "PT Sans",
             }}
@@ -159,8 +167,10 @@ function Newpost2() {
             style={{
               lineHeight: "1.1",
               color: "#4c5e72",
+              textAlign: "justify",
               fontSize: "16px",
               fontFamily: "PT Sans",
+              marginTop: "-20px",
             }}
           >
             Thinking about sugars, do you also imagine coke, cakes, or candies?
@@ -177,6 +187,7 @@ function Newpost2() {
               lineHeight: "0.5",
               color: "#4c5e72",
               fontSize: "16px",
+              textAlign: "justify",
               fontFamily: "PT Sans",
             }}
           >
@@ -190,6 +201,7 @@ function Newpost2() {
               lineHeight: "1.1",
               color: "#4c5e72",
               fontSize: "16px",
+              textAlign: "justify",
               fontFamily: "PT Sans",
             }}
           >
@@ -224,6 +236,8 @@ function Newpost2() {
               color: "#4c5e72",
               fontSize: "16px",
               fontFamily: "PT Sans",
+              textAlign: "justify",
+              marginTop: "-20px",
             }}
           >
             Thinking about sugars, do you also imagine coke, cakes, or candies?
@@ -239,6 +253,7 @@ function Newpost2() {
             style={{
               lineHeight: "1.1",
               color: "#4c5e72",
+              textAlign: "justify",
               fontSize: "16px",
               fontFamily: "PT Sans",
             }}
@@ -256,6 +271,7 @@ function Newpost2() {
             style={{
               lineHeight: "1.1",
               color: "#4c5e72",
+              textAlign: "justify",
               fontSize: "16px",
               fontFamily: "PT Sans",
             }}

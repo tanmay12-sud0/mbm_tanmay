@@ -1,6 +1,6 @@
 import React from "react";
 
-const ArticleCard = ({desc}) => {
+const ArticleCard = ({ desc }) => {
   return (
     <div className="article-card-container">
       <figure className="snip1208">
@@ -21,7 +21,7 @@ const ArticleCard = ({desc}) => {
       <div className="article-footer-triangle-left"></div>
       <div className="article-footer-triangle-right"></div>
       <div className="article-card-footer">
-        <a href="#" style={{textDecoration:"none"}}>
+        <a href="#" style={{ textDecoration: "none" }}>
           <p className="article-card-footer-text">Read More</p>
         </a>
       </div>

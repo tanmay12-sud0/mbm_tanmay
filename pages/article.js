@@ -9,14 +9,21 @@ function article() {
 
       <div
         style={{
-          marginTop: "50px",
+          marginTop: "40px",
           alignItems: "center",
           justifyContent: "center",
-          textAlign: "center",
+          fontFamily: "PT Sans",
+          // textAlign: "justify",
         }}
         className="container"
       >
-        <h1 style={{ textAlign: "center", marginBottom: "30px" }}>
+        <h1
+          style={{
+            textAlign: "center",
+            fontFamily: "PT Sans",
+            marginBottom: "30px",
+          }}
+        >
           MBM UNIVERSITY ACT, 2021 passed by Rajasthan Legislative Assembly on
           Sep 17, 2021
         </h1>
@@ -28,9 +35,10 @@ function article() {
       </div>
       <div
         style={{
-          marginTop: "50px",
+          marginTop: "40px",
           alignItems: "center",
           justifyContent: "center",
+          textAlign: "justify",
         }}
         className="container"
       >
