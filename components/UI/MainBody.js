@@ -274,13 +274,10 @@ function Newpost2() {
           International Diabetic Federation (IDF), around 77 million people in
           India and 463 million people globally suffer from diabetes(1). This
           large proportion will refrain from sugars not because they don’t like
-          it but consuming sugars is not good for their overall health. Let’s
-          find out why this happens
+          it but consuming sugars is not good for their overall health.
         </p>
         <br />
       </div>
-
-      {/* <Footer /> */}
     </div>
   );
 }
