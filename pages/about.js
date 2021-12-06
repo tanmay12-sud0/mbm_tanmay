@@ -19,7 +19,7 @@ function Home() {
 
         <div className="container">
           <div className="row d-flex ">
-            <MainBody />=
+            <MainBody />
           </div>
         </div>
         <hr />
