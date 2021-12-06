@@ -35,7 +35,7 @@ function Home() {
         >
           <h2>Latest Updates</h2>
           <a href="/announcements" style={{ color: "rgba(55,63,80,1)" }}>
-            See all Updates
+            See all Updates {`>`}
           </a>
         </div>
         <div

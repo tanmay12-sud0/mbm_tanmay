@@ -93,7 +93,7 @@ function article() {
       >
         <h2>More From #Announcements</h2>
         <a href="/announcements" style={{ color: "rgba(55,63,80,1)" }}>
-          See all
+          See all {`>`}
         </a>
       </div>
       <div
