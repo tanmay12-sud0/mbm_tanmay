@@ -26,21 +26,21 @@ function announcements() {
           Find all latest public announcements from University Offices.
         </small>
         <hr />
-      </div>
-      <div
-        style={{
-          marginTop: "50px",
-          alignItems: "center",
-          justifyContent: "center",
-          textAlign: "justify",
-          display: "flex",
-          flexFlow: "wrap",
-        }}
-        className="container"
-      >
-        {lst.map(({ data, i }) => (
-          <ArticleCard desc={data} key={i} />
-        ))}
+        <div
+          style={{
+            marginTop: "50px",
+            alignItems: "center",
+            justifyContent: "center",
+            textAlign: "justify",
+            display: "flex",
+            flexFlow: "wrap",
+          }}
+          
+        >
+          {lst.map(({ data, i }) => (
+            <ArticleCard desc={data} key={i} />
+          ))}
+        </div>
         <div>
           <Button
             variant="outlined"
