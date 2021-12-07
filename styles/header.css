@@ -16,7 +16,6 @@
 .header-nav-link {
   text-decoration: none;
   color: "black";
-
 }
 
 .header-nav-link:hover {
@@ -34,8 +33,7 @@
   margin-top: 25px;
 }
 .topHeaderLogo {
-  width: 18rem;
-  margin-left: -10px;
+  width: 8rem;
 }
 @media screen and (max-width: 768px) {
   .pageTitle {
@@ -51,12 +49,13 @@
     margin-top: 20px !important;
   }
   .topHeaderLogo {
-    width: 100vw;
-    height: 150px;
-    margin-left: -12px;
+    max-height: 150px;
   }
   .header-nav-link {
     font-size: 15px;
+  }
+  .logoCard {
+    text-align: center;
   }
 }
 @media (min-width: 576px) {
