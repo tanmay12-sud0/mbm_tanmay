@@ -1,6 +1,6 @@
 // import { Button } from 'bootstrap';
 import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+// import { Col, Container, Image, Row } from "react-bootstrap";
 // import Footer from './Footer';
 // import "./NewPost2.css";
 function Newpost2() {
@@ -141,7 +141,6 @@ function Newpost2() {
           find out why this happens
         </p>
         <br />
-
         <h4
           style={{
             lineHeight: "1.1",
@@ -155,9 +154,7 @@ function Newpost2() {
           ROOTS AND CULTURE
         </h4>
         <hr />
-
         <br />
-
         <p
           style={{
             lineHeight: "1.1",
@@ -175,7 +172,6 @@ function Newpost2() {
           it but consuming sugars is not good for their overall health. Let’s
           find out why this happens
         </p>
-
         <p
           style={{
             lineHeight: "0.5",
@@ -188,7 +184,6 @@ function Newpost2() {
           <ul>Thinking more</ul>
           <ul>Thinking more</ul>
         </p>
-
         <p
           style={{
             lineHeight: "1.1",
