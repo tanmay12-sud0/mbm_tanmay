@@ -1,8 +1,5 @@
 import React from "react";
 import HeaderCarousel from "../components/ui/HeaderCarousel";
-import abc1 from "../images/abc1.png";
-import abc2 from "../images/abc.png";
-import abc3 from "../images/abc3.png";
 import HomePageCards from "../components/UI/HomePageCards";
 import Vcdesk from "../components/UI/Vcdesk";
 import Mbmintro from "../components/UI/Mbmintro";
@@ -17,8 +14,8 @@ function home() {
         <Vcdesk />
       </div>
       <YouAreLookingFor></YouAreLookingFor>
-      <HomePageCards />
-      <HomePagePro />
+      {/* <HomePageCards />
+      <HomePagePro /> */}
     </div>
   );
 }

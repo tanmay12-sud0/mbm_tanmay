@@ -322,13 +322,13 @@ export default function Header({ menus, globalVariables }) {
   };
   return (
     <div>
-      <div className="container-fluid">
+      <div className="container mt-2">
         <div className="row">
-          <div className="col-md-6 col-12">
+          <div className="col-md-6 col-12 logoCard">
             <img
-              src="https://res.cloudinary.com/dzsnoyohi/image/upload/v1637565850/samples/MBM-LOGO-header_v3tebz.png"
+              src="https://firebasestorage.googleapis.com/v0/b/dicazo-demo.appspot.com/o/LOGO.png?alt=media&token=6f8dcbde-bf64-48d0-ae81-f186c9e72208"
               alt="MBM LOGO"
-              className="img-responsive topHeaderLogo"
+              className=" topHeaderLogo"
             />
           </div>
           <div className="col-md-6 col-12 topLinks">
