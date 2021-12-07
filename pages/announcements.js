@@ -19,33 +19,28 @@ function announcements() {
         }}
         className="container"
       >
-        <h1 style={{ textAlign: "center", marginBottom: "30px" }}>
-          # Announcements
-        </h1>
-        <small>
+        <h1 className="announcement-Heading"># Announcements</h1>
+        <small className="announcement-subtitle">
           Find all latest public announcements from University Offices.
         </small>
         <hr />
         <div
           style={{
-            marginTop: "50px",
+            marginTop: "52px",
             alignItems: "center",
             justifyContent: "center",
             textAlign: "justify",
             display: "flex",
             flexFlow: "wrap",
+            // marginBottom: "-20px",
           }}
-          
         >
           {lst.map(({ data, i }) => (
             <ArticleCard desc={data} key={i} />
           ))}
         </div>
         <div>
-          <Button
-            variant="outlined"
-            style={{ color: "rgba(55,63,80,1)", marginTop: "30px" }}
-          >
+          <Button variant="outlined" className="announcement-button">
             LOAD MORE...
           </Button>
         </div>
