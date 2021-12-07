@@ -30,15 +30,16 @@ function HomePagePro() {
                       color: " hsl(212, 40%, 27%)",
                       fontFamily: "Ubuntu",
                       fontWeight: "500",
+                      lineHeight: "1.1",
                     }}
                   >
                     RESEARCH
                   </h1>
                   <h1
                     style={{
-                      fontSize: "50px",
-                      color: "red",
-                      fontFamily: "inherit",
+                      fontSize: "56px",
+                      color: "#cc0c1e",
+                      fontFamily: "Ubuntu",
                       marginLeft: "20px",
                       fontWeight: "500",
                     }}
@@ -52,7 +53,7 @@ function HomePagePro() {
                     Veritatis nulla corrupti quisquam dolor assumenda maiores
                     omnis, voluptatum officia
                   </p>
-                  <li style={{ listStyleType: "none", color: "red" }}>
+                  <li style={{ listStyleType: "none", color: "#cc0c1e" }}>
                     &gt; Know More
                   </li>
                 </div>
