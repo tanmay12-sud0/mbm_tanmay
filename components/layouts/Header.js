@@ -333,7 +333,7 @@ export default function Header({ menus, globalVariables }) {
           </div>
           <div className="col-md-6 col-12 topLinks">
             <div>
-              <div style={{}}>
+              <div style={{ lineHeight: "31px" }}>
                 <a
                   href="#!"
                   className="header-nav-link"
@@ -360,7 +360,7 @@ export default function Header({ menus, globalVariables }) {
               </div>
             </div>
             <div>
-              <div>
+              <div style={{ lineHeight: "41px" }}>
                 <a href="#!" className="header-contact-link">
                   {
                     <ContactPopup
@@ -379,10 +379,10 @@ export default function Header({ menus, globalVariables }) {
                 </a>
               </div>
             </div>
-            <div style={{}}>
+            <div style={{ lineHeight: "41px" }}>
               <div className="pageTitle">
-                <p style={{ color: "red" }}>ABOUT </p>
-                <p style={{ color: "#29425f" }}>MBM</p>
+                <p style={{ color: "red", fontFamily: "Ubuntu" }}>ABOUT </p>
+                <p style={{ color: "#29425f", fontFamily: "Ubuntu" }}>MBM</p>
                 {/* <PageTitle title="ABOUT MBM" /> */}
               </div>
             </div>
