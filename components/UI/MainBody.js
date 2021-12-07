@@ -7,16 +7,7 @@ function Newpost2() {
   return (
     <div>
       <div style={{ wordSpacing: "2px" }}>
-        <p
-          style={{
-            marginTop: "30px",
-            lineHeight: "1.1",
-            textAlign: "justify",
-            color: "#4c5e72",
-            fontSize: "16px",
-            fontFamily: "PT Sans",
-          }}
-        >
+        <p className="aboutPara">
           Thinking about sugars, do you also imagine coke, cakes, or candies?
           But not everyone shares the same imagination. In 2020, according to
           International Diabetic Federation (IDF), around 77 million people in
@@ -26,15 +17,7 @@ function Newpost2() {
           find out why this happens
         </p>
 
-        <p
-          style={{
-            lineHeight: "1.1",
-            textAlign: "justify",
-            color: "#4c5e72",
-            fontSize: "16px",
-            fontFamily: "PT Sans",
-          }}
-        >
+        <p className="aboutPara">
           Thinking about sugars, do you also imagine coke, cakes, or candies?
           But not everyone shares the same imagination. In 2020, according to
           International Diabetic Federation (IDF), around 77 million people in
@@ -44,15 +27,7 @@ function Newpost2() {
           find out why this happens
         </p>
 
-        <p
-          style={{
-            lineHeight: "1.1",
-            textAlign: "justify",
-            color: "#4c5e72",
-            fontSize: "16px",
-            fontFamily: "PT Sans",
-          }}
-        >
+        <p className="aboutPara">
           Thinking about sugars, do you also imagine coke, cakes, or candies?
           But not everyone shares the same imagination. In 2020, according to
           International Diabetic Federation (IDF), around 77 million people in
@@ -62,18 +37,7 @@ function Newpost2() {
           find out why this happens
         </p>
         <br />
-        <h4
-          style={{
-            lineHeight: "1.1",
-
-            color: "#4c6b8e",
-
-            fontFamily: "Ubuntu",
-            letterSpacing: "2px",
-          }}
-        >
-          VISION AND VALUES
-        </h4>
+        <h4 className="aboutHeading">VISION AND VALUES</h4>
         <hr />
 
         <figure className="m-auto p-3">
@@ -87,15 +51,7 @@ function Newpost2() {
 
         <br />
 
-        <p
-          style={{
-            lineHeight: "1.1",
-            textAlign: "justify",
-            color: "#4c5e72",
-            fontSize: "16px",
-            fontFamily: "PT Sans",
-          }}
-        >
+        <p className="aboutPara">
           Thinking about sugars, do you also imagine coke, cakes, or candies?
           But not everyone shares the same imagination. In 2020, according to
           International Diabetic Federation (IDF), around 77 million people in
@@ -105,15 +61,7 @@ function Newpost2() {
           find out why this happens
         </p>
 
-        <p
-          style={{
-            lineHeight: "1.1",
-            textAlign: "justify",
-            color: "#4c5e72",
-            fontSize: "16px",
-            fontFamily: "PT Sans",
-          }}
-        >
+        <p className="aboutPara">
           Thinking about sugars, do you also imagine coke, cakes, or candies?
           But not everyone shares the same imagination. In 2020, according to
           International Diabetic Federation (IDF), around 77 million people in
@@ -123,15 +71,7 @@ function Newpost2() {
           find out why this happens
         </p>
 
-        <p
-          style={{
-            lineHeight: "1.1",
-            textAlign: "justify",
-            color: "#4c5e72",
-            fontSize: "16px",
-            fontFamily: "PT Sans",
-          }}
-        >
+        <p className="aboutPara">
           Thinking about sugars, do you also imagine coke, cakes, or candies?
           But not everyone shares the same imagination. In 2020, according to
           International Diabetic Federation (IDF), around 77 million people in
@@ -142,31 +82,12 @@ function Newpost2() {
         </p>
         <br />
 
-        <h4
-          style={{
-            lineHeight: "1.1",
-
-            color: "#4c6b8e",
-
-            fontFamily: "Ubuntu",
-            letterSpacing: "2px",
-          }}
-        >
-          ROOTS AND CULTURE
-        </h4>
+        <h4 className="aboutHeading">ROOTS AND CULTURE</h4>
         <hr />
 
         <br />
 
-        <p
-          style={{
-            lineHeight: "1.1",
-            textAlign: "justify",
-            color: "#4c5e72",
-            fontSize: "16px",
-            fontFamily: "PT Sans",
-          }}
-        >
+        <p className="aboutPara">
           Thinking about sugars, do you also imagine coke, cakes, or candies?
           But not everyone shares the same imagination. In 2020, according to
           International Diabetic Federation (IDF), around 77 million people in
@@ -176,28 +97,13 @@ function Newpost2() {
           find out why this happens
         </p>
 
-        <p
-          style={{
-            lineHeight: "0.5",
-            color: "#4c5e72",
-            fontSize: "16px",
-            fontFamily: "PT Sans",
-          }}
-        >
-          <ul>Thinking more</ul>
-          <ul>Thinking more</ul>
-          <ul>Thinking more</ul>
+        <p className="aboutPara">
+          <li>Thinking more</li>
+          <li>Thinking more</li>
+          <li>Thinking more</li>
         </p>
 
-        <p
-          style={{
-            lineHeight: "1.1",
-            textAlign: "justify",
-            color: "#4c5e72",
-            fontSize: "16px",
-            fontFamily: "PT Sans",
-          }}
-        >
+        <p className="aboutPara">
           Thinking about sugars, do you also imagine coke, cakes, or candies?
           But not everyone shares the same imagination. In 2020, according to
           International Diabetic Federation (IDF), around 77 million people in
@@ -208,31 +114,22 @@ function Newpost2() {
         </p>
         <br />
 
-        <h4
-          style={{
-            lineHeight: "1.1",
-
-            color: "#4c6b8e",
-
-            fontFamily: "Ubuntu",
-            letterSpacing: "2px",
-          }}
-        >
-          LEADERSHIP AND LEGENCY
-        </h4>
+        <h4 className="aboutHeading">LEADERSHIP AND LEGENCY</h4>
         <hr />
 
         <br />
 
-        <p
-          style={{
-            lineHeight: "1.1",
-            textAlign: "justify",
-            color: "#4c5e72",
-            fontSize: "16px",
-            fontFamily: "PT Sans",
-          }}
-        >
+        <p className="aboutPara">
+          MBM about sugars, do you also imagine coke, cakes, or candies? But not
+          everyone shares the same imagination. In 2020, according to
+          International Diabetic Federation (IDF), around 77 million people in
+          India and 463 million people globally suffer from diabetes(1). This
+          large proportion will refrain from sugars not because they don’t like
+          it but consuming sugars is not good for their overall health. Let’s
+          find out why this happens
+        </p>
+
+        <p className="aboutPara">
           Thinking about sugars, do you also imagine coke, cakes, or candies?
           But not everyone shares the same imagination. In 2020, according to
           International Diabetic Federation (IDF), around 77 million people in
@@ -242,33 +139,7 @@ function Newpost2() {
           find out why this happens
         </p>
 
-        <p
-          style={{
-            lineHeight: "1.1",
-            textAlign: "justify",
-            color: "#4c5e72",
-            fontSize: "16px",
-            fontFamily: "PT Sans",
-          }}
-        >
-          Thinking about sugars, do you also imagine coke, cakes, or candies?
-          But not everyone shares the same imagination. In 2020, according to
-          International Diabetic Federation (IDF), around 77 million people in
-          India and 463 million people globally suffer from diabetes(1). This
-          large proportion will refrain from sugars not because they don’t like
-          it but consuming sugars is not good for their overall health. Let’s
-          find out why this happens
-        </p>
-
-        <p
-          style={{
-            lineHeight: "1.1",
-            textAlign: "justify",
-            color: "#4c5e72",
-            fontSize: "16px",
-            fontFamily: "PT Sans",
-          }}
-        >
+        <p className="aboutPara">
           Thinking about sugars, do you also imagine coke, cakes, or candies?
           But not everyone shares the same imagination. In 2020, according to
           International Diabetic Federation (IDF), around 77 million people in

@@ -17,7 +17,7 @@ function Home() {
       <div>
         <BreadcrumbComponent />
 
-        <div className="container">
+        <div className="container" style={{ marginTop: "80px" }}>
           <div className="row d-flex ">
             <MainBody />
           </div>
@@ -31,8 +31,8 @@ function Home() {
             paddingRight: "7vw",
           }}
         >
-          <h2>Latest Updates</h2>
-          <a href="/announcements" style={{ color: "rgba(55,63,80,1)" }}>
+          <h2 className="latest-updates">Latest Updates</h2>
+          <a href="/announcements" className="see-all-updates">
             See all Updates {`>`}
           </a>
         </div>
