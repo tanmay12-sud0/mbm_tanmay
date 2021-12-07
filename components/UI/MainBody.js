@@ -81,18 +81,7 @@ function Newpost2() {
           find out why this happens
         </p>
         <br />
-        <h4
-          style={{
-            lineHeight: "1.1",
-
-            color: "#4c6b8e",
-
-            fontFamily: "Ubuntu",
-            letterSpacing: "2px",
-          }}
-        >
-          ROOTS AND CULTURE
-        </h4>
+        <h4 className="aboutHeading">ROOTS AND CULTURE</h4>
         <hr />
         <br />
         <p

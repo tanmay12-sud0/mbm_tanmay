@@ -185,7 +185,20 @@ h6 {
   display: flex;
   padding: 10px;
 }
-
+.breadcrumb-description {
+  float: right;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 3px;
+}
+.breadcrumb-links {
+  float: "left";
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 3px;
+}
 @media screen and (max-width: 990px) {
   .d-xs-none {
     display: none !important;
@@ -202,6 +215,17 @@ h6 {
   .main-layout {
     position: relative;
     top: 14px;
+  }
+  .breadcrumb-description {
+    display: none;
+  }
+  .breadcrumb-links {
+    float: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 3px;
   }
 }
 .css-flh2fh-MuiPaper-root-MuiCard-root {

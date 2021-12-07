@@ -20,17 +20,8 @@ const BreadcrumbComponent = () => {
     >
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-12">
-            <p
-              style={{
-                float: "left",
-                alignItems: "center",
-                justifyContent: "center",
-                margin: "auto",
-                padding: "3px",
-                // fontSize: "20px",
-              }}
-            >
+          <div className="col-lg-6 col-12" >
+            <p className="breadcrumb-links">
               <a
                 style={{
                   textDecoration: "none",
@@ -38,24 +29,13 @@ const BreadcrumbComponent = () => {
                 }}
                 href=""
               >
-                <HomeIcon style={{ marginTop: "-5px" }}></HomeIcon> home 
+                <HomeIcon style={{ marginTop: "-5px" }}></HomeIcon> home
                 <ArrowLeftIcon></ArrowLeftIcon>
               </a>
             </p>
-           
           </div>
-          <div className="col-lg-6 col-12 text-center">
-          
-            <p
-              style={{
-                float: "right",
-                alignItems: "center",
-                justifyContent: "center",
-                margin: "auto",
-                padding: "3px",
-                // fontSize: "20px",
-              }}
-            >
+          <div className="col-lg-6 col-0 text-center breadcrumb-description">
+            <p className="breadcrumb-description">
               ...a story of legacy, excellence and diversity
             </p>
           </div>

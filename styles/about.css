@@ -33,6 +33,8 @@
   text-decoration: underline;
   line-height: 1.222;
   text-align: justifyLeft;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 @media only screen and (max-width: 600px) {
   .aboutHeading {
@@ -40,6 +42,17 @@
   }
   .latest-updates {
     font-size: 22px;
+  }
+  .see-all-updates {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 318px) {
+  .aboutHeading {
+    font-size: 18px;
+  }
+  .latest-updates {
+    font-size: 18px;
   }
   .see-all-updates {
     font-size: 12px;
