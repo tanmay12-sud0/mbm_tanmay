@@ -380,9 +380,11 @@ export default function Header({ menus, globalVariables }) {
               </div>
             </div>
             <div style={{}}>
-              <div className="pageTitle">
-                <p style={{ color: "red" }}>ABOUT </p>
-                <p style={{ color: "#29425f" }}>MBM</p>
+              <div className="pageTitle ">
+                <p style={{ color: "red" }}>
+                  ABOUT <span style={{ color: "#29425f" }}>MBM</span>
+                </p>
+
                 {/* <PageTitle title="ABOUT MBM" /> */}
               </div>
             </div>
