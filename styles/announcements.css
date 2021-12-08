@@ -17,19 +17,19 @@
   margin-bottom: 50px;
 }
 .announcement-button {
-  font-size: 19px;
+  font-size: 20px;
   font-family: "Ubuntu";
   color: rgb(41, 66, 95);
   font-weight: bold;
   text-transform: uppercase;
-  width: 11rem;
-  height: 3rem;
-  /* line-height: 1.2; */
+  width: 12rem;
+  height: 2.5rem;
+
   border-width: 1.5px;
   border-color: rgb(41, 66, 95);
   border-style: solid;
   border-radius: 4px;
-  margin-top: 35px;
+  margin-top: 30px;
 }
 .announcement-mainContent {
   margin-top: "52px";
