@@ -6,9 +6,9 @@ function HomePagePro() {
   return (
     <div style={{ backgroundColor: "rgb(244 250 253)", marginTop: "50px" }}>
       <hr />
-      <div className="container  pt-2 pb-2">
+      <div className="container ">
         <div className="row">
-          <div className="col-lg-4 col-12 d-flex justify-content-center">
+          <div className="col-xl-4 col-12 d-flex justify-content-center ">
             <div>
               <h1
                 style={{
@@ -20,19 +20,20 @@ function HomePagePro() {
                   marginTop: "10px",
                 }}
               >
-                RESEARCH
+                RESEARCH{" "}
+                <span
+                  style={{
+                    fontSize: "56px",
+                    color: "#cc0c1e",
+                    fontFamily: "Ubuntu",
+                    marginLeft: "20px",
+                    fontWeight: "500",
+                  }}
+                >
+                  @MBM
+                </span>
               </h1>
-              <h1
-                style={{
-                  fontSize: "56px",
-                  color: "#cc0c1e",
-                  fontFamily: "Ubuntu",
-                  marginLeft: "20px",
-                  fontWeight: "500",
-                }}
-              >
-                @MBM
-              </h1>
+              <h1></h1>
               <p style={{ textAlign: "justify" }}>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum
                 ratione amet animi neque quasi delectus obcaecati perspiciatis
@@ -40,11 +41,9 @@ function HomePagePro() {
                 quia quos doloremque optio officia porro. Eius voluptatem,
                 veritatis voluptates, quia necessitatibus, voluptatum
                 praesentium pariatur molestiae aliquam a sed nostrum cumque
-               
-                blanditiis sit nulla obcaecati harum est voluptas. Corporis
-                impedit nisi vero itaque, iusto recusandae dolore accusamus,
-                sequi incidunt laboriosam quam dolores veniam placeat id
-                consequatur et, sit quaerat provident.
+                atque repellendus recusandae ducimus deserunt hic reiciendis?
+                Adipisci, animi doloribus nemo eos ipsa suscipit veritatis
+                officia, quo, voluptate dignissimos ipsum iste nihil soluta .
               </p>
               <li style={{ listStyleType: "none", color: "#cc0c1e" }}>
                 &gt; Know More
@@ -52,13 +51,13 @@ function HomePagePro() {
             </div>
             <div></div>
           </div>
-          <div className="col-lg-4 col-12 d-flex justify-content-center">
+          <div className="col-lg-4 col-12 d-flex justify-content-center m-auto">
             <ArticleCard
               desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium illum ducimus iusto, quod obcaecati blanditiis. Laudantium illum ducimus iusto, quod obcaecati blanditiis. Veritatis nulla corrupti quisquam dolor assumenda maiores omnis, voluptatum officia"
               key={1}
             />
           </div>
-          <div className="col-lg-4 col-12 d-flex justify-content-center">
+          <div className="col-lg-4 col-12 d-flex justify-content-center m-auto">
             <ArticleCard
               desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium illum ducimus iusto, quod obcaecati blanditiis. Laudantium illum ducimus iusto, quod obcaecati blanditiis. Veritatis nulla corrupti quisquam dolor assumenda maiores omnis, voluptatum officia"
               key={2}
