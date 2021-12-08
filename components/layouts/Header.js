@@ -321,8 +321,8 @@ export default function Header({ menus, globalVariables }) {
     );
   };
   return (
-    <div>
-      <div className="container mt-2">
+    <div className="header-background">
+      <div className="container  mt-2">
         <div className="row">
           <div className="col-md-6 col-12 logoCard">
             <img
