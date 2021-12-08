@@ -29,6 +29,7 @@
   font-family: "PTSans";
   color: rgb(41, 66, 95);
   line-height: 1.2;
+  font-weight: bold;
   text-align: center;
 }
 .article-contentContainer {

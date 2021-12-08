@@ -3,6 +3,27 @@
   background-color: white;
   color: var(--base-color);
 }
+.header-background {
+  background-image: -moz-linear-gradient(
+    90deg,
+    rgb(151, 191, 219) 0%,
+    rgb(209, 245, 250) 53%,
+    rgb(66, 127, 155) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgb(151, 191, 219) 0%,
+    rgb(209, 245, 250) 53%,
+    rgb(66, 127, 155) 100%
+  );
+  background-image: -ms-linear-gradient(
+    90deg,
+    rgb(151, 191, 219) 0%,
+    rgb(209, 245, 250) 53%,
+    rgb(66, 127, 155) 100%
+  );
+  /* opacity: 0.149; */
+}
 
 .header-contact-link {
   color: hsl(212, 40%, 27%);
