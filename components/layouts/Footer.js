@@ -1,7 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import { IoIosMailOpen } from "react-icons/io";
-import Link from "next/link";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -59,7 +57,7 @@ export default function FooterCard({ menus }) {
                     <div className="footer-pad">
                       <ul className="list-unstyled">
                         <li>
-                          <a href="#">Registration & Collaboration</a>
+                          <a href="#">Research & Collaboration</a>
                         </li>
                         <li>
                           <a href="#">Administration</a>
@@ -80,22 +78,14 @@ export default function FooterCard({ menus }) {
                     <div className="footer-pad">
                       <ul className="list-unstyled">
                         <li>
-                          <p>This Website is</p>
+                          <p>This Website is Developed & Maintained by</p>
+                          <p>
+                            <a href="#!" className="footerTeacherLink">
+                              Our Students & Teachers
+                            </a>
+                          </p>
                         </li>
-                        <li>
-                          <p>Developed & Maintained by</p>
-                        </li>
-                        <li>
-                          <a
-                            href="#!"
-                            style={{
-                              marginBottom: "7px",
-                              textDecoration: "underline",
-                            }}
-                          >
-                            Our Students & Teachers
-                          </a>
-                        </li>
+
                         <li>
                           <p>Follow MBM University on</p>
                         </li>
@@ -103,12 +93,12 @@ export default function FooterCard({ menus }) {
                           <div className="row">
                             <div className="col">
                               <a href="#">
-                                <InstagramIcon />
+                                <FacebookIcon />
                               </a>
                             </div>
                             <div className="col">
                               <a href="#">
-                                <FacebookIcon />
+                                <InstagramIcon />
                               </a>
                             </div>
                             <div className="col">

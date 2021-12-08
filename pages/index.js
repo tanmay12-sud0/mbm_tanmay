@@ -14,8 +14,8 @@ function home() {
         <Vcdesk />
       </div>
       <YouAreLookingFor></YouAreLookingFor>
-      {/* <HomePageCards />
-      <HomePagePro /> */}
+      {/* <HomePageCards /> */}
+      <HomePagePro />
     </div>
   );
 }

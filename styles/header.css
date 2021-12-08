@@ -38,9 +38,8 @@
 }
 @media (max-width: 990px) {
   .pageTitle {
-     font-size: 2.5rem;
+    font-size: 2.5rem;
   }
-  
 }
 @media screen and (max-width: 768px) {
   .pageTitle {
@@ -67,12 +66,30 @@
     text-align: center;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .modal-dialog {
     max-width: 700px !important;
     margin: 1.75rem auto;
   }
   .header-contact-link {
     font-size: 15px;
+  }
+  .pageTitle {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 320px) {
+  .modal-dialog {
+    max-width: 700px !important;
+    margin: 1.75rem auto;
+  }
+  .header-contact-link {
+    font-size: 11.8px !important;
+  }
+  .header-nav-link {
+    font-size: 11.6px;
+  }
+  .pageTitle {
+    font-size: 1.8rem;
   }
 }

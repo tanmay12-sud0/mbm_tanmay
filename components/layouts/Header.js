@@ -199,7 +199,7 @@ export default function Header({ menus, globalVariables }) {
                       style={{
                         border: "2px dashed #29425f",
                         textAlign: "center",
-                        padding: "10px",
+                        padding: "5px",
                       }}
                     >
                       <p
@@ -215,7 +215,6 @@ export default function Header({ menus, globalVariables }) {
                       <p
                         style={{
                           fontSize: "1rem",
-
                           color: "#29425f",
                           marginBottom: "0px",
                         }}
@@ -237,7 +236,7 @@ export default function Header({ menus, globalVariables }) {
                       style={{
                         border: "2px dashed #29425f",
                         textAlign: "center",
-                        padding: "10px",
+                        padding: "5px",
                       }}
                     >
                       <p
@@ -276,7 +275,7 @@ export default function Header({ menus, globalVariables }) {
                       style={{
                         border: "2px dashed #29425f",
                         textAlign: "center",
-                        padding: "10px",
+                        padding: "5px",
                       }}
                     >
                       <p
@@ -293,7 +292,6 @@ export default function Header({ menus, globalVariables }) {
                       <p
                         style={{
                           fontSize: "1rem",
-
                           color: "#29425f",
                           marginBottom: "0px",
                         }}
@@ -303,7 +301,6 @@ export default function Header({ menus, globalVariables }) {
                       <p
                         style={{
                           fontSize: "1rem",
-
                           color: "red",
                           marginBottom: "0px",
                         }}

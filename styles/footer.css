@@ -1,7 +1,4 @@
 footer {
-  /* background: var(--ciyan-theme) !important; */
-  /* background: -webkit-linear-gradient(59deg, #3a6073, #16222a); */
-  /* background: linear-gradient(59deg, #3a6073, #16222a); */
   background: #29425f;
   color: white;
   margin-top: 70px;
@@ -22,7 +19,9 @@ footer {
   font-size: 2rem;
   text-align: left;
 }
-
+.list-unstyled li {
+  margin-top: 13px;
+}
 footer a {
   color: #c0d0e3;
   margin-top: 10px;
@@ -47,7 +46,7 @@ footer a:hover {
   color: black;
 }
 .footer-middle {
-  padding-top: 2em;
+  padding-top: 2.5em;
   color: white;
 }
 
@@ -127,7 +126,35 @@ ul.social-network li {
   -ms-transition: all 0.8s;
   transition: all 0.8s;
 }
+.footerTeacherLink {
+  font-size: 17px;
+  margin-bottom: 7px;
+  text-decoration: underline;
+}
 
 .social-network a {
   background-color: #f9f9f9;
+}
+@media (max-width: 1000px) {
+  .footerTeacherLink {
+    font-size: 15px;
+  }
+  .list-unstyled li {
+    margin-top: 6px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+  }
+  .list-unstyled li a {
+    margin-top: 6px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .footer-pad {
+    text-align: center;
+
+    margin-bottom: 3em;
+  }
 }

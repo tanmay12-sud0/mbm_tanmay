@@ -95,7 +95,7 @@ function article() {
           More From #Announcements
         </h2>
         <a href="/announcements" className="article-SeeAll">
-          See all {`>`}
+          See all &gt;
         </a>
       </div>
       <div
