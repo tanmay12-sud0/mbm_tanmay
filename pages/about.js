@@ -14,14 +14,12 @@ function Home() {
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, corrupti cum. Hic, quis? Voluptates facere ";
   return (
     <>
-      <div className="Home-content home-display">
+      <div>
         <BreadcrumbComponent />
-        <div className="m-md-5 m-2">
-          <div className="row d-flex mr-5 ml-5">
-            <div className="d-flex  col-12">
-              <RelatedLinks />
-              <MainBody />
-            </div>
+
+        <div className="container" style={{ marginTop: "80px" }}>
+          <div className="row d-flex ">
+            <MainBody />
           </div>
         </div>
         <hr />
@@ -33,8 +31,8 @@ function Home() {
             paddingRight: "7vw",
           }}
         >
-          <h2>Latest Updates</h2>
-          <a href="/announcements" style={{ color: "rgba(55,63,80,1)" }}>
+          <h2 className="latest-updates">Latest Updates</h2>
+          <a href="/announcements" className="see-all-updates">
             See all Updates {`>`}
           </a>
         </div>

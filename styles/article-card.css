@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,600,700,800);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&family=Ubuntu:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap");
 
 :root {
@@ -92,7 +92,6 @@ div.article-circle-container {
   left: 5%;
   top: 3%;
   width: 90%;
-  /* font-family: "PT Sans"; */
 }
 
 div.article-card-circle {

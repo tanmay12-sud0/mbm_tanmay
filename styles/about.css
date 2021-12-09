@@ -1,12 +1,60 @@
 * {
   font-family: PT Sans;
 }
-.heading {
-  font-size: 40px;
+.aboutPara {
+  line-height: 1.2;
+  text-align: justify;
+  color: rgb(76, 94, 114);
+  font-size: 16px;
+  font-family: "PTSans";
+
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+}
+.aboutHeading {
+  font-size: 25px;
+  font-family: "Ubuntu";
+  color: rgb(76, 107, 142);
+  line-height: 1.2;
+
+  /* text-align: center; */
+}
+.latest-updates {
+  font-size: 38px;
+  font-family: "Ubuntu";
+  color: rgb(89, 119, 155);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+}
+.see-all-updates {
+  font-size: 18px;
+  font-family: "PTSans";
+  color: rgb(49, 72, 99);
+  text-decoration: underline;
+  line-height: 1.222;
+  text-align: justifyLeft;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 @media only screen and (max-width: 600px) {
-  h4 {
-    font-size: 17px;
-    font-weight: bolder;
+  .aboutHeading {
+    font-size: 20px;
+  }
+  .latest-updates {
+    font-size: 22px;
+  }
+  .see-all-updates {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 318px) {
+  .aboutHeading {
+    font-size: 18px;
+  }
+  .latest-updates {
+    font-size: 18px;
+  }
+  .see-all-updates {
+    font-size: 12px;
   }
 }

@@ -13,39 +13,31 @@ function article() {
 
       <div
         style={{
-          marginTop: "40px",
+          // marginTop: "40px",
           alignItems: "center",
           justifyContent: "center",
           fontFamily: "PT Sans",
-          // textAlign: "justify",
-        }}
-        className="container"
-      >
-        <h1
-          style={{
-            textAlign: "center",
-            fontFamily: "PT Sans",
-            marginBottom: "30px",
-          }}
-        >
-          MBM UNIVERSITY ACT, 2021 passed by Rajasthan Legislative Assembly on
-          Sep 17, 2021
-        </h1>
-        <Button variant="outlined" style={{ color: "rgba(55,63,80,1)" }}>
-          DOWNLOAD ATTACHMENT{" "}
-        </Button>
-        <hr />
-        <small>Posted by Admin under Announcements on 1 may, 2021</small>
-      </div>
-      <div
-        style={{
-          marginTop: "40px",
-          alignItems: "center",
-          justifyContent: "center",
           textAlign: "justify",
         }}
         className="container"
       >
+        <h1 className="article-title">
+          MBM UNIVERSITY ACT, 2021 passed by Rajasthan Legislative Assembly on
+          Sep 17, 2021
+        </h1>
+        <div style={{ textAlign: "center" }}>
+          <Button variant="outlined" className="article-downloadButton">
+            DOWNLOAD ATTACHMENT{" "}
+          </Button>
+          <hr />
+        </div>
+        <div style={{ textAlign: "center" }}>
+          <small className="article-subtitle">
+            Posted by Admin under Announcements on 1 may, 2021
+          </small>
+        </div>
+      </div>
+      <div className="article-contentContainer container">
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias,
           corrupti cum. Hic, quis? Voluptates facere libero quae quidem.
@@ -99,9 +91,11 @@ function article() {
           paddingRight: "7vw",
         }}
       >
-        <h2>More From #Announcements</h2>
-        <a href="/announcements" style={{ color: "rgba(55,63,80,1)" }}>
-          See all {`>`}
+        <h2 className="article-announcementHeading">
+          More From #Announcements
+        </h2>
+        <a href="/announcements" className="article-SeeAll">
+          See all &gt;
         </a>
       </div>
       <div

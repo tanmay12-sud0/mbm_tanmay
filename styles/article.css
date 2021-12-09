@@ -1,0 +1,159 @@
+.article-title {
+  font-size: 42px;
+  letter-spacing: 1.5px;
+  font-family: "Ubuntu";
+  font-weight: normal;
+  color: rgb(41, 66, 95);
+  /* line-height: 1.25; */
+
+  text-align: center;
+  margin-top: 60px;
+  text-shadow: 0px 1px 2px rgba(36, 59, 86, 0.25);
+}
+.article-downloadButton {
+  border-width: 1.5px;
+  border-color: rgb(41, 66, 95);
+  border-style: solid;
+  border-radius: 3px;
+  margin-top: 27px;
+  margin-bottom: 58px;
+  font-size: 15px;
+  font-family: "Ubuntu";
+  color: rgb(41, 66, 95);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+.article-subtitle {
+  font-size: 19px;
+  font-family: "PTSans";
+  color: rgb(41, 66, 95);
+  line-height: 1.2;
+  font-weight: bold;
+  text-align: center;
+}
+.article-contentContainer {
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+.article-contentContainer p {
+  font-size: 18px;
+  font-family: "PTSans";
+  color: rgb(46, 53, 62);
+  /* line-height: 1.429; */
+  text-align: justifyLeft;
+}
+.article-contentContainer h3 {
+  font-family: "PTSans";
+  color: rgb(41, 66, 95);
+  font-weight: bold;
+}
+.article-announcementHeading {
+  font-size: 38px;
+  font-family: "Ubuntu";
+  margin-top: 55px;
+  margin-bottom: 30px;
+  color: rgb(41, 66, 95);
+  font-weight: bold;
+  /* line-height: 1.2; */
+}
+.article-SeeAll {
+  font-size: 22px;
+  font-family: "PTSans";
+  color: rgb(41, 66, 95);
+  margin-top: auto;
+  margin-bottom: auto;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 1200px) {
+  .article-title {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .article-title {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .article-title {
+    font-size: 18px;
+  }
+  .article-announcementHeading {
+    font-size: 29px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .article-title {
+    font-size: 18px;
+    margin-top: 40px;
+    letter-spacing: 0px;
+  }
+  .article-downloadButton {
+    margin-top: 24px;
+    margin-bottom: 20px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .article-subtitle {
+    font-size: 12px;
+  }
+  .article-contentContainer {
+    margin-top: 30px;
+  }
+  .article-announcementHeading {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .article-SeeAll {
+    font-size: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .article-announcementHeading {
+    font-size: 19px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .article-title {
+    font-size: 16px;
+  }
+  .article-contentContainer p {
+    font-size: 15px;
+  }
+  .article-announcementHeading {
+    font-size: 15px;
+  }
+  .article-SeeAll {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .article-SeeAll {
+    margin-right: -1rem;
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+  .article-announcementHeading {
+    font-size: 35px;
+    margin-top: 9px;
+    margin-bottom: 15px;
+    /* text-align: left; */
+  }
+}
+@media only screen and (min-device-width: 540px) and (max-device-width: 720px) {
+  .article-SeeAll {
+    font-size: 12px;
+  }
+}
+@media only screen and  (max-device-width: 280px) {
+  .article-SeeAll {
+    font-size: 12px;
+  }
+  .article-announcementHeading{
+    font-size: 14px;
+  }
+}

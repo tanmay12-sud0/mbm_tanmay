@@ -7,7 +7,7 @@ const HeaderCarousel = () => {
       <div className="header-carousel-content">
         <h2>
           74th Foundation Day Celebration{" "}
-          <span style={{ color: "red" }}>@MBM</span>
+          <span style={{ color: "red", fontFamily: "Ubuntu" }}>@MBM</span>
         </h2>
         <hr />
         <p>
@@ -36,9 +36,7 @@ const HeaderCarousel = () => {
             Know More &gt;
           </Button>
         </div>
-        <p>
-          Lorem ipsum is a placeholder text commonly used to demonstrate .
-        </p>
+        <p>Lorem ipsum is a placeholder text commonly used to demonstrate .</p>
       </div>
     </div>
   );

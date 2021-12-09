@@ -199,7 +199,7 @@ export default function Header({ menus, globalVariables }) {
                       style={{
                         border: "2px dashed #29425f",
                         textAlign: "center",
-                        padding: "10px",
+                        padding: "5px",
                       }}
                     >
                       <p
@@ -215,7 +215,6 @@ export default function Header({ menus, globalVariables }) {
                       <p
                         style={{
                           fontSize: "1rem",
-
                           color: "#29425f",
                           marginBottom: "0px",
                         }}
@@ -237,7 +236,7 @@ export default function Header({ menus, globalVariables }) {
                       style={{
                         border: "2px dashed #29425f",
                         textAlign: "center",
-                        padding: "10px",
+                        padding: "5px",
                       }}
                     >
                       <p
@@ -276,7 +275,7 @@ export default function Header({ menus, globalVariables }) {
                       style={{
                         border: "2px dashed #29425f",
                         textAlign: "center",
-                        padding: "10px",
+                        padding: "5px",
                       }}
                     >
                       <p
@@ -293,7 +292,6 @@ export default function Header({ menus, globalVariables }) {
                       <p
                         style={{
                           fontSize: "1rem",
-
                           color: "#29425f",
                           marginBottom: "0px",
                         }}
@@ -303,7 +301,6 @@ export default function Header({ menus, globalVariables }) {
                       <p
                         style={{
                           fontSize: "1rem",
-
                           color: "red",
                           marginBottom: "0px",
                         }}
@@ -321,8 +318,84 @@ export default function Header({ menus, globalVariables }) {
     );
   };
   return (
-    <div
-      className="container"
+    <div className="header-background">
+      <div className="container  mt-2">
+        <div className="row">
+          <div className="col-md-6 col-12 logoCard">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/dicazo-demo.appspot.com/o/LOGO.png?alt=media&token=6f8dcbde-bf64-48d0-ae81-f186c9e72208"
+              alt="MBM LOGO"
+              className=" topHeaderLogo"
+            />
+          </div>
+          <div className="col-md-6 col-12 topLinks">
+            <div>
+              <div style={{ lineHeight: "31px" }}>
+                <a
+                  href="#!"
+                  className="header-nav-link"
+                  style={{ color: "black" }}
+                >
+                  Placements
+                </a>
+                {"  |  "}
+                <a
+                  href="#!"
+                  className="header-nav-link"
+                  style={{ color: "black" }}
+                >
+                  New & Updates
+                </a>
+                {"  |  "}
+                <a
+                  href="#!"
+                  className="header-nav-link"
+                  style={{ color: "black" }}
+                >
+                  University IUMS
+                </a>
+              </div>
+            </div>
+            <div>
+              <div style={{ lineHeight: "41px" }}>
+                <a href="#!" className="header-contact-link">
+                  {
+                    <ContactPopup
+                      text={
+                        <>
+                          <ContactPhoneIcon /> Contact Information
+                        </>
+                      }
+                    />
+                  }
+                </a>
+                {"   |   "}
+                <a href="#!" className="header-contact-link">
+                  <RoomIcon />
+                  Locate on Map
+                </a>
+              </div>
+            </div>
+
+            <div style={{ lineHeight: "41px" }}>
+              <div className="pageTitle">
+                <p style={{ color: "red", fontFamily: "Ubuntu" }}>
+                  ABOUT{" "}
+                  <span style={{ color: "#29425f", fontFamily: "Ubuntu" }}>
+                    MBM
+                  </span>
+                </p>
+                {/* <PageTitle title="ABOUT MBM" /> */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+{
+  /* <div
       style={{
         display: "flex",
         justifyContent: "space-between",
@@ -330,20 +403,21 @@ export default function Header({ menus, globalVariables }) {
       }}
     >
       <img
-        className="header-logo"
+        className="card-img img "
+        style={{ width: "18rem" }}
         src="https://res.cloudinary.com/dzsnoyohi/image/upload/v1637565850/samples/MBM-LOGO-header_v3tebz.png"
         alt="MBM LOGO"
       />
-      <div className="header-right-content">
+      <div >
         <div style={{ display: "flex", flexFlow: "wrap" }}>
           <p href="#!" className="header-nav-link">
             Placements
           </p>
-          {" | "}
+          {"  |  "}
           <p href="#!" className="header-nav-link">
             New & Updates
           </p>
-          {" | "}
+          {"  |  "}
           <p href="#!" className="header-nav-link">
             University IUMS
           </p>
@@ -360,14 +434,13 @@ export default function Header({ menus, globalVariables }) {
               />
             }
           </a>
-          {"  |  "}
+          {"   |   "}
           <a href="#!" className="header-contact-link">
             <RoomIcon />
-            {"   "}Locate on Map
+          Locate on Map
           </a>
         </div>
         <PageTitle title="ABOUT MBM" />
       </div>
-    </div>
-  );
+    </div> */
 }

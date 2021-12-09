@@ -7,6 +7,8 @@ import "../styles/header-carousel.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "../components/layouts";
 import "../styles/about.css";
+import "../styles/announcements.css";
+import "../styles/article.css";
 
 let data = {
   menus: [

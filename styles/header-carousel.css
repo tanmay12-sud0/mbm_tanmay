@@ -17,14 +17,16 @@
   left: var(--carousel-content-start);
   top: 30px;
   z-index: 2;
+  font-family: "Ubuntu", sans-serif;
   color: var(--base-color);
   width: var(--carousel-content-width);
 }
 
 .header-carousel-content h2 {
   font-weight: 800;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .header-carousel-image {
