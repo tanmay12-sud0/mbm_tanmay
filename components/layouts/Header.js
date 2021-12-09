@@ -10,6 +10,7 @@ import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
 import { useState } from "react";
 // import { useEffect } from "react";
 import HeadNavbarDrawer from "../ui/HeadNavbarDrawer";
+import AppsIcon from "@mui/icons-material/Apps";
 
 export default function Header({ menus, globalVariables }) {
   const [show, setShow] = useState(false);
@@ -355,7 +356,16 @@ export default function Header({ menus, globalVariables }) {
                 >
                   University IUMS
                 </a>
-                <HeadNavbarDrawer />
+
+                <span className="header-nav-link">
+                  <HeadNavbarDrawer
+                    insideText={
+                      <>
+                        <AppsIcon /> Site Menu
+                      </>
+                    }
+                  />
+                </span>
               </div>
             </div>
             <div>
