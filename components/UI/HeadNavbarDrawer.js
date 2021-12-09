@@ -16,7 +16,7 @@ const style = {
   color: "white",
   paddingLeft: "15px",
   paddingRight: "15px",
-  borderRadius: "3px"
+  borderRadius: "3px",
 };
 
 export default function HeadNavbarDrawer({ insideText }) {
@@ -65,13 +65,13 @@ export default function HeadNavbarDrawer({ insideText }) {
   );
 
   return (
-    <div>
+    <span style={{ marginLeft: "20px" }}>
       <button onClick={toggleDrawer(true)} style={style}>
         {insideText}
       </button>
       <Drawer anchor="top" open={drawerIsOpen} onClose={toggleDrawer(false)}>
         {list()}
       </Drawer>
-    </div>
+    </span>
   );
 }
