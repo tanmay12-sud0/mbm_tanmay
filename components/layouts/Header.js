@@ -9,6 +9,7 @@ import RoomIcon from "@mui/icons-material/Room";
 import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
 import { useState } from "react";
 // import { useEffect } from "react";
+import HeadNavbarDrawer from "../ui/HeadNavbarDrawer";
 
 export default function Header({ menus, globalVariables }) {
   const [show, setShow] = useState(false);
@@ -354,6 +355,7 @@ export default function Header({ menus, globalVariables }) {
                 >
                   University IUMS
                 </a>
+                <HeadNavbarDrawer />
               </div>
             </div>
             <div>
