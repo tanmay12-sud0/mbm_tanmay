@@ -345,7 +345,7 @@ export default function Header({ menus, globalVariables }) {
                   className="header-nav-link"
                   style={{ color: "black" }}
                 >
-                  New & Updates
+                  News & Updates
                 </a>
                 {"  |  "}
                 <a
