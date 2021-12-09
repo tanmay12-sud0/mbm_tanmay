@@ -1,7 +1,6 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
-import Button from "@mui/material/Button";
 import List from "@mui/material/List";
 import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
@@ -9,29 +8,37 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
+import darkGrey from "../../colors";
 
-export default function TemporaryDrawer() {
-  const [state, setState] = React.useState({
-    top: false,
-  });
+const style = {
+  backgroundColor: "rgb(46, 53, 62)",
+  border: "0",
+  color: "white",
+  paddingLeft: "15px",
+  paddingRight: "15px",
+  borderRadius: "3px",
+};
 
-  const toggleDrawer = (anchor, open) => (event) => {
+export default function HeadNavbarDrawer({ insideText }) {
+  const [drawerIsOpen, setDrawerIsOpen] = React.useState(false);
+
+  const toggleDrawer = (open) => (event) => {
     if (
       event.type === "keydown" &&
       (event.key === "Tab" || event.key === "Shift")
-    ) {
+    )
       return;
-    }
 
-    setState({ ...state, [anchor]: open });
+    setDrawerIsOpen(open);
   };
 
-  const list = (anchor) => (
+  const list = () => (
+    //   TODO: EDIT Drawer here
     <Box
-      sx={{ width: anchor === "top" || anchor === "bottom" ? "auto" : 250 }}
+      sx={{ width: 500 }}
       role="presentation"
-      onClick={toggleDrawer(anchor, false)}
-      onKeyDown={toggleDrawer(anchor, false)}
+      onClick={toggleDrawer(false)}
+      onKeyDown={toggleDrawer(false)}
     >
       <List>
         {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
@@ -58,19 +65,13 @@ export default function TemporaryDrawer() {
   );
 
   return (
-    <div>
-      {["top"].map((anchor) => (
-        <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
-          <Drawer
-            anchor={anchor}
-            open={state[anchor]}
-            onClose={toggleDrawer(anchor, false)}
-          >
-            {list(anchor)}
-          </Drawer>
-        </React.Fragment>
-      ))}
-    </div>
+    <span style={{ marginLeft: "20px" }}>
+      <button onClick={toggleDrawer(true)} style={style}>
+        {insideText}
+      </button>
+      <Drawer anchor="top" open={drawerIsOpen} onClose={toggleDrawer(false)}>
+        {list()}
+      </Drawer>
+    </span>
   );
 }

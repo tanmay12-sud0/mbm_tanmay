@@ -1,6 +1,6 @@
 .header-contact-popup-button {
   border: none;
-  background-color: white;
+  background-color: transparent;
   color: var(--base-color);
 }
 .header-background {

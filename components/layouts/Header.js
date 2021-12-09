@@ -10,6 +10,7 @@ import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
 import { useState } from "react";
 // import { useEffect } from "react";
 import HeadNavbarDrawer from "../ui/HeadNavbarDrawer";
+import AppsIcon from "@mui/icons-material/Apps";
 
 export default function Header({ menus, globalVariables }) {
   const [show, setShow] = useState(false);
@@ -320,16 +321,16 @@ export default function Header({ menus, globalVariables }) {
   };
   return (
     <div className="header-background">
-      <div className="container  mt-2">
+      <div className="container pb-3">
         <div className="row">
-          <div className="col-md-6 col-12 logoCard">
+          <div className="col-md-4 col-12 logoCard">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/dicazo-demo.appspot.com/o/LOGO.png?alt=media&token=6f8dcbde-bf64-48d0-ae81-f186c9e72208"
               alt="MBM LOGO"
               className=" topHeaderLogo"
             />
           </div>
-          <div className="col-md-6 col-12 topLinks">
+          <div className="col-md-8 col-12 topLinks">
             <div>
               <div style={{ lineHeight: "31px" }}>
                 <a
@@ -355,7 +356,19 @@ export default function Header({ menus, globalVariables }) {
                 >
                   University IUMS
                 </a>
-                <HeadNavbarDrawer />
+                <a
+                  href="#!"
+                  className="header-nav-link"
+                  style={{ color: "black" }}
+                >
+                  <HeadNavbarDrawer
+                    insideText={
+                      <>
+                        <AppsIcon /> Site Menu
+                      </>
+                    }
+                  />
+                </a>
               </div>
             </div>
             <div>
