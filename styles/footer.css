@@ -135,9 +135,14 @@ ul.social-network li {
 .social-network a {
   background-color: #f9f9f9;
 }
-@media (max-width: 1000px) {
+@media (max-width: 992px) {
+   .footer-pad {
+    text-align: center;
+
+    margin-bottom: 3em;
+  }
   .footerTeacherLink {
-    font-size: 15px;
+    font-size: 16px !important;
   }
   .list-unstyled li {
     margin-top: 6px;
@@ -148,13 +153,22 @@ ul.social-network li {
     margin-top: 6px;
     letter-spacing: 0px;
     word-spacing: 0px;
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 @media (max-width: 768px) {
-  .footer-pad {
-    text-align: center;
-
-    margin-bottom: 3em;
+ 
+  .list-unstyled li a {
+    margin-top: 6px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-size: 12px;
+  }
+  .list-unstyled li p {
+    font-size: 13px;
+  }
+  .footerTeacherLink {
+    font-size: 14px !important;
   }
 }
+@media (max-width: 517px) {}
