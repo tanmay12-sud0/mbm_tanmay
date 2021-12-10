@@ -16,27 +16,9 @@ function HomePageCards() {
             <div className="col-12">
               <div className="row">
                 <div className="col-6">
-                  <h1
-                    style={{
-                      fontSize: "26px",
-                      color: " hsl(212, 40%, 27%)",
-                      fontFamily: "Ubuntu",
-                      fontWeight: "500",
-                      lineHeight: "1.1",
-                    }}
-                  >
-                    <AppsIcon></AppsIcon> LATEST
-                    <span
-                      style={{
-                        fontSize: "26px",
-                        color: "#cc0c1e",
-                        fontFamily: "Ubuntu",
-                        fontWeight: "500",
-                        marginLeft: "8px",
-                      }}
-                    >
-                      NEWS
-                    </span>
+                  <h1 className="latest-heading">
+                    <AppsIcon className="app"></AppsIcon> LATEST
+                    <span className="news-heading">NEWS</span>
                   </h1>
                 </div>
                 <div className="col-6" style={{ textAlign: "end" }}>
@@ -45,7 +27,7 @@ function HomePageCards() {
                     style={{
                       color: "#29425f",
                       margin: "auto",
-                      fontSize: "20px",
+                      fontSize: "19px",
                     }}
                   >
                     More &gt;
