@@ -24,10 +24,10 @@ export default function HeadNavbarDrawer({ insideText }) {
   let drawerWidth = "auto";
   let anchor = "top";
   const isTabletOrMobileDevice = useMediaQuery({
-    query: "(max-device-width: 768px)",
+    query: "(max-device-width: 1078px)",
   });
   if (isTabletOrMobileDevice) {
-    drawerWidth = "250px";
+    drawerWidth = "320px";
     anchor = "left";
   }
 
