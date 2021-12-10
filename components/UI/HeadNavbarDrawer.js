@@ -9,6 +9,13 @@ import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
 import darkGrey from "../../colors";
+import {
+  Rotate90DegreesCcw,
+  Rotate90DegreesCcwOutlined,
+  Transform,
+} from "@mui/icons-material";
+import { flexbox, height, margin } from "@mui/system";
+// import "./HeadNavbarDrawer.css";
 
 const style = {
   backgroundColor: "rgb(46, 53, 62)",
@@ -40,7 +47,7 @@ export default function HeadNavbarDrawer({ insideText }) {
       onClick={toggleDrawer(false)}
       onKeyDown={toggleDrawer(false)}
     >
-      <List>
+      {/* <List>
         {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
           <ListItem button key={text}>
             <ListItemIcon>
@@ -60,7 +67,143 @@ export default function HeadNavbarDrawer({ insideText }) {
             <ListItemText primary={text} />
           </ListItem>
         ))}
-      </List>
+      </List> */}
+
+      {/* start Shivam's Code*/}
+      <div className="head-drawer">
+        <div className="headdrawer-top">
+          <p className="explore-web">Explore Our Website..</p>
+          <p className="close-drawer">
+            click to close <button>&times;</button>
+          </p>
+        </div>
+        <Divider style={{ color: "white" }} />
+        <div className="links-box">
+          <div className="links-1">
+            <ul>
+              <a href="#">Site Home</a>
+              <a href="#">About MBM Univ</a>
+              <a href="#">Vission & Mission</a>
+              <a href="#">Campus & Infra</a>
+              <a href="#">Acts & Ordinances</a>
+              <a href="#">Annual Reports</a>
+              <a href="#">Notices & orders</a>
+              <a href="#">Public Tenders</a>
+              <a href="#">News & Updates</a>
+              <a href="#">Photo Gallery</a>
+              <a href="#">Downloads</a>
+              <a href="#">Frequent Question</a>
+            </ul>
+          </div>
+          {/* <hr
+            style={{
+              width: "300px",
+              height: "2px",
+              transform: "rotate(90deg)",
+              marginTop: "100px",
+            }}
+          /> */}
+          <div className="links-2">
+            <div className="link-nav">
+              <ul>
+                <a href="#">Acadmics</a>
+                <a href="#">Administration</a>
+                <a href="#">Committe</a>
+                <a href="#">Resources</a>
+                <a href="#">Important Links</a>
+              </ul>
+
+              {/* <Divider /> */}
+            </div>
+            <div style={{ display: "flex", flexDirection: "row" }}>
+              <div className="links-1" style={{ marginTop: "0px" }}>
+                <ul>
+                  <a href="#">Chancler</a>
+                  <a href="#">Vice Chancler</a>
+                  <a href="#">Registrar</a>
+                  <a href="#">Finance Officer</a>
+                  <a href="#">Dean (Student & Affair)</a>
+                  <a href="#">Deans of Faculties</a>
+                  <a href="#">Estate officers</a>
+                  <a href="#">Public Relations</a>
+                  <a href="#">Security Officer</a>
+                </ul>
+              </div>
+              <div className="links-1">
+                <ul>
+                  <a href="#">Accounts Section</a>
+                  <a href="#">Acadmic Section</a>
+                  <a href="#">Development Section</a>
+                  <a href="#">Establishment Section</a>
+                  <a href="#">Examination Section</a>
+                  <a href="#">Finance Section</a>
+                  <a href="#">Secerecy Section</a>
+                  <a href="#">Equity Section</a>
+                  <a href="#">Stores & Purchase Section</a>
+                </ul>
+              </div>
+              <div className="links-1" style={{ marginTop: "0px" }}>
+                <ul>
+                  <a href="#">Board of Management</a>
+                  <a href="#">Academic Council</a>
+                  <a href="#">Board of Studies</a>
+                  <a href="#">Research Board</a>
+                  <a href="#">Computer Center</a>
+                  <a href="#">Internal Quality Assurance</a>
+                  <a href="#">Legal Call</a>
+                  <a href="#">Rajsabha Cell</a>
+                  <a href="#">Grievance Cell</a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="links-3">
+            <div className="useful">
+              <p
+                style={{
+                  color: "white",
+                  margin: "6px 0 10px 12px",
+                  fontSize: "20px",
+                }}
+              >
+                Most Useful Links
+              </p>
+              <ul
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "flex-start",
+                  paddingLeft: "0",
+                  marginLeft: "12px",
+                }}
+              >
+                <a href="#">University Iums</a>
+                <a href="#">Raj Bhawan Website</a>
+                <a href="#">E-learning & MOOC's</a>
+                <a href="#">Anti-Ragging Website</a>
+                <a href="#">Stakeholder's Feedback</a>
+              </ul>
+            </div>
+            <div
+              style={{
+                backgroundColor: "rgb(161, 180, 202)",
+                margin: "15px 0",
+                padding: "20px",
+              }}
+            >
+              <p>
+                For placement and <br />
+                Collaboration activities
+              </p>
+              <a href="#" className="tpolink">
+                Switch TO TPO Site
+              </a>
+            </div>
+          </div>
+        </div>
+        <Divider />
+      </div>
+      {/*end Shivam's Code*/}
     </Box>
   );
 
