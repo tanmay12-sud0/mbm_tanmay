@@ -6,7 +6,7 @@ import MainBody from "../components/ui/MainBody";
 
 // import Links from "../components/UI/Links";
 import BreadcrumbComponent from "../components/ui/CustomBreadcrumb";
-import RelatedLinks from "../components/ui/RelatedLinks";
+// import RelatedLinks from "../components/ui/RelatedLinks";
 import ArticleCard from "../components/ui/ArticleCard";
 
 function Home() {

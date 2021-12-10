@@ -1,0 +1,48 @@
+.news-heading {
+  font-size: 26px;
+  color: hsl(212, 40%, 27%);
+  font-family: Ubuntu;
+  font-weight: "500";
+  /* line-height: 1; */
+}
+.latest-heading {
+  font-size: 26px;
+  color: rgb(204, 12, 30);
+  font-family: Ubuntu;
+  font-weight: "500";
+  /* line-height: 1; */
+}
+
+/* @media screen and (max-width: 400px) {
+  .news-heading {
+    font-size: 12px;
+  }
+  .latest-heading {
+    font-size: 12px;
+  }
+} */
+@media only screen and (min-device-width: 400px) and (max-device-width: 780px) {
+  .news-heading {
+    font-size: 17px;
+  }
+  .latest-heading {
+    font-size: 17px;
+  }
+}
+@media screen and (min-device-width: 381px) and (max-device-width: 399px) and (-webkit-device-pixel-ratio: 2) {
+  .news-heading {
+    font-size: 8px;
+  }
+  .latest-heading {
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 820px) {
+  .news-heading {
+    font-size: 18px;
+  }
+  .latest-heading {
+    font-size: 18px;
+  }
+}
