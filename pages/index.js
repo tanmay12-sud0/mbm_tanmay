@@ -5,6 +5,7 @@ import VcDesk from "../components/ui/VcDesk";
 import MbmIntro from "../components/ui/MbmIntro";
 import HomePagePro from "../components/UI/HomePagePro";
 import YouAreLookingFor from "../components/UI/YouAreLookingFor";
+import ImageGrid from "../components/UI/ImageGrid";
 // import Abc from "../components/UI/abc";
 function home() {
   return (
@@ -17,6 +18,7 @@ function home() {
       <YouAreLookingFor></YouAreLookingFor>
       <HomePageCards />
       <HomePagePro />
+      <ImageGrid></ImageGrid>
       {/* <Abc /> */}
     </div>
   );
