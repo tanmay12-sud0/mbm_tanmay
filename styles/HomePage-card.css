@@ -46,3 +46,11 @@
     font-size: 18px;
   }
 }
+@media (max-width: 350px) {
+  .news-heading {
+    font-size: 8px;
+  }
+  .latest-heading {
+    font-size: 8px;
+  }
+}
