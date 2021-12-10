@@ -10,6 +10,7 @@
 .header-carousel {
   position: relative;
   height: var(--carousel-height);
+  margin-bottom: 30px;
 }
 
 .header-carousel-content {
@@ -38,7 +39,11 @@
   bottom: calc(var(--carousel-height) - var(--carousel-image-height));
   z-index: 2;
 }
-
+.headerBtn {
+  color: white;
+  margin-top: 30px;
+  border: 2px solid white;
+}
 .header-carousel-base {
   width: 98.5vw;
   height: var(--carousel-base-height);
@@ -65,10 +70,40 @@
   :root {
     --carousel-content-width: 90vw;
   }
-  .header-carousel-image {
-    display: none;
+  .header-carousel {
+    display: flex;
+    flex-flow: wrap;
+    position: initial;
+    margin-bottom: -30px;
   }
   .header-carousel-content {
-    left: 10px;
+    text-align: center;
+    position: initial;
+    z-index: auto;
+    margin: auto;
+  }
+  .header-carousel-image {
+    position: initial;
+    border: 3px solid var(--base-color);
+    width: 100%;
+    height: 250px;
+    z-index: auto;
+  }
+  .header-carousel-base {
+    background-color: transparent;
+    width: 100%;
+    position: initial;
+  }
+  .header-carousel-button {
+    position: initial;
+    display: grid;
+    place-items: center;
+  }
+  .header-carousel-content h2 {
+    font-size: 1.3rem;
+  }
+  .headerBtn {
+    color: var(--base-color);
+    border: 2px solid var(--base-color);
   }
 }

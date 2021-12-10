@@ -1,6 +1,6 @@
 import React from "react";
 
-function Mbmintro() {
+function MbmIntro() {
   return (
     <div>
       {" "}
@@ -91,4 +91,4 @@ function Mbmintro() {
   );
 }
 
-export default Mbmintro;
+export default MbmIntro;
