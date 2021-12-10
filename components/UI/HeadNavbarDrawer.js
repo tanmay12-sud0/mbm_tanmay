@@ -69,7 +69,7 @@ export default function HeadNavbarDrawer({ insideText }) {
         ))}
       </List> */}
 
-      {/* start Shivam's Code*/}
+      {/* start Drawer Code*/}
       <div className="head-drawer">
         <div className="headdrawer-top">
           <p className="explore-web">Explore Our Website..</p>
@@ -203,7 +203,7 @@ export default function HeadNavbarDrawer({ insideText }) {
         </div>
         <Divider />
       </div>
-      {/*end Shivam's Code*/}
+      {/*end Drawer Code*/}
     </Box>
   );
 
