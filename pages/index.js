@@ -1,8 +1,8 @@
 import React from "react";
 import HeaderCarousel from "../components/ui/HeaderCarousel";
 import HomePageCards from "../components/UI/HomePageCards";
-import Vcdesk from "../components/UI/Vcdesk";
-import Mbmintro from "../components/UI/Mbmintro";
+import VcDesk from "../components/ui/VcDesk";
+import MbmIntro from "../components/ui/MbmIntro";
 import HomePagePro from "../components/UI/HomePagePro";
 import YouAreLookingFor from "../components/UI/YouAreLookingFor";
 // import Abc from "../components/UI/abc";
@@ -11,8 +11,8 @@ function home() {
     <div>
       <HeaderCarousel />
       <div className="container">
-        <Mbmintro></Mbmintro>
-        <Vcdesk />
+        <MbmIntro></MbmIntro>
+        <VcDesk />
       </div>
       <YouAreLookingFor></YouAreLookingFor>
       <HomePageCards />

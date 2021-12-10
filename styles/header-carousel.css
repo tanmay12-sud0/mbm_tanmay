@@ -65,10 +65,31 @@
   :root {
     --carousel-content-width: 90vw;
   }
-  .header-carousel-image {
-    display: none;
+  .header-carousel {
+    display: flex;
+    flex-flow: wrap;
+    position: initial;
   }
   .header-carousel-content {
-    left: 10px;
+    text-align: center;
+    position: initial;
+    z-index: auto;
+    font-size: 2rem;
+  }
+  .header-carousel-image {
+    position: initial;
+    border: 3px solid var(--base-color);
+    width: 100vw;
+    z-index: auto;
+  }
+  .header-carousel-base {
+    background-color: transparent;
+    width: 100%;
+    position: initial;
+  }
+  .header-carousel-button {
+    position: initial;
+    display: grid;
+    place-items: center;
   }
 }
