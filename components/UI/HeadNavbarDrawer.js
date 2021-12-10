@@ -37,10 +37,10 @@ export default function HeadNavbarDrawer({ insideText }) {
   let drawerWidth = "auto";
   let anchor = "center";
   const isTabletOrMobileDevice = useMediaQuery({
-    query: "(max-device-width: 768px)",
+    query: "(max-device-width: 1078px)",
   });
   if (isTabletOrMobileDevice) {
-    drawerWidth = "250px";
+    drawerWidth = "300px";
     anchor = "left";
   }
 
@@ -84,7 +84,7 @@ export default function HeadNavbarDrawer({ insideText }) {
         ))}
       </List> */}
 
-      {/* start Drawer Code*/}
+      {/* start Drawer Code for laptop view*/}
       <div className="head-drawer">
         <div className="headdrawer-top">
           <p className="explore-web">Explore Our Website..</p>
@@ -161,8 +161,14 @@ export default function HeadNavbarDrawer({ insideText }) {
                 </a>
               </ul>
             </div>
-            <div style={{ display: "flex", flexDirection: "row" }}>
-              <div className="links-1" style={{ marginTop: "0px" }}>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "space-around",
+              }}
+            >
+              <div className="links-1 respo-1024" style={{ marginTop: "0px" }}>
                 <ul>
                   <a href="#">Chancler</a>
                   <a href="#">Vice Chancler</a>
@@ -249,7 +255,33 @@ export default function HeadNavbarDrawer({ insideText }) {
         </div>
         <Divider />
       </div>
-      {/*end Drawer Code*/}
+      {/*end Drawer Code for laptop view*/}
+
+      {/*  start Drawer Code for mobile view */}
+      <div className="respo-head-drawer">
+        <div className="headdrawer-top">
+          <p className="explore-web">Explore Our Website..</p>
+          <p
+            className="close-drawer"
+            style={{ diplay: "inline", marginTop: "15px" }}
+          >
+            <button
+              className="btn btn-primary"
+              style={{
+                fontSize: "20px",
+                padding: "0px 10px",
+                border: "2px solid white",
+                borderRadius: "0",
+              }}
+            >
+              &times;
+            </button>
+          </p>
+        </div>
+        <Divider style={{ color: "white" }} />
+        <div className="respo-dropdown"></div>
+      </div>
+      {/*  end Drawer Code for mobile view */}
     </Box>
   );
 
