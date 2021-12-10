@@ -113,11 +113,11 @@ function HomePageCards() {
               </Typography>
               <div
                 id="carouselExampleControls"
-                class="carousel slide"
+                className="carousel slide"
                 data-ride="carousel"
               >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
                     <div style={{ marginTop: "20px" }}>
                       <Avatar
                         alt="Remy Sharp"
@@ -151,7 +151,7 @@ function HomePageCards() {
                       </Typography>{" "}
                     </div>
                   </div>
-                  <div class="carousel-item">
+                  <div className="carousel-item">
                     <div style={{ marginTop: "20px" }}>
                       <Avatar
                         alt="Remy Sharp"
@@ -185,7 +185,7 @@ function HomePageCards() {
                       </Typography>{" "}
                     </div>
                   </div>
-                  <div class="carousel-item">
+                  <div className="carousel-item">
                     <div style={{ marginTop: "20px" }}>
                       <Avatar
                         alt="Remy Sharp"
@@ -221,17 +221,17 @@ function HomePageCards() {
                   </div>
                 </div>
                 <a
-                  class="carousel-control-prev"
+                  className="carousel-control-prev"
                   href="#carouselExampleControls"
                   role="button"
                   data-slide="prev"
                 >
                   <span
-                    class="carousel-control-prev-icon"
+                    className="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
                   <span
-                    class="sr-only"
+                    className="sr-only"
                     style={{
                       color: "red",
                       position: "absolute",
@@ -242,17 +242,17 @@ function HomePageCards() {
                   </span>
                 </a>
                 <a
-                  class="carousel-control-next"
+                  className="carousel-control-next"
                   href="#carouselExampleControls"
                   role="button"
                   data-slide="next"
                 >
                   <span
-                    class="carousel-control-next-icon"
+                    className="carousel-control-next-icon"
                     aria-hidden="true"
                   ></span>
                   <span
-                    class="sr-only"
+                    className="sr-only"
                     style={{
                       color: "red",
                       position: "absolute",

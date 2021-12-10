@@ -17,6 +17,9 @@ import {
 import { flexbox, height, margin, width } from "@mui/system";
 // import "./HeadNavbarDrawer.css";
 
+// Responsive
+import { useMediaQuery } from "react-responsive";
+
 const style = {
   backgroundColor: "rgb(46, 53, 62)",
   border: "0",
@@ -29,6 +32,18 @@ const style = {
 export default function HeadNavbarDrawer({ insideText }) {
   const [drawerIsOpen, setDrawerIsOpen] = React.useState(false);
 
+  // For responsive table
+  // edit width here
+  let drawerWidth = "auto";
+  let anchor = "center";
+  const isTabletOrMobileDevice = useMediaQuery({
+    query: "(max-device-width: 768px)",
+  });
+  if (isTabletOrMobileDevice) {
+    drawerWidth = "250px";
+    anchor = "left";
+  }
+
   const toggleDrawer = (open) => (event) => {
     if (
       event.type === "keydown" &&
@@ -40,9 +55,9 @@ export default function HeadNavbarDrawer({ insideText }) {
   };
 
   const list = () => (
-    //   TODO: EDIT Drawer here
+    // EDIT Drawer here
     <Box
-      sx={{ width: 500 }}
+      sx={{ width: drawerWidth }}
       role="presentation"
       onClick={toggleDrawer(false)}
       onKeyDown={toggleDrawer(false)}
@@ -243,7 +258,7 @@ export default function HeadNavbarDrawer({ insideText }) {
       <button onClick={toggleDrawer(true)} style={style}>
         {insideText}
       </button>
-      <Drawer anchor="top" open={drawerIsOpen} onClose={toggleDrawer(false)}>
+      <Drawer anchor={anchor} open={drawerIsOpen} onClose={toggleDrawer(false)}>
         {list()}
       </Drawer>
     </span>

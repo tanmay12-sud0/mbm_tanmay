@@ -43,9 +43,9 @@ function Home() {
             justifyContent: "center",
           }}
         >
-          <ArticleCard desc={data} />
-          <ArticleCard desc={data} />
-          <ArticleCard desc={data} />
+          <ArticleCard desc={data} key={1} />
+          <ArticleCard desc={data} key={2} />
+          <ArticleCard desc={data} key={3} />
         </div>
       </div>
     </>
