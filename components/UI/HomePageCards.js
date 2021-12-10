@@ -21,15 +21,8 @@ function HomePageCards() {
                     <span className="news-heading">NEWS</span>
                   </h1>
                 </div>
-                <div className="col-6" style={{ textAlign: "end" }}>
-                  <a
-                    href="#"
-                    style={{
-                      color: "#29425f",
-                      margin: "auto",
-                      fontSize: "19px",
-                    }}
-                  >
+                <div className="col-6 more-container">
+                  <a href="#" className="more-heading">
                     More &gt;
                   </a>
                 </div>
@@ -56,7 +49,7 @@ function HomePageCards() {
             sx={{ maxWidth: 495 }}
             style={{
               boxShadow: "0px 0px 0px 0px",
-              border: "3px dashed red",
+              border: "3px dashed rgb(204, 12, 30)",
               padding: "10px",
             }}
           >
@@ -113,7 +106,9 @@ function HomePageCards() {
                           Full Stack Developer
                         </p>
                       </div>
-                      <hr style={{ color: "red", height: "2px" }} />
+                      <hr
+                        style={{ color: "rgb(204, 12, 30)", height: "2px" }}
+                      />
                       <Typography
                         variant="body2"
                         color="text.secondary"
@@ -147,7 +142,9 @@ function HomePageCards() {
                           Full Stack Developer
                         </p>
                       </div>
-                      <hr style={{ color: "red", height: "2px" }} />
+                      <hr
+                        style={{ color: "rgb(204, 12, 30)", height: "2px" }}
+                      />
                       <Typography
                         variant="body2"
                         color="text.secondary"
@@ -181,7 +178,9 @@ function HomePageCards() {
                           Full Stack Developer
                         </p>
                       </div>
-                      <hr style={{ color: "red", height: "2px" }} />
+                      <hr
+                        style={{ color: "rgb(204, 12, 30)", height: "2px" }}
+                      />
                       <Typography
                         variant="body2"
                         color="text.secondary"
@@ -215,7 +214,7 @@ function HomePageCards() {
                   <span
                     className="sr-only"
                     style={{
-                      color: "red",
+                      color: "rgb(204, 12, 30)",
                       position: "absolute",
                       top: "93px",
                     }}
@@ -236,7 +235,7 @@ function HomePageCards() {
                   <span
                     className="sr-only"
                     style={{
-                      color: "red",
+                      color: "rgb(204, 12, 30)",
                       position: "absolute",
                       top: "93px",
                     }}
@@ -298,7 +297,7 @@ export default HomePageCards;
 //           <Card
 //             style={{
 //               width: "24rem",
-//               border: "3.5px dashed red",
+//               border: "3.5px dashed rgb(204, 12, 30)",
 //               // marginTop: "15px",
 //               height: "31rem",
 //               marginLeft: "0.1rem",
@@ -309,7 +308,7 @@ export default HomePageCards;
 //                 style={{
 //                   display: "flex",
 //                   justifyContent: "center",
-//                   color: "red",
+//                   color: "rgb(204, 12, 30)",
 
 //                   fontSize: "33px",
 //                   marginTop: "10px",
@@ -330,7 +329,7 @@ export default HomePageCards;
 //                   style={{
 //                     display: "flex",
 //                     justifyContent: "center",
-//                     color: "red",
+//                     color: "rgb(204, 12, 30)",
 
 //                     fontSize: "23px",
 //                     marginTop: "4px",
@@ -351,7 +350,7 @@ export default HomePageCards;
 //                 >
 //                   BE Second Year, CSE
 //                 </Card.Title>
-//                 <hr style={{ color: "red" }} />
+//                 <hr style={{ color: "rgb(204, 12, 30)" }} />
 //                 <Card.Text
 //                   style={{
 //                     display: "flex",

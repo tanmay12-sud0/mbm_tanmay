@@ -1,0 +1,28 @@
+.mbm-heading {
+  font-size: 5.4rem;
+  font-weight: bold;
+  color: rgb(204, 12, 30);
+  font-family: "Ubuntu";
+}
+.university-heading {
+  font-size: 5.4rem;
+  font-weight: bold;
+  color: blue;
+  font-family: "Ubuntu";
+}
+/* @media screen and (max-width: 500px) {
+  .mbm-heading {
+    font-size: 2rem;
+  }
+  .university-heading {
+    font-size: 2rem;
+  }
+} */
+@media screen and (max-width: 400px) {
+  .mbm-heading {
+    font-size: 1.5rem;
+  }
+  .university-heading {
+    font-size: 1.5rem;
+  }
+}
