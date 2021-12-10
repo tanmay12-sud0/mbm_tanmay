@@ -14,7 +14,7 @@ import {
   Rotate90DegreesCcwOutlined,
   Transform,
 } from "@mui/icons-material";
-import { flexbox, height, margin } from "@mui/system";
+import { flexbox, height, margin, width } from "@mui/system";
 // import "./HeadNavbarDrawer.css";
 
 const style = {
@@ -74,13 +74,24 @@ export default function HeadNavbarDrawer({ insideText }) {
         <div className="headdrawer-top">
           <p className="explore-web">Explore Our Website..</p>
           <p className="close-drawer">
-            click to close <button>&times;</button>
+            click to close{" "}
+            <button
+              className="btn btn-primary"
+              style={{
+                fontSize: "20px",
+                padding: "0px 10px",
+                border: "2px solid white",
+                borderRadius: "0",
+              }}
+            >
+              &times;
+            </button>
           </p>
         </div>
         <Divider style={{ color: "white" }} />
         <div className="links-box">
           <div className="links-1">
-            <ul>
+            <ul style={{ marginTop: "12px", marginLeft: "-30px" }}>
               <a href="#">Site Home</a>
               <a href="#">About MBM Univ</a>
               <a href="#">Vission & Mission</a>
@@ -95,25 +106,45 @@ export default function HeadNavbarDrawer({ insideText }) {
               <a href="#">Frequent Question</a>
             </ul>
           </div>
-          {/* <hr
+          <hr
             style={{
               width: "300px",
-              height: "2px",
+              height: "1px",
               transform: "rotate(90deg)",
-              marginTop: "100px",
+              marginTop: "160px",
+              marginLeft: "-130px",
+              marginRight: "-160px",
             }}
-          /> */}
+          />
           <div className="links-2">
             <div className="link-nav">
               <ul>
-                <a href="#">Acadmics</a>
-                <a href="#">Administration</a>
-                <a href="#">Committe</a>
-                <a href="#">Resources</a>
-                <a href="#">Important Links</a>
+                <a href="#">
+                  <hr className="link-nav-vhr" />
+                  Acadmics
+                  <hr className="link-nav-hhr" style={{ width: "95px" }} />
+                </a>
+                <a href="#">
+                  <hr className="link-nav-vhr" />
+                  Administration
+                  <hr className="link-nav-hhr" style={{ width: "125px" }} />
+                </a>
+                <a href="#">
+                  <hr className="link-nav-vhr" />
+                  Committe
+                  <hr className="link-nav-hhr" style={{ width: "95px" }} />
+                </a>
+                <a href="#">
+                  <hr className="link-nav-vhr" />
+                  Resources
+                  <hr className="link-nav-hhr" style={{ width: "95px" }} />
+                </a>
+                <a href="#">
+                  <hr className="link-nav-vhr" />
+                  Important Links
+                  <hr className="link-nav-hhr" style={{ width: "150px" }} />
+                </a>
               </ul>
-
-              {/* <Divider /> */}
             </div>
             <div style={{ display: "flex", flexDirection: "row" }}>
               <div className="links-1" style={{ marginTop: "0px" }}>
