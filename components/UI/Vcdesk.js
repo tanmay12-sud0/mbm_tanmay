@@ -36,7 +36,7 @@ function Vcdesk() {
                 fontFamily: "Ubuntu",
               }}
             >
-              Desk
+              Desk...
             </span>
           </h1>
 

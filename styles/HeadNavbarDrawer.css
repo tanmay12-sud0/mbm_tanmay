@@ -1,0 +1,110 @@
+.head-drawer {
+  background: rgb(46, 53, 62);
+  padding: 0 85px 40px 85px;
+  width: 100vw;
+  color: white;
+}
+.headdrawer-top {
+  display: flex;
+  flex-direction: row;
+}
+.explore-web {
+  font-size: 30px;
+  font-family: "Ubuntu";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  padding-top: 55px;
+}
+.close-drawer {
+  /* margin-top: 35px; */
+  position: absolute;
+  top: 35px;
+  right: 85px;
+}
+.close-drawer button {
+  background: rgb(46, 53, 62);
+  color: white;
+}
+.links-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+.links-1 {
+  display: flex;
+  flex-direction: column;
+}
+.links-1 ul {
+  display: flex;
+  flex-direction: column;
+
+  /* margin-top: 40px; */
+}
+.links-1 ul a {
+  text-decoration: none;
+  color: #c9c9c9;
+}
+.links-2 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.link-nav {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.link-nav ul {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 35px;
+}
+.link-nav ul a {
+  text-decoration: none;
+  color: white;
+  height: 35px;
+  padding: 0 15px 20px 0;
+}
+.link-nav ul a:hover {
+  color: red;
+}
+.link-nav-vhr {
+  width: 30px;
+  transform: rotate(90deg);
+  /* margin-left: -15px; */
+  margin: 16px -1px -17px -29px;
+}
+.link-nav-hhr {
+  margin-top: 7px;
+
+  margin-left: -15px;
+}
+.useful {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: solid 2px white;
+  padding: 5px 0px 0px 5px;
+  width: 200px;
+}
+.useful ul a {
+  text-decoration: none;
+  color: white;
+}
+.tpolink {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(46, 53, 62);
+  background: white;
+  margin-left: 0px;
+  padding: 6px 14px;
+}
+.btn-primary:hover {
+  background: none;
+}

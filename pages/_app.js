@@ -11,6 +11,7 @@ import "../styles/HomePage-card.css";
 import "../styles/announcements.css";
 import "../styles/article.css";
 import "../styles/ImageGrid.css";
+import "../styles/HeadNavbarDrawer.css";
 
 let data = {
   menus: [
