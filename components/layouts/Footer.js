@@ -15,7 +15,7 @@ export default function FooterCard({ menus }) {
         <div className="footer-middle">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-md-4">
+              <div className="col-lg-4 ">
                 <div className="footer-pad">
                   <img
                     src="https://res.cloudinary.com/dzsnoyohi/image/upload/v1636602578/samples/MBM_LOGO_fq7956.png"
@@ -74,7 +74,7 @@ export default function FooterCard({ menus }) {
                       </ul>
                     </div>
                   </div>
-                  <div className="col">
+                  <div className="col-md-4 col-12 ">
                     <div className="footer-pad">
                       <ul className="list-unstyled">
                         <li>
@@ -90,24 +90,21 @@ export default function FooterCard({ menus }) {
                           <p>Follow MBM University on</p>
                         </li>
                         <li>
-                          <div className="row">
-                            <div className="col">
-                              <a href="#">
-                                <FacebookIcon />
-                              </a>
-                            </div>
-                            <div className="col">
-                              <a href="#">
-                                <InstagramIcon />
-                              </a>
-                            </div>
-                            <div className="col">
-                              <a href="#">
-                                <TwitterIcon />
-                              </a>
-                            </div>
-                            <div className="col-md-6"></div>
-                          </div>
+                          <span style={{ marginRight: "10px" }}>
+                            <a href="#">
+                              <FacebookIcon />
+                            </a>
+                          </span>
+                          <span style={{ marginRight: "10px" }}>
+                            <a href="#">
+                              <InstagramIcon />
+                            </a>
+                          </span>
+                          <span style={{ marginRight: "10px" }}>
+                            <a href="#">
+                              <TwitterIcon />
+                            </a>
+                          </span>
                         </li>
                       </ul>
                     </div>
