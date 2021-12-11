@@ -14,9 +14,9 @@ import "../styles/announcements.css";
 import "../styles/article.css";
 import "../styles/ImageGrid.css";
 import "../styles/HeadNavbarDrawer.css";
-import "../styles/vcdesk.css";
+// import "../styles/vcdesk.css";
 
-import Head from "next/head";
+// import Head from "next/head";
 let data = {
   menus: [
     {
