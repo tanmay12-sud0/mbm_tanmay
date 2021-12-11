@@ -13,7 +13,7 @@ function VcDesk() {
           <h1 style={{ marginBottom: "30px" }}>
             <span
               style={{
-                fontSize: "1.8rem",
+                fontSize: "1.6rem",
                 fontWeight: "bold",
                 fontFamily: "Ubuntu",
               }}
@@ -22,9 +22,9 @@ function VcDesk() {
             </span>
             <span
               style={{
-                fontSize: "1.8rem",
+                fontSize: "1.6rem",
                 fontWeight: "bold",
-                color: "red",
+                color: "rgb(204, 12, 30)",
                 fontFamily: "Ubuntu",
               }}
             >
@@ -32,7 +32,7 @@ function VcDesk() {
             </span>{" "}
             <span
               style={{
-                fontSize: "1.8rem",
+                fontSize: "1.6rem",
                 fontWeight: "bold",
                 fontFamily: "Ubuntu",
               }}
@@ -50,7 +50,7 @@ function VcDesk() {
                     justifyContent: "center",
                     alignItems: "center",
                     margin: "auto",
-                    border: "4px solid #ef2727",
+                    border: "4px solid #cc0c1e",
                   }}
                   alt="vc avatar"
                   src="https://th.bing.com/th/id/OIP.wUk9lMqzmr9pthy8K3NHGwHaE2?pid=ImgDet&rs=1"
@@ -67,7 +67,7 @@ function VcDesk() {
                   <p
                     style={{
                       fontSize: "18px",
-                      color: "red",
+                      color: "rgb(204, 12, 30)",
                       marginBottom: "2px",
                       fontWeight: "bold",
                       marginTop: "6px",
@@ -136,7 +136,7 @@ function VcDesk() {
                   style={{
                     fontSize: "1.8rem",
                     fontWeight: "bold",
-                    color: "red",
+                    color: "rgb(204, 12, 30)",
                     fontFamily: "Ubuntu",
                   }}
                 >
@@ -155,14 +155,14 @@ function VcDesk() {
               <Card sx={{ width: "100%" }}>
                 <CardMedia
                   style={{
-                    border: "5px solid #ef2727",
+                    border: "5px solid #cc0c1e",
                   }}
                   component="img"
                   height="250"
                   image="https://th.bing.com/th/id/OIP.wUk9lMqzmr9pthy8K3NHGwHaE2?pid=ImgDet&rs=1"
                   alt="green iguana"
                 />
-                <CardContent style={{ backgroundColor: "#ef2727" }}>
+                <CardContent style={{ backgroundColor: "#cc0c1e" }}>
                   <Typography variant="body2" color="white">
                     Lizards are a widespread group of squamate reptiles, with
                     over 6,000 species, ranging across all continents except
