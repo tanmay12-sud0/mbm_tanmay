@@ -71,7 +71,7 @@
   height: 35px;
   padding: 0 15px 20px 0;
 }
-.link-nav ul a:hover {
+.link-nav ul a:active {
   color: red;
 }
 .link-nav-vhr {
@@ -107,4 +107,28 @@
 }
 .btn-primary:hover {
   background: none;
+}
+
+/* styling for mobile mode */
+
+.respo-head-drawer {
+  display: none;
+  background: rgb(46, 53, 62);
+  height: 100vh;
+}
+
+@media screen and (max-width: 1078px) {
+  .respo-head-drawer {
+    display: block;
+  }
+  .head-drawer {
+    display: none;
+  }
+  .explore-web {
+    font-size: 18px;
+  }
+  .btn-primary {
+    position: absolute;
+    left: 35px;
+  }
 }
