@@ -7,6 +7,7 @@ import { Dropdown, DropdownButton, DropdownProps } from "react-bootstrap";
 
 // Responsive
 import { useMediaQuery } from "react-responsive";
+import { margin } from "@mui/system";
 
 const style = {
   backgroundColor: "rgb(46, 53, 62)",
@@ -28,7 +29,7 @@ export default function HeadNavbarDrawer({ insideText }) {
     query: "(max-device-width: 1078px)",
   });
   if (isTabletOrMobileDevice) {
-    drawerWidth = "300px";
+    drawerWidth = "320px";
     anchor = "left";
   }
 
@@ -95,10 +96,11 @@ export default function HeadNavbarDrawer({ insideText }) {
         <Divider style={{ color: "white" }} />
         <div className="links-box">
           <div className="links-1">
-            <ul style={{ marginTop: "12px", marginLeft: "-30px" }}>
-              <a href="https://mui.com/components/drawers/#main-content">
-                Site Home
-              </a>
+            <ul
+              style={{ marginTop: "12px", marginLeft: "-30px" }}
+              className="links-link-1"
+            >
+              <a href="#">Site Home</a>
               <a href="#">About MBM Univ</a>
               <a href="#">Vission & Mission</a>
               <a href="#">Campus & Infra</a>
@@ -153,13 +155,14 @@ export default function HeadNavbarDrawer({ insideText }) {
               </ul>
             </div>
             <div
+              className="respo-1024"
               style={{
                 display: "flex",
                 flexDirection: "row",
                 justifyContent: "space-around",
               }}
             >
-              <div className="links-1 respo-1024" style={{ marginTop: "0px" }}>
+              <div className="links-1 " style={{ marginTop: "0px" }}>
                 <ul>
                   <a href="#">Chancler</a>
                   <a href="#">Vice Chancler</a>
@@ -204,7 +207,7 @@ export default function HeadNavbarDrawer({ insideText }) {
             <div className="useful">
               <p
                 style={{
-                  color: "white",
+                  color: "rgb(192, 208, 227)",
                   margin: "6px 0 10px 12px",
                   fontSize: "20px",
                 }}
@@ -229,21 +232,20 @@ export default function HeadNavbarDrawer({ insideText }) {
             </div>
             <div
               style={{
-                backgroundColor: "rgb(161, 180, 202)",
+                backgroundImage:
+                  "-webkit-linear-gradient( 90deg, rgb(98,119,146) 0%, rgb(136,162,192) 100%)",
                 margin: "15px 0",
                 padding: "20px",
+                border: " solid 1px rgb(192, 208, 227)",
+                borderRadius: "2px",
               }}
             >
               <p>
                 For placement and <br />
                 Collaboration activities
               </p>
-              <a
-                href="#"
-                className="tpolink"
-                style={{ color: "rgb(46,53,62)" }}
-              >
-                Switch TO TPO Site
+              <a href="#" className="tpolink">
+                Switch to TPO Website
               </a>
             </div>
           </div>
@@ -280,11 +282,10 @@ export default function HeadNavbarDrawer({ insideText }) {
             className="respo-ul"
             style={{ display: "flex", flexDirection: "column" }}
           >
-            <a href="https://mui.com/components/drawers/#main-content">
-              Site Home
-            </a>
+            <a href="#">Site Home</a>
+            <a href="#">About MBM </a>
             <a href="#" style={{ display: "flex", flexDirection: "row" }}>
-              Acadmics{" "}
+              Useful links
               <Dropdown>
                 <Dropdown.Toggle
                   variant="none"
@@ -293,52 +294,74 @@ export default function HeadNavbarDrawer({ insideText }) {
                     color: "white",
                     margin: "0px",
                     border: "none",
-                    padding: "0 15px",
+                    padding: "0 20px",
                   }}
                 ></Dropdown.Toggle>
 
-                <Dropdown.Menu>
-                  <Dropdown.Item
-                    href="#/action-1"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
-                    Action
-                  </Dropdown.Item>{" "}
-                  <Dropdown.Item
-                    href="#/action-2"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                <Dropdown.Menu className="dropdown-box">
+                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-2">
                     Another action
                   </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-3"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                  <hr className="drop-hr" />
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-3">
                     Something else
                   </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-1"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
-                    Action
-                  </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-2"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-2">
                     Another action
                   </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-3"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-3">
                     Something else
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             </a>
             <a href="#" style={{ display: "flex", flexDirection: "row" }}>
-              Administration{" "}
+              Acadmics
+              <Dropdown>
+                <Dropdown.Toggle
+                  variant="none"
+                  id="dropdown-basic"
+                  style={{
+                    color: "white",
+                    margin: "0px",
+                    border: "none",
+                    padding: "0 20px",
+                  }}
+                ></Dropdown.Toggle>
+
+                <Dropdown.Menu className="dropdown-box">
+                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-2">
+                    Another action
+                  </Dropdown.Item>
+                  <hr className="drop-hr" />
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-3">
+                    Something else
+                  </Dropdown.Item>
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-2">
+                    Another action
+                  </Dropdown.Item>
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-3">
+                    Something else
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </a>
+            <a href="#" style={{ display: "flex", flexDirection: "row" }}>
+              Administration
               <Dropdown>
                 <Dropdown.Toggle
                   variant="none"
@@ -351,41 +374,27 @@ export default function HeadNavbarDrawer({ insideText }) {
                   }}
                 ></Dropdown.Toggle>
 
-                <Dropdown.Menu>
-                  <Dropdown.Item
-                    href="#/action-1"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
-                    Action
-                  </Dropdown.Item>{" "}
-                  <Dropdown.Item
-                    href="#/action-2"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                <Dropdown.Menu
+                  className="dropdown-box"
+                  style={{ marginLeft: "0px" }}
+                >
+                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-2">
                     Another action
                   </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-3"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-3">
                     Something else
                   </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-1"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
-                    Action
-                  </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-2"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-2">
                     Another action
                   </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-3"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-3">
                     Something else
                   </Dropdown.Item>
                 </Dropdown.Menu>
@@ -405,41 +414,24 @@ export default function HeadNavbarDrawer({ insideText }) {
                   }}
                 ></Dropdown.Toggle>
 
-                <Dropdown.Menu>
-                  <Dropdown.Item
-                    href="#/action-1"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
-                    Action
-                  </Dropdown.Item>{" "}
-                  <Dropdown.Item
-                    href="#/action-2"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                <Dropdown.Menu className="dropdown-box">
+                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-2">
                     Another action
                   </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-3"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-3">
                     Something else
                   </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-1"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
-                    Action
-                  </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-2"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-2">
                     Another action
                   </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-3"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-3">
                     Something else
                   </Dropdown.Item>
                 </Dropdown.Menu>
@@ -459,41 +451,24 @@ export default function HeadNavbarDrawer({ insideText }) {
                   }}
                 ></Dropdown.Toggle>
 
-                <Dropdown.Menu>
-                  <Dropdown.Item
-                    href="#/action-1"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
-                    Action
-                  </Dropdown.Item>{" "}
-                  <Dropdown.Item
-                    href="#/action-2"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                <Dropdown.Menu className="dropdown-box">
+                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-2">
                     Another action
                   </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-3"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-3">
                     Something else
                   </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-1"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
-                    Action
-                  </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-2"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-2">
                     Another action
                   </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-3"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-3">
                     Something else
                   </Dropdown.Item>
                 </Dropdown.Menu>
@@ -513,51 +488,32 @@ export default function HeadNavbarDrawer({ insideText }) {
                   }}
                 ></Dropdown.Toggle>
 
-                <Dropdown.Menu>
-                  <Dropdown.Item
-                    href="#/action-1"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
-                    Action
-                  </Dropdown.Item>{" "}
-                  <Dropdown.Item
-                    href="#/action-2"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                <Dropdown.Menu className="dropdown-box">
+                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-2">
                     Another action
                   </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-3"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-3">
                     Something else
                   </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-1"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
-                    Action
-                  </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-2"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-2">
                     Another action
                   </Dropdown.Item>
-                  <Dropdown.Item
-                    href="#/action-3"
-                    style={{ color: "rgb(46,53,62)" }}
-                  >
+                  <hr className="drop-hr" />
+                  <Dropdown.Item href="#/action-3">
                     Something else
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             </a>
             <a href="#" style={{ display: "flex", flexDirection: "row" }}>
-              Cells{" "}
+              Cells
             </a>
-            <a href="#">Important Links</a>
-            <a href="#">Administration</a>
             <a href="#">Committe</a>
             <a href="#">Resources</a>
             <a href="#">Authorities</a>
@@ -596,11 +552,12 @@ export default function HeadNavbarDrawer({ insideText }) {
             </div> */}
             <div
               style={{
-                backgroundColor: "rgb(161, 180, 202)",
+                backgroundImage:
+                  " -webkit-linear-gradient( 90deg, rgb(98,119,146) 0%, rgb(136,162,192) 100%)",
                 margin: "15px 30px",
                 padding: "20px",
-                width: "200px",
-                fontSize: "16px",
+                width: "220px",
+                fontSize: "15px",
               }}
             >
               <p>
@@ -608,7 +565,7 @@ export default function HeadNavbarDrawer({ insideText }) {
                 Collaboration activities
               </p>
               <a href="#" className="tpolink">
-                Switch TO TPO Site
+                Switch to TPO Website
               </a>
             </div>
           </div>
