@@ -30,7 +30,7 @@ export const HeadContactPopup = () => {
               style={{
                 fontSize: "1rem",
                 fontWeight: "bold",
-                color: "red",
+                color: "rgb(204, 12, 30)",
               }}
             >
               CONTACT
@@ -60,7 +60,9 @@ export const HeadContactPopup = () => {
                   >
                     <span>
                       VICE CHANCELLOR's SECRETARIAT{" "}
-                      <small style={{ color: "red" }}>[more info]</small>
+                      <small style={{ color: "rgb(204, 12, 30)" }}>
+                        [more info]
+                      </small>
                     </span>{" "}
                   </p>
                   <p
@@ -70,9 +72,10 @@ export const HeadContactPopup = () => {
                       color: "#29425f",
                     }}
                   >
-                    <span style={{ color: "red" }}>T:</span>{" "}
+                    <span style={{ color: "rgb(204, 12, 30)" }}>T:</span>{" "}
                     <span>
-                      +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
+                      +91-291-2514790{" "}
+                      <span style={{ color: "rgb(204, 12, 30)" }}>E:</span>{" "}
                       vc@mbm.ac.in
                     </span>
                   </p>
@@ -88,7 +91,10 @@ export const HeadContactPopup = () => {
                   >
                     <span>
                       REGISTRAR'S OFFICE
-                      <small style={{ color: "red" }}> [more info]</small>
+                      <small style={{ color: "rgb(204, 12, 30)" }}>
+                        {" "}
+                        [more info]
+                      </small>
                     </span>{" "}
                   </p>
                   <p
@@ -98,9 +104,10 @@ export const HeadContactPopup = () => {
                       color: "#29425f",
                     }}
                   >
-                    <span style={{ color: "red" }}>T:</span>{" "}
+                    <span style={{ color: "rgb(204, 12, 30)" }}>T:</span>{" "}
                     <span>
-                      +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
+                      +91-291-2514790{" "}
+                      <span style={{ color: "rgb(204, 12, 30)" }}>E:</span>{" "}
                       registrar@mbm.ac.in
                     </span>
                   </p>
@@ -116,7 +123,10 @@ export const HeadContactPopup = () => {
                   >
                     <span>
                       PUBLIC RELATION'S OFFICE
-                      <small style={{ color: "red" }}> [more info]</small>
+                      <small style={{ color: "rgb(204, 12, 30)" }}>
+                        {" "}
+                        [more info]
+                      </small>
                     </span>{" "}
                   </p>
                   <p
@@ -126,9 +136,10 @@ export const HeadContactPopup = () => {
                       color: "#29425f",
                     }}
                   >
-                    <span style={{ color: "red" }}>T:</span>{" "}
+                    <span style={{ color: "rgb(204, 12, 30)" }}>T:</span>{" "}
                     <span>
-                      +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
+                      +91-291-2514790{" "}
+                      <span style={{ color: "rgb(204, 12, 30)" }}>E:</span>{" "}
                       pro@mbm.ac.in
                     </span>
                   </p>
@@ -144,7 +155,10 @@ export const HeadContactPopup = () => {
                   >
                     <span>
                       DEAN (STUDENT AFFAIRS)
-                      <small style={{ color: "red" }}> [more info]</small>
+                      <small style={{ color: "rgb(204, 12, 30)" }}>
+                        {" "}
+                        [more info]
+                      </small>
                     </span>{" "}
                   </p>
                   <p
@@ -154,9 +168,10 @@ export const HeadContactPopup = () => {
                       color: "#29425f",
                     }}
                   >
-                    <span style={{ color: "red" }}>T:</span>{" "}
+                    <span style={{ color: "rgb(204, 12, 30)" }}>T:</span>{" "}
                     <span>
-                      +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
+                      +91-291-2514790{" "}
+                      <span style={{ color: "rgb(204, 12, 30)" }}>E:</span>{" "}
                       dean.sa@mbm.ac.in
                     </span>
                   </p>
@@ -172,7 +187,10 @@ export const HeadContactPopup = () => {
                   >
                     <span>
                       CHIEF PROCTOR
-                      <small style={{ color: "red" }}> [more info]</small>
+                      <small style={{ color: "rgb(204, 12, 30)" }}>
+                        {" "}
+                        [more info]
+                      </small>
                     </span>{" "}
                   </p>
                   <p
@@ -182,9 +200,10 @@ export const HeadContactPopup = () => {
                       color: "#29425f",
                     }}
                   >
-                    <span style={{ color: "red" }}>T:</span>{" "}
+                    <span style={{ color: "rgb(204, 12, 30)" }}>T:</span>{" "}
                     <span>
-                      +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
+                      +91-291-2514790{" "}
+                      <span style={{ color: "rgb(204, 12, 30)" }}>E:</span>{" "}
                       proctor@mbm.ac.in
                     </span>
                   </p>
@@ -207,7 +226,8 @@ export const HeadContactPopup = () => {
                         margin: "0px",
                       }}
                     >
-                      POSTAL <span style={{ color: "red" }}>ADDRESS</span>
+                      POSTAL{" "}
+                      <span style={{ color: "rgb(204, 12, 30)" }}>ADDRESS</span>
                     </p>
                     <p
                       style={{
@@ -222,7 +242,7 @@ export const HeadContactPopup = () => {
                       style={{
                         fontSize: "1rem",
 
-                        color: "red",
+                        color: "rgb(204, 12, 30)",
                         marginBottom: "0px",
                       }}
                     >
@@ -245,7 +265,8 @@ export const HeadContactPopup = () => {
                         marginBottom: "0px",
                       }}
                     >
-                      Office <span style={{ color: "red" }}>TIMINGS</span>
+                      Office{" "}
+                      <span style={{ color: "rgb(204, 12, 30)" }}>TIMINGS</span>
                     </p>
                     <p
                       style={{
@@ -261,7 +282,7 @@ export const HeadContactPopup = () => {
                       style={{
                         fontSize: "1rem",
 
-                        color: "red",
+                        color: "rgb(204, 12, 30)",
                         marginBottom: "0px",
                       }}
                     >
@@ -284,7 +305,8 @@ export const HeadContactPopup = () => {
                         marginBottom: "0px",
                       }}
                     >
-                      ONLINE <span style={{ color: "red" }}>LINKS</span>
+                      ONLINE{" "}
+                      <span style={{ color: "rgb(204, 12, 30)" }}>LINKS</span>
                     </p>
                     <p
                       style={{
@@ -298,7 +320,7 @@ export const HeadContactPopup = () => {
                     <p
                       style={{
                         fontSize: "1rem",
-                        color: "red",
+                        color: "rgb(204, 12, 30)",
                         marginBottom: "0px",
                       }}
                     >

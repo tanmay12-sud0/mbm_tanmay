@@ -10,9 +10,18 @@
   color: rgb(204, 12, 30);
   font-family: Ubuntu;
   font-weight: "500";
-  /* line-height: 1; */
 }
-
+.more-heading {
+  color: #29425f;
+  margin: auto;
+  font-size: 17px;
+  line-height: 1;
+}
+.more-container {
+  text-align: right;
+  /* margin-top: 2px; */
+  font-size: 25px;
+}
 /* @media screen and (max-width: 400px) {
   .news-heading {
     font-size: 12px;
@@ -28,13 +37,11 @@
   .latest-heading {
     font-size: 17px;
   }
-}
-@media screen and (min-device-width: 381px) and (max-device-width: 399px) and (-webkit-device-pixel-ratio: 2) {
-  .news-heading {
-    font-size: 8px;
+  .more-heading {
+    font-size: 17px;
   }
-  .latest-heading {
-    font-size: 8px;
+  .more-container {
+    margin-top: -6px;
   }
 }
 
@@ -44,5 +51,37 @@
   }
   .latest-heading {
     font-size: 18px;
+  }
+  .more-container {
+    margin-top: -4px;
+  }
+}
+@media (max-width: 350px) {
+  .news-heading {
+    font-size: 16px;
+  }
+  .latest-heading {
+    font-size: 16px;
+  }
+  .app {
+    display: none;
+  }
+  .more-heading {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .more-container {
+    margin-top: -6px;
+  }
+}
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+  .news-heading {
+    font-size: 8px;
+  }
+  .latest-heading {
+    font-size: 18px;
+  }
+  .more-container {
+    margin-top: -4px;
   }
 }

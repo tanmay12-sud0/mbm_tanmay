@@ -15,7 +15,9 @@ const HeaderCarousel = () => {
       <div className="header-carousel-content">
         <h2>
           74th Foundation Day Celebration{" "}
-          <span style={{ color: "red", fontFamily: "Ubuntu" }}>@MBM</span>
+          <span style={{ color: "rgb(204, 12, 30)", fontFamily: "Ubuntu" }}>
+            @MBM
+          </span>
         </h2>
         <hr />
         {!isTabletOrMobileDevice && (
