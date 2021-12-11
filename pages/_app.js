@@ -13,7 +13,7 @@ import "../styles/announcements.css";
 import "../styles/article.css";
 import "../styles/ImageGrid.css";
 import "../styles/HeadNavbarDrawer.css";
-import Head from "next/head";
+
 let data = {
   menus: [
     {

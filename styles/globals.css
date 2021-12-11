@@ -234,3 +234,8 @@ h6 {
 .css-n6v7qi-MuiPaper-root-MuiDrawer-paper {
   background-color: transparent;
 }
+.carousel-indicators {
+  margin: 0px;
+  height: 0px;
+  border-radius: 50px 50px !important;
+}
