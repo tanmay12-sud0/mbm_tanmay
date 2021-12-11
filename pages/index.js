@@ -7,7 +7,7 @@ import HomePagePro from "../components/UI/HomePagePro";
 import YouAreLookingFor from "../components/UI/YouAreLookingFor";
 import ImageGrid from "../components/UI/ImageGrid";
 // import Abc from "../components/UI/abc";
-import { Carousel, Dropdown } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 function home() {
   return (
     <div>
@@ -27,17 +27,7 @@ function home() {
           <HeaderCarousel title="72th Foundation Day Celebration " />
         </Carousel.Item>
       </Carousel>
-      <Dropdown>
-        <Dropdown.Toggle variant="success" id="dropdown-basic">
-          Dropdown Button
-        </Dropdown.Toggle>
 
-        <Dropdown.Menu>
-          <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-        </Dropdown.Menu>
-      </Dropdown>
       <div className="container">
         <MbmIntro></MbmIntro>
         <VcDesk />
