@@ -114,7 +114,17 @@
 .respo-head-drawer {
   display: none;
   background: rgb(46, 53, 62);
-  height: 100vh;
+  /* height: 100vh; */
+
+  padding-bottom: 10px;
+}
+.respo-dropdown {
+  margin-top: 10px;
+}
+.respo-ul a {
+  text-decoration: none;
+  color: white;
+  padding: 2px 0;
 }
 
 @media screen and (max-width: 1078px) {
@@ -124,8 +134,12 @@
   .head-drawer {
     display: none;
   }
+  .tpolink {
+    color: rgb(46, 53, 62);
+  }
   .explore-web {
     font-size: 18px;
+    margin: -30px 10px 20px 10px;
   }
   .btn-primary {
     position: absolute;

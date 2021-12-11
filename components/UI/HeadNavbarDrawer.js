@@ -3,6 +3,7 @@ import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import Divider from "@mui/material/Divider";
 // import "./HeadNavbarDrawer.css";
+import { Dropdown, DropdownButton, DropdownProps } from "react-bootstrap";
 
 // Responsive
 import { useMediaQuery } from "react-responsive";
@@ -27,7 +28,7 @@ export default function HeadNavbarDrawer({ insideText }) {
     query: "(max-device-width: 1078px)",
   });
   if (isTabletOrMobileDevice) {
-    drawerWidth = "320px";
+    drawerWidth = "300px";
     anchor = "left";
   }
 
@@ -234,7 +235,11 @@ export default function HeadNavbarDrawer({ insideText }) {
                 For placement and <br />
                 Collaboration activities
               </p>
-              <a href="#" className="tpolink">
+              <a
+                href="#"
+                className="tpolink"
+                style={{ color: "rgb(46,53,62)" }}
+              >
                 Switch TO TPO Site
               </a>
             </div>
@@ -250,7 +255,7 @@ export default function HeadNavbarDrawer({ insideText }) {
           <p className="explore-web">Explore Our Website..</p>
           <p
             className="close-drawer"
-            style={{ diplay: "inline", marginTop: "15px" }}
+            style={{ diplay: "inline", marginTop: "-15px" }}
           >
             <button
               className="btn btn-primary"
@@ -266,7 +271,342 @@ export default function HeadNavbarDrawer({ insideText }) {
           </p>
         </div>
         <Divider style={{ color: "white" }} />
-        <div className="respo-dropdown"></div>
+        <div className="respo-dropdown">
+          <ul
+            className="respo-ul"
+            style={{ display: "flex", flexDirection: "column" }}
+          >
+            <a href="#">Site Home</a>
+            <a href="#" style={{ display: "flex", flexDirection: "row" }}>
+              Acadmics{" "}
+              <Dropdown>
+                <Dropdown.Toggle
+                  variant="none"
+                  id="dropdown-basic"
+                  style={{
+                    color: "white",
+                    margin: "0px",
+                    border: "none",
+                    padding: "0 15px",
+                  }}
+                ></Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item
+                    href="#/action-1"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Action
+                  </Dropdown.Item>{" "}
+                  <Dropdown.Item
+                    href="#/action-2"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Another action
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-3"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Something else
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-1"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Action
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-2"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Another action
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-3"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Something else
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </a>
+            <a href="#" style={{ display: "flex", flexDirection: "row" }}>
+              Administration{" "}
+              <Dropdown>
+                <Dropdown.Toggle
+                  variant="none"
+                  id="dropdown-basic"
+                  style={{
+                    color: "white",
+                    margin: "0px",
+                    border: "none",
+                    padding: "0 15px",
+                  }}
+                ></Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item
+                    href="#/action-1"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Action
+                  </Dropdown.Item>{" "}
+                  <Dropdown.Item
+                    href="#/action-2"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Another action
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-3"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Something else
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-1"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Action
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-2"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Another action
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-3"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Something else
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </a>
+            <a href="#" style={{ display: "flex", flexDirection: "row" }}>
+              Committe
+              <Dropdown>
+                <Dropdown.Toggle
+                  variant="none"
+                  id="dropdown-basic"
+                  style={{
+                    color: "white",
+                    margin: "0px",
+                    border: "none",
+                    padding: "0 15px",
+                  }}
+                ></Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item
+                    href="#/action-1"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Action
+                  </Dropdown.Item>{" "}
+                  <Dropdown.Item
+                    href="#/action-2"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Another action
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-3"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Something else
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-1"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Action
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-2"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Another action
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-3"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Something else
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </a>
+            <a href="#" style={{ display: "flex", flexDirection: "row" }}>
+              Authorities
+              <Dropdown>
+                <Dropdown.Toggle
+                  variant="none"
+                  id="dropdown-basic"
+                  style={{
+                    color: "white",
+                    margin: "0px",
+                    border: "none",
+                    padding: "0 15px",
+                  }}
+                ></Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item
+                    href="#/action-1"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Action
+                  </Dropdown.Item>{" "}
+                  <Dropdown.Item
+                    href="#/action-2"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Another action
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-3"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Something else
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-1"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Action
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-2"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Another action
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-3"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Something else
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </a>
+            <a href="#" style={{ display: "flex", flexDirection: "row" }}>
+              Sections
+              <Dropdown>
+                <Dropdown.Toggle
+                  variant="none"
+                  id="dropdown-basic"
+                  style={{
+                    color: "white",
+                    margin: "0px",
+                    border: "none",
+                    padding: "0 15px",
+                  }}
+                ></Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item
+                    href="#/action-1"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Action
+                  </Dropdown.Item>{" "}
+                  <Dropdown.Item
+                    href="#/action-2"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Another action
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-3"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Something else
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-1"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Action
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-2"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Another action
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="#/action-3"
+                    style={{ color: "rgb(46,53,62)" }}
+                  >
+                    Something else
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </a>
+            <a href="#" style={{ display: "flex", flexDirection: "row" }}>
+              Cells{" "}
+            </a>
+            <a href="#">Important Links</a>
+            <a href="#">Administration</a>
+            <a href="#">Committe</a>
+            <a href="#">Resources</a>
+            <a href="#">Authorities</a>
+            <a href="#">Sections</a>
+            <a href="#">Cells</a>
+            <a href="#">Rajbhawan Website</a>
+            <a href="#">E-Learning & MOOC's</a>
+          </ul>
+
+          <div className="links-3">
+            {/* <div className="useful" style={{ width: "200px" }}>
+              <p
+                style={{
+                  color: "white",
+                  margin: "3px 0 10px 6px",
+                  fontSize: "16px",
+                }}
+              >
+                Most Useful Links
+              </p>
+              <ul
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "flex-start",
+                  paddingLeft: "0",
+                  marginLeft: "12px",
+                }}
+              >
+                <a href="#">University Iums</a>
+                <a href="#">Raj Bhawan Website</a>
+                <a href="#">E-learning & MOOC's</a>
+                <a href="#">Anti-Ragging Website</a>
+                <a href="#">Stakeholder's Feedback</a>
+              </ul>
+            </div> */}
+            <div
+              style={{
+                backgroundColor: "rgb(161, 180, 202)",
+                margin: "15px 30px",
+                padding: "20px",
+                width: "200px",
+                fontSize: "16px",
+              }}
+            >
+              <p>
+                For placement and <br />
+                Collaboration activities
+              </p>
+              <a href="#" className="tpolink">
+                Switch TO TPO Site
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
       {/*  end Drawer Code for mobile view */}
     </Box>
