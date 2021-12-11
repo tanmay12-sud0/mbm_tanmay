@@ -47,7 +47,7 @@ export default function HeadNavbarDrawer({ insideText }) {
     <Box
       sx={{ width: drawerWidth }}
       role="presentation"
-      onClick={toggleDrawer(false)}
+      // onClick={toggleDrawer(false)}
       onKeyDown={toggleDrawer(false)}
     >
       {/* <List>
@@ -80,6 +80,7 @@ export default function HeadNavbarDrawer({ insideText }) {
             click to close{" "}
             <button
               className="btn btn-primary"
+              onClick={toggleDrawer(false)}
               style={{
                 fontSize: "20px",
                 padding: "0px 10px",
@@ -95,7 +96,9 @@ export default function HeadNavbarDrawer({ insideText }) {
         <div className="links-box">
           <div className="links-1">
             <ul style={{ marginTop: "12px", marginLeft: "-30px" }}>
-              <a href="#">Site Home</a>
+              <a href="https://mui.com/components/drawers/#main-content">
+                Site Home
+              </a>
               <a href="#">About MBM Univ</a>
               <a href="#">Vission & Mission</a>
               <a href="#">Campus & Infra</a>
@@ -259,6 +262,7 @@ export default function HeadNavbarDrawer({ insideText }) {
           >
             <button
               className="btn btn-primary"
+              onClick={toggleDrawer(false)}
               style={{
                 fontSize: "20px",
                 padding: "0px 10px",
@@ -276,7 +280,9 @@ export default function HeadNavbarDrawer({ insideText }) {
             className="respo-ul"
             style={{ display: "flex", flexDirection: "column" }}
           >
-            <a href="#">Site Home</a>
+            <a href="https://mui.com/components/drawers/#main-content">
+              Site Home
+            </a>
             <a href="#" style={{ display: "flex", flexDirection: "row" }}>
               Acadmics{" "}
               <Dropdown>
