@@ -35,7 +35,7 @@ export default function Header({ menus, globalVariables }) {
                 style={{
                   fontSize: "1rem",
                   fontWeight: "bold",
-                  color: "red",
+                  color: "#cc0c1e",
                 }}
               >
                 CONTACT
@@ -65,7 +65,7 @@ export default function Header({ menus, globalVariables }) {
                     >
                       <span>
                         VICE CHANCELLOR's SECRETARIAT{" "}
-                        <small style={{ color: "red" }}>[more info]</small>
+                        <small style={{ color: "#cc0c1e" }}>[more info]</small>
                       </span>{" "}
                     </p>
                     <p
@@ -75,9 +75,10 @@ export default function Header({ menus, globalVariables }) {
                         color: "#29425f",
                       }}
                     >
-                      <span style={{ color: "red" }}>T:</span>{" "}
+                      <span style={{ color: "#cc0c1e" }}>T:</span>{" "}
                       <span>
-                        +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
+                        +91-291-2514790{" "}
+                        <span style={{ color: "#cc0c1e" }}>E:</span>{" "}
                         vc@mbm.ac.in
                       </span>
                     </p>
@@ -93,7 +94,7 @@ export default function Header({ menus, globalVariables }) {
                     >
                       <span>
                         REGISTRAR'S OFFICE
-                        <small style={{ color: "red" }}> [more info]</small>
+                        <small style={{ color: "#cc0c1e" }}> [more info]</small>
                       </span>{" "}
                     </p>
                     <p
@@ -103,9 +104,10 @@ export default function Header({ menus, globalVariables }) {
                         color: "#29425f",
                       }}
                     >
-                      <span style={{ color: "red" }}>T:</span>{" "}
+                      <span style={{ color: "#cc0c1e" }}>T:</span>{" "}
                       <span>
-                        +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
+                        +91-291-2514790{" "}
+                        <span style={{ color: "#cc0c1e" }}>E:</span>{" "}
                         registrar@mbm.ac.in
                       </span>
                     </p>
@@ -121,7 +123,7 @@ export default function Header({ menus, globalVariables }) {
                     >
                       <span>
                         PUBLIC RELATION'S OFFICE
-                        <small style={{ color: "red" }}> [more info]</small>
+                        <small style={{ color: "#cc0c1e" }}> [more info]</small>
                       </span>{" "}
                     </p>
                     <p
@@ -131,9 +133,10 @@ export default function Header({ menus, globalVariables }) {
                         color: "#29425f",
                       }}
                     >
-                      <span style={{ color: "red" }}>T:</span>{" "}
+                      <span style={{ color: "#cc0c1e" }}>T:</span>{" "}
                       <span>
-                        +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
+                        +91-291-2514790{" "}
+                        <span style={{ color: "#cc0c1e" }}>E:</span>{" "}
                         pro@mbm.ac.in
                       </span>
                     </p>
@@ -149,7 +152,7 @@ export default function Header({ menus, globalVariables }) {
                     >
                       <span>
                         DEAN (STUDENT AFFAIRS)
-                        <small style={{ color: "red" }}> [more info]</small>
+                        <small style={{ color: "#cc0c1e" }}> [more info]</small>
                       </span>{" "}
                     </p>
                     <p
@@ -159,9 +162,10 @@ export default function Header({ menus, globalVariables }) {
                         color: "#29425f",
                       }}
                     >
-                      <span style={{ color: "red" }}>T:</span>{" "}
+                      <span style={{ color: "#cc0c1e" }}>T:</span>{" "}
                       <span>
-                        +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
+                        +91-291-2514790{" "}
+                        <span style={{ color: "#cc0c1e" }}>E:</span>{" "}
                         dean.sa@mbm.ac.in
                       </span>
                     </p>
@@ -177,7 +181,7 @@ export default function Header({ menus, globalVariables }) {
                     >
                       <span>
                         CHIEF PROCTOR
-                        <small style={{ color: "red" }}> [more info]</small>
+                        <small style={{ color: "#cc0c1e" }}> [more info]</small>
                       </span>{" "}
                     </p>
                     <p
@@ -187,9 +191,10 @@ export default function Header({ menus, globalVariables }) {
                         color: "#29425f",
                       }}
                     >
-                      <span style={{ color: "red" }}>T:</span>{" "}
+                      <span style={{ color: "#cc0c1e" }}>T:</span>{" "}
                       <span>
-                        +91-291-2514790 <span style={{ color: "red" }}>E:</span>{" "}
+                        +91-291-2514790{" "}
+                        <span style={{ color: "#cc0c1e" }}>E:</span>{" "}
                         proctor@mbm.ac.in
                       </span>
                     </p>
@@ -212,7 +217,7 @@ export default function Header({ menus, globalVariables }) {
                           margin: "0px",
                         }}
                       >
-                        POSTAL <span style={{ color: "red" }}>ADDRESS</span>
+                        POSTAL <span style={{ color: "#cc0c1e" }}>ADDRESS</span>
                       </p>
                       <p
                         style={{
@@ -227,7 +232,7 @@ export default function Header({ menus, globalVariables }) {
                         style={{
                           fontSize: "1rem",
 
-                          color: "red",
+                          color: "#cc0c1e",
                           marginBottom: "0px",
                         }}
                       >
@@ -250,7 +255,7 @@ export default function Header({ menus, globalVariables }) {
                           marginBottom: "0px",
                         }}
                       >
-                        Office <span style={{ color: "red" }}>TIMINGS</span>
+                        Office <span style={{ color: "#cc0c1e" }}>TIMINGS</span>
                       </p>
                       <p
                         style={{
@@ -266,7 +271,7 @@ export default function Header({ menus, globalVariables }) {
                         style={{
                           fontSize: "1rem",
 
-                          color: "red",
+                          color: "#cc0c1e",
                           marginBottom: "0px",
                         }}
                       >
@@ -289,7 +294,7 @@ export default function Header({ menus, globalVariables }) {
                           marginBottom: "0px",
                         }}
                       >
-                        ONLINE <span style={{ color: "red" }}>LINKS</span>
+                        ONLINE <span style={{ color: "#cc0c1e" }}>LINKS</span>
                       </p>
                       <p
                         style={{
@@ -303,7 +308,7 @@ export default function Header({ menus, globalVariables }) {
                       <p
                         style={{
                           fontSize: "1rem",
-                          color: "red",
+                          color: "#cc0c1e",
                           marginBottom: "0px",
                         }}
                       >
@@ -321,16 +326,16 @@ export default function Header({ menus, globalVariables }) {
   };
   return (
     <div className="header-background">
-      <div className="container  mt-2">
+      <div className="container pb-3">
         <div className="row">
-          <div className="col-md-6 col-12 logoCard">
+          <div className="col-md-4 col-12 logoCard">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/dicazo-demo.appspot.com/o/LOGO.png?alt=media&token=6f8dcbde-bf64-48d0-ae81-f186c9e72208"
               alt="MBM LOGO"
               className=" topHeaderLogo"
             />
           </div>
-          <div className="col-md-6 col-12 topLinks">
+          <div className="col-md-8 col-12 topLinks">
             <div>
               <div style={{ lineHeight: "31px" }}>
                 <a
@@ -346,7 +351,7 @@ export default function Header({ menus, globalVariables }) {
                   className="header-nav-link"
                   style={{ color: "black" }}
                 >
-                  New & Updates
+                  News & Updates
                 </a>
                 {"  |  "}
                 <a
@@ -356,8 +361,11 @@ export default function Header({ menus, globalVariables }) {
                 >
                   University IUMS
                 </a>
-
-                <span className="header-nav-link">
+                <a
+                  href="#!"
+                  className="header-nav-link"
+                  style={{ color: "black" }}
+                >
                   <HeadNavbarDrawer
                     insideText={
                       <>
@@ -365,7 +373,7 @@ export default function Header({ menus, globalVariables }) {
                       </>
                     }
                   />
-                </span>
+                </a>
               </div>
             </div>
             <div>
@@ -391,7 +399,7 @@ export default function Header({ menus, globalVariables }) {
 
             <div style={{ lineHeight: "41px" }}>
               <div className="pageTitle">
-                <p style={{ color: "red", fontFamily: "Ubuntu" }}>
+                <p style={{ color: "#cc0c1e", fontFamily: "Ubuntu" }}>
                   ABOUT{" "}
                   <span style={{ color: "#29425f", fontFamily: "Ubuntu" }}>
                     MBM

@@ -3,6 +3,7 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
+
 function YouAreLookingFor() {
   return (
     <div>
@@ -14,7 +15,14 @@ function YouAreLookingFor() {
         }}
       >
         <div className="container pt-5 pb-5">
-          <h1 className="text-center mb-5" style={{ fontWeight: "bold" }}>
+          <h1
+            className="text-center mb-5"
+            style={{
+              fontWeight: "bold",
+              fontFamily: "ubuntu",
+              fontSize: "38px",
+            }}
+          >
             You are looking for...
           </h1>
           <div className="col-12">
@@ -37,7 +45,15 @@ function YouAreLookingFor() {
                       backgroundColor: "inherit",
                     }}
                   >
-                    <Typography style={{ color: "red", fontWeight: "600" }}>
+                    <Typography
+                      style={{
+                        color: "#cc0c1e",
+                        fontWeight: "700",
+                        fontFamily: "ubuntu",
+                        fontSize: "18px",
+                        lineHeight: "22px",
+                      }}
+                    >
                       CAMPUS ACTIVITIES
                     </Typography>
                     <hr style={{ height: "2px" }} />
@@ -49,6 +65,8 @@ function YouAreLookingFor() {
                         height: "75px",
                         textAlign: "justify",
                         overflow: "hidden",
+                        fontFamily: "PT Sans",
+                        letterSpacing: "0",
                       }}
                     >
                       Anu are a widespread group of squamate reptiles, with over
@@ -63,8 +81,10 @@ function YouAreLookingFor() {
                     <small
                       style={{
                         float: "right",
-                        color: "red",
-                        fontWeight: "600",
+                        color: "#e73f4e",
+                        fontWeight: "700",
+                        fontFamily: "PT Sans",
+                        fontSize: "16px",
                       }}
                     >
                       Go to Newsroom &gt;
@@ -85,7 +105,15 @@ function YouAreLookingFor() {
                     image="https://firebasestorage.googleapis.com/v0/b/dicazo-demo.appspot.com/o/abc2tt.png?alt=media&token=feb2a758-e569-403d-acfc-c4425eae56fd"
                   />
                   <CardContent style={{ backgroundColor: "transparent" }}>
-                    <Typography style={{ color: "red", fontWeight: "600" }}>
+                    <Typography
+                      style={{
+                        color: "#cc0c1e",
+                        fontWeight: "700",
+                        fontFamily: "ubuntu",
+                        fontSize: "18px",
+                        lineHeight: "22px",
+                      }}
+                    >
                       UNIVERSITY E-SERVICES
                     </Typography>
                     <hr style={{ height: "2px" }} />
@@ -97,6 +125,7 @@ function YouAreLookingFor() {
                         height: "75px",
                         overflow: "hidden",
                         textAlign: "justify",
+                        fontFamily: "PT Sans",
                       }}
                     >
                       Abc are a widespread group of squamate reptiles, with over
@@ -109,8 +138,10 @@ function YouAreLookingFor() {
                     <small
                       style={{
                         float: "right",
-                        color: "red",
-                        fontWeight: "600",
+                        color: "#e73f4e",
+                        fontWeight: "700",
+                        fontFamily: "PT Sans",
+                        fontSize: "16px",
                       }}
                     >
                       Switch to IUMS &gt;
@@ -130,7 +161,15 @@ function YouAreLookingFor() {
                     image="https://firebasestorage.googleapis.com/v0/b/dicazo-demo.appspot.com/o/abc3t.png?alt=media&token=eec2da45-46c8-45ee-a195-d485abeb9674"
                   />
                   <CardContent style={{}}>
-                    <Typography style={{ color: "red", fontWeight: "600" }}>
+                    <Typography
+                      style={{
+                        color: "#cc0c1e",
+                        fontWeight: "700",
+                        fontFamily: "ubuntu",
+                        fontSize: "18px",
+                        lineHeight: "22px",
+                      }}
+                    >
                       UG {"&"} PG ADMISSIONS
                     </Typography>
                     <hr style={{ height: "2px" }} />
@@ -142,6 +181,7 @@ function YouAreLookingFor() {
                         height: "75px",
                         textAlign: "justify",
                         overflow: "hidden",
+                        fontFamily: "PT Sans",
                       }}
                     >
                       Abc are a widespread group of squamate reptiles, with over
@@ -153,8 +193,10 @@ function YouAreLookingFor() {
                     <small
                       style={{
                         float: "right",
-                        color: "red",
-                        fontWeight: "600",
+                        color: "#e73f4e",
+                        fontWeight: "700",
+                        fontFamily: "PT Sans",
+                        fontSize: "16px",
                       }}
                     >
                       More details &gt;

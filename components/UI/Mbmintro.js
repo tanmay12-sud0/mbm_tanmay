@@ -1,6 +1,6 @@
 import React from "react";
 
-function Mbmintro() {
+function MbmIntro() {
   return (
     <div>
       {" "}
@@ -18,25 +18,8 @@ function Mbmintro() {
         <div className="col-lg-1 col-12"></div>
         <div className="col-lg-6 col-12 mt-md-0 mt-4 ">
           <h1>
-            <span
-              style={{
-                fontSize: "2.5rem",
-                fontWeight: "bold",
-                color: "red",
-                fontFamily: "Ubuntu",
-              }}
-            >
-              MBM
-            </span>{" "}
-            <span
-              style={{
-                fontSize: "2.5rem",
-                fontWeight: "bold",
-                fontFamily: "Ubuntu",
-              }}
-            >
-              UNIVERSITY
-            </span>
+            <span className="mbm-heading">MBM</span>{" "}
+            <span className="university-heading">UNIVERSITY</span>
           </h1>
           <p style={{ color: "black", textAlign: "justify" }}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere sit
@@ -91,4 +74,4 @@ function Mbmintro() {
   );
 }
 
-export default Mbmintro;
+export default MbmIntro;

@@ -10,22 +10,24 @@
 .header-carousel {
   position: relative;
   height: var(--carousel-height);
+  /* margin-bottom: 30px; */
+  /* z-index: 5; */
 }
 
 .header-carousel-content {
-  position: absolute;
-  left: var(--carousel-content-start);
-  top: 30px;
+  /* position: absolute;
+  left: var(--carousel-content-start); */
+  /* top: 30px; */
   z-index: 2;
   font-family: "Ubuntu", sans-serif;
   color: var(--base-color);
-  width: var(--carousel-content-width);
+  /* width: var(--carousel-content-width); */
 }
 
 .header-carousel-content h2 {
   font-weight: 800;
   letter-spacing: 1px;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -33,42 +35,97 @@
   border: 8px solid var(--base-color);
   width: var(--carousel-image-width);
   height: var(--carousel-image-height);
-  position: absolute;
-  right: 120px;
-  bottom: calc(var(--carousel-height) - var(--carousel-image-height));
-  z-index: 2;
+  /* position: absolute; */
+  /* right: 120px; */
+  /* bottom: calc(var(--carousel-height) - var(--carousel-image-height)); */
+  z-index: 5;
 }
-
+.headerBtn {
+  color: white;
+  margin-top: 30px;
+  border: 2px solid white;
+}
 .header-carousel-base {
-  width: 98.5vw;
+  width: 100vw;
   height: var(--carousel-base-height);
   background-color: var(--base-color);
   position: absolute;
   bottom: 0;
-}
-
-.header-carousel-button {
-  position: absolute;
-  left: var(--carousel-content-start);
-  bottom: calc(var(--carousel-height) - var(--carousel-image-height));
+  z-index: 0;
 }
 
 .header-carousel-base p {
   position: absolute;
-  bottom: 5px;
+  bottom: 8px;
   width: 100%;
   text-align: center;
   color: whitesmoke;
 }
 
-@media screen and (max-width: 720px) {
-  :root {
-    --carousel-content-width: 90vw;
+@media screen and (max-width: 1200px) {
+  .header-carousel-content h2 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .headerBtn {
+    color: var(--base-color);
+    margin-top: 30px;
+    border: 2px solid var(--base-color);
+  }
+  .header-carousel-content h2 {
+    font-size: 1.5rem;
   }
   .header-carousel-image {
-    display: none;
+    height: 250px;
   }
-  .header-carousel-content {
-    left: 10px;
+  .header-carousel-base {
+    background-color: transparent;
+    width: 100%;
+    position: initial;
+    height: 70px;
+  }
+
+  .header-carousel-button {
+    position: initial;
+    display: grid;
+    place-items: center;
+    /* /* margin-top: 300px; */
+    color: red;
+  }
+}
+@media screen and (max-width: 768px) {
+  :root {
+    --carousel-height: 420px;
+  }
+}
+@media screen and (max-width: 540px) {
+  :root {
+    --carousel-height: 460px;
+  }
+}
+@media screen and (max-width: 415px) {
+  :root {
+    --carousel-height: 520px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  :root {
+    --carousel-height: 560px;
+  }
+  .header-carousel-content h2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 280px) {
+  :root {
+    --carousel-height: 620px;
+  }
+  .header-carousel-content h2 {
+    font-size: 1.5rem;
+  }
+  .header-carousel-content h2 {
+    font-size: 1.4rem;
   }
 }

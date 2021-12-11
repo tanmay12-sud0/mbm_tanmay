@@ -1,0 +1,99 @@
+.news-heading {
+  font-size: 26px;
+  color: hsl(212, 40%, 27%);
+  font-family: Ubuntu;
+  font-weight: "500";
+  /* line-height: 1; */
+}
+.latest-heading {
+  font-size: 26px;
+  color: rgb(204, 12, 30);
+  font-family: Ubuntu;
+  font-weight: "500";
+}
+.more-heading {
+  color: #29425f;
+  margin: auto;
+  font-size: 17px;
+  line-height: 1;
+}
+.more-container {
+  text-align: right;
+  /* margin-top: 2px; */
+  font-size: 25px;
+}
+
+/* @media screen and (max-width: 400px) {
+  .news-heading {
+    font-size: 12px;
+  }
+  .latest-heading {
+    font-size: 12px;
+  }
+} */
+@media only screen and (min-device-width: 400px) and (max-device-width: 780px) {
+  .news-heading {
+    font-size: 17px;
+  }
+  .latest-heading {
+    font-size: 17px;
+  }
+  .more-heading {
+    font-size: 17px;
+  }
+  .more-container {
+    margin-top: -6px;
+  }
+  .app {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .news-heading {
+    font-size: 18px;
+  }
+  .latest-heading {
+    font-size: 18px;
+  }
+  .more-container {
+    margin-top: -4px;
+  }
+  .app {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 380px) {
+  .news-heading {
+    font-size: 16px;
+  }
+  .latest-heading {
+    font-size: 16px;
+  }
+  .app {
+    /* font-size: 1rem; */
+    display: none;
+  }
+  .more-heading {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .more-container {
+    margin-top: -6px;
+  }
+}
+/* @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+  .news-heading {
+    font-size: 8px;
+  }
+  .latest-heading {
+    font-size: 16px;
+  }
+  .more-container {
+    margin-top: -4px;
+  }
+  .app {
+    font-size: 8px;
+  }
+} */

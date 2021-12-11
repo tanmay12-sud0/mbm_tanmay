@@ -16,38 +16,13 @@ function HomePageCards() {
             <div className="col-12">
               <div className="row">
                 <div className="col-6">
-                  <h1
-                    style={{
-                      fontSize: "26px",
-                      color: " hsl(212, 40%, 27%)",
-                      fontFamily: "Ubuntu",
-                      fontWeight: "500",
-                      lineHeight: "1.1",
-                    }}
-                  >
-                    <AppsIcon></AppsIcon> LATEST
-                    <span
-                      style={{
-                        fontSize: "26px",
-                        color: "#cc0c1e",
-                        fontFamily: "Ubuntu",
-                        fontWeight: "500",
-                        marginLeft: "8px",
-                      }}
-                    >
-                      NEWS
-                    </span>
+                  <h1 className="latest-heading">
+                    <AppsIcon className="app"></AppsIcon> LATEST
+                    <span className="news-heading">NEWS</span>
                   </h1>
                 </div>
-                <div className="col-6" style={{ textAlign: "end" }}>
-                  <a
-                    href="#"
-                    style={{
-                      color: "#29425f",
-                      margin: "auto",
-                      fontSize: "20px",
-                    }}
-                  >
+                <div className="col-6 more-container">
+                  <a href="#" className="more-heading">
                     More &gt;
                   </a>
                 </div>
@@ -74,7 +49,7 @@ function HomePageCards() {
             sx={{ maxWidth: 495 }}
             style={{
               boxShadow: "0px 0px 0px 0px",
-              border: "3px dashed red",
+              border: "3px dashed rgb(204, 12, 30)",
               padding: "10px",
             }}
           >
@@ -113,11 +88,11 @@ function HomePageCards() {
               </Typography>
               <div
                 id="carouselExampleControls"
-                class="carousel slide"
+                className="carousel slide"
                 data-ride="carousel"
               >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
                     <div style={{ marginTop: "20px" }}>
                       <Avatar
                         alt="Remy Sharp"
@@ -131,7 +106,9 @@ function HomePageCards() {
                           Full Stack Developer
                         </p>
                       </div>
-                      <hr style={{ color: "red", height: "2px" }} />
+                      <hr
+                        style={{ color: "rgb(204, 12, 30)", height: "2px" }}
+                      />
                       <Typography
                         variant="body2"
                         color="text.secondary"
@@ -151,7 +128,7 @@ function HomePageCards() {
                       </Typography>{" "}
                     </div>
                   </div>
-                  <div class="carousel-item">
+                  <div className="carousel-item">
                     <div style={{ marginTop: "20px" }}>
                       <Avatar
                         alt="Remy Sharp"
@@ -165,7 +142,9 @@ function HomePageCards() {
                           Full Stack Developer
                         </p>
                       </div>
-                      <hr style={{ color: "red", height: "2px" }} />
+                      <hr
+                        style={{ color: "rgb(204, 12, 30)", height: "2px" }}
+                      />
                       <Typography
                         variant="body2"
                         color="text.secondary"
@@ -185,7 +164,7 @@ function HomePageCards() {
                       </Typography>{" "}
                     </div>
                   </div>
-                  <div class="carousel-item">
+                  <div className="carousel-item">
                     <div style={{ marginTop: "20px" }}>
                       <Avatar
                         alt="Remy Sharp"
@@ -199,7 +178,9 @@ function HomePageCards() {
                           Full Stack Developer
                         </p>
                       </div>
-                      <hr style={{ color: "red", height: "2px" }} />
+                      <hr
+                        style={{ color: "rgb(204, 12, 30)", height: "2px" }}
+                      />
                       <Typography
                         variant="body2"
                         color="text.secondary"
@@ -221,19 +202,19 @@ function HomePageCards() {
                   </div>
                 </div>
                 <a
-                  class="carousel-control-prev"
+                  className="carousel-control-prev"
                   href="#carouselExampleControls"
                   role="button"
                   data-slide="prev"
                 >
                   <span
-                    class="carousel-control-prev-icon"
+                    className="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
                   <span
-                    class="sr-only"
+                    className="sr-only"
                     style={{
-                      color: "red",
+                      color: "rgb(204, 12, 30)",
                       position: "absolute",
                       top: "93px",
                     }}
@@ -242,19 +223,19 @@ function HomePageCards() {
                   </span>
                 </a>
                 <a
-                  class="carousel-control-next"
+                  className="carousel-control-next"
                   href="#carouselExampleControls"
                   role="button"
                   data-slide="next"
                 >
                   <span
-                    class="carousel-control-next-icon"
+                    className="carousel-control-next-icon"
                     aria-hidden="true"
                   ></span>
                   <span
-                    class="sr-only"
+                    className="sr-only"
                     style={{
-                      color: "red",
+                      color: "rgb(204, 12, 30)",
                       position: "absolute",
                       top: "93px",
                     }}
@@ -316,7 +297,7 @@ export default HomePageCards;
 //           <Card
 //             style={{
 //               width: "24rem",
-//               border: "3.5px dashed red",
+//               border: "3.5px dashed rgb(204, 12, 30)",
 //               // marginTop: "15px",
 //               height: "31rem",
 //               marginLeft: "0.1rem",
@@ -327,7 +308,7 @@ export default HomePageCards;
 //                 style={{
 //                   display: "flex",
 //                   justifyContent: "center",
-//                   color: "red",
+//                   color: "rgb(204, 12, 30)",
 
 //                   fontSize: "33px",
 //                   marginTop: "10px",
@@ -348,7 +329,7 @@ export default HomePageCards;
 //                   style={{
 //                     display: "flex",
 //                     justifyContent: "center",
-//                     color: "red",
+//                     color: "rgb(204, 12, 30)",
 
 //                     fontSize: "23px",
 //                     marginTop: "4px",
@@ -369,7 +350,7 @@ export default HomePageCards;
 //                 >
 //                   BE Second Year, CSE
 //                 </Card.Title>
-//                 <hr style={{ color: "red" }} />
+//                 <hr style={{ color: "rgb(204, 12, 30)" }} />
 //                 <Card.Text
 //                   style={{
 //                     display: "flex",

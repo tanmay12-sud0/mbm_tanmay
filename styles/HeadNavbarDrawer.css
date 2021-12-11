@@ -1,0 +1,181 @@
+.head-drawer {
+  background: rgb(46, 53, 62);
+  padding: 0 85px 40px 85px;
+  width: 100vw;
+  color: white;
+}
+.headdrawer-top {
+  display: flex;
+  flex-direction: row;
+}
+.explore-web {
+  font-size: 30px;
+  font-family: "Ubuntu";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  padding-top: 55px;
+}
+.close-drawer {
+  /* margin-top: 35px; */
+  position: absolute;
+  top: 35px;
+  right: 85px;
+}
+.close-drawer button {
+  background: rgb(46, 53, 62);
+  color: white;
+}
+.links-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+.links-1 {
+  display: flex;
+  flex-direction: column;
+}
+.links-1 ul {
+  display: flex;
+  flex-direction: column;
+
+  /* margin-top: 40px; */
+}
+.links-1 ul a {
+  text-decoration: none;
+  color: rgb(192, 208, 227);
+}
+.links-link-1 a:hover {
+  color: rgb(245, 121, 132);
+}
+.links-2 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.link-nav {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.link-nav ul {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 35px;
+}
+.link-nav ul a {
+  text-decoration: none;
+  color: rgb(192, 208, 227);
+  height: 35px;
+  padding: 0 15px 20px 0;
+}
+.respo-1024 a:active {
+  color: rgb(245, 121, 132);
+}
+.link-nav ul a:active {
+  color: rgb(245, 121, 132);
+}
+.link-nav-vhr {
+  width: 30px;
+  transform: rotate(90deg);
+  /* margin-left: -15px; */
+  margin: 16px -1px -17px -29px;
+}
+.link-nav-hhr {
+  margin-top: 7px;
+  /* background-color: rgb(84, 109, 138); */
+  margin-left: -15px;
+}
+.useful {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: solid 1px rgb(192, 208, 227);
+  border-radius: 2px;
+  padding: 5px 0px 0px 5px;
+  width: 225px;
+}
+.useful ul a {
+  text-decoration: none;
+  color: rgb(192, 208, 227);
+}
+.useful ul a:hover {
+  color: rgb(245, 121, 132);
+}
+.tpolink {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(49, 62, 78);
+  background: white;
+  margin-left: 0px;
+  padding: 6px 14px;
+}
+.tpolink:hover {
+  color: rgb(49, 62, 78);
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgb(215, 215, 215) 0%,
+    rgb(255, 255, 255) 100%
+  );
+}
+.btn-primary:hover {
+  background: none;
+}
+
+/* styling for mobile mode */
+
+.respo-head-drawer {
+  display: none;
+  background: rgb(46, 53, 62);
+  /* height: 100vh; */
+
+  padding-bottom: 10px;
+}
+.respo-dropdown {
+  margin-top: 10px;
+}
+.respo-ul a {
+  text-decoration: none;
+  color: rgb(192, 208, 227);
+  padding: 2px 0;
+  font-size: px;
+}
+.respo-ul a:hover {
+  background: none;
+}
+.drop-hr {
+  height: 1px;
+  color: white;
+  margin: 0px;
+}
+.dropdown-box {
+  background-color: rgb(46, 53, 62);
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+  margin-left: 20px;
+  margin-top: -8px;
+}
+@media screen and (max-width: 1078px) {
+  .respo-head-drawer {
+    display: block;
+  }
+  .head-drawer {
+    display: none;
+  }
+  .tpolink {
+    color: rgb(46, 53, 62);
+  }
+  .explore-web {
+    font-size: 18px;
+    margin: -30px 10px 20px 10px;
+  }
+  .btn-primary {
+    position: absolute;
+    left: 35px;
+  }
+}

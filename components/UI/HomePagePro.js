@@ -12,7 +12,7 @@ function HomePagePro() {
             <div>
               <h1
                 style={{
-                  fontSize: "60px",
+                  fontSize: "3.3rem",
                   color: " hsl(212, 40%, 27%)",
                   fontFamily: "Ubuntu",
                   fontWeight: "500",
@@ -23,7 +23,7 @@ function HomePagePro() {
                 RESEARCH{" "}
                 <span
                   style={{
-                    fontSize: "56px",
+                    fontSize: "3.3rem",
                     color: "#cc0c1e",
                     fontFamily: "Ubuntu",
                     marginLeft: "20px",
@@ -34,7 +34,7 @@ function HomePagePro() {
                 </span>
               </h1>
               <h1></h1>
-              <p style={{ textAlign: "justify" }}>
+              <p style={{ textAlign: "justify", fontSize: "1rem" }}>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum
                 ratione amet animi neque quasi delectus obcaecati perspiciatis
                 molestias velit facere. Atque quibusdam, neque maiores ea aut
