@@ -5,18 +5,13 @@ import { useMediaQuery } from "react-responsive";
 const HeaderCarousel = () => {
   // For responsive table
   // edit width here
-  let color = "white";
-  let border = "2px solid white";
+
   const isTabletOrMobileDevice = useMediaQuery({
     query: "(max-device-width: 1078px)",
   });
-  if (isTabletOrMobileDevice) {
-    color = "#29425f";
-    border = "2px solid #29425f";
-  }
 
   return (
-    <div className="header-carousel mb-5">
+    <div className="header-carousel ">
       <div className="header-carousel-content">
         <h2>
           74th Foundation Day Celebration{" "}
@@ -40,14 +35,7 @@ const HeaderCarousel = () => {
       />
       <div className="header-carousel-base">
         <div className="header-carousel-button">
-          <Button
-            variant="outlined"
-            style={{
-              color: { color },
-              marginTop: "30px",
-              border: { border },
-            }}
-          >
+          <Button variant="outlined" className="headerBtn">
             Know More &gt;
           </Button>
         </div>
