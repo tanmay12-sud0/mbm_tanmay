@@ -1,20 +1,7 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
-import List from "@mui/material/List";
 import Divider from "@mui/material/Divider";
-import ListItem from "@mui/material/ListItem";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
-import darkGrey from "../../colors";
-import {
-  Rotate90DegreesCcw,
-  Rotate90DegreesCcwOutlined,
-  Transform,
-} from "@mui/icons-material";
-import { flexbox, height, margin, width } from "@mui/system";
 // import "./HeadNavbarDrawer.css";
 
 // Responsive
@@ -35,12 +22,12 @@ export default function HeadNavbarDrawer({ insideText }) {
   // For responsive table
   // edit width here
   let drawerWidth = "auto";
-  let anchor = "center";
+  let anchor = "top";
   const isTabletOrMobileDevice = useMediaQuery({
     query: "(max-device-width: 1078px)",
   });
   if (isTabletOrMobileDevice) {
-    drawerWidth = "300px";
+    drawerWidth = "320px";
     anchor = "left";
   }
 

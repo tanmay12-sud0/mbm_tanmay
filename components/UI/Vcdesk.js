@@ -4,7 +4,8 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import Avatar from "@mui/material/Avatar";
-function Vcdesk() {
+
+function VcDesk() {
   return (
     <div>
       <div className="row" style={{ marginTop: "100px" }}>
@@ -177,4 +178,4 @@ function Vcdesk() {
   );
 }
 
-export default Vcdesk;
+export default VcDesk;

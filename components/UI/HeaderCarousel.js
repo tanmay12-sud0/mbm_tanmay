@@ -1,7 +1,20 @@
 import React from "react";
 import Button from "@mui/material/Button";
+import { useMediaQuery } from "react-responsive";
 
 const HeaderCarousel = () => {
+  // For responsive table
+  // edit width here
+  let color = "white";
+  let border = "2px solid white";
+  const isTabletOrMobileDevice = useMediaQuery({
+    query: "(max-device-width: 1078px)",
+  });
+  if (isTabletOrMobileDevice) {
+    color = "#29425f";
+    border = "2px solid #29425f";
+  }
+
   return (
     <div className="header-carousel mb-5">
       <div className="header-carousel-content">
@@ -10,13 +23,15 @@ const HeaderCarousel = () => {
           <span style={{ color: "red", fontFamily: "Ubuntu" }}>@MBM</span>
         </h2>
         <hr />
-        <p>
-          In publishing and graphic design, Lorem ipsum is a placeholder text
-          commonly used to demonstrate the visual form of a document or a
-          typeface without relying on meaningful content. Lorem ipsum may be
-          used as a placeholder before the final copy is available. It is also
-          used to temporarily replace
-        </p>
+        {!isTabletOrMobileDevice && (
+          <p>
+            In publishing and graphic design, Lorem ipsum is a placeholder text
+            commonly used to demonstrate the visual form of a document or a
+            typeface without relying on meaningful content. Lorem ipsum may be
+            used as a placeholder before the final copy is available. It is also
+            used to temporarily replace
+          </p>
+        )}
       </div>
       <img
         className="header-carousel-image"
@@ -28,15 +43,19 @@ const HeaderCarousel = () => {
           <Button
             variant="outlined"
             style={{
-              color: "white",
+              color: { color },
               marginTop: "30px",
-              border: "2px solid white",
+              border: { border },
             }}
           >
             Know More &gt;
           </Button>
         </div>
-        <p>Lorem ipsum is a placeholder text commonly used to demonstrate .</p>
+        {!isTabletOrMobileDevice && (
+          <p>
+            Lorem ipsum is a placeholder text commonly used to demonstrate .
+          </p>
+        )}
       </div>
     </div>
   );
