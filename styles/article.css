@@ -5,10 +5,12 @@
   font-weight: normal;
   color: rgb(41, 66, 95);
   /* line-height: 1.25; */
-
   text-align: center;
-  margin-top: 60px;
+  /* margin-top: 60px; */
   text-shadow: 0px 1px 2px rgba(36, 59, 86, 0.25);
+}
+.article-title-img {
+  color: white;
 }
 .article-downloadButton {
   border-width: 1.5px;
@@ -88,7 +90,7 @@
 @media only screen and (max-width: 600px) {
   .article-title {
     font-size: 18px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     letter-spacing: 0px;
   }
   .article-downloadButton {
@@ -149,11 +151,11 @@
     font-size: 12px;
   }
 }
-@media only screen and  (max-device-width: 280px) {
+@media only screen and (max-device-width: 280px) {
   .article-SeeAll {
     font-size: 12px;
   }
-  .article-announcementHeading{
+  .article-announcementHeading {
     font-size: 14px;
   }
 }
