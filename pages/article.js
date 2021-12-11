@@ -7,21 +7,32 @@ import ArticleCard from "../components/ui/ArticleCard";
 function article() {
   const data =
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, corrupti cum. Hic, quis? Voluptates facere ";
+  const imgLink = "https://pixy.org/src/477/4774988.jpg";
   return (
     <div>
       <BreadcrumbComponent />
 
       <div
         style={{
-          // marginTop: "40px",
+          // marginTop: "-60px",
           alignItems: "center",
           justifyContent: "center",
           fontFamily: "PT Sans",
           textAlign: "justify",
+          backgroundImage: `url(${imgLink})`,
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          opacity: "0.8",
         }}
-        className="container"
+        className="container-fluid"
       >
-        <h1 className="article-title">
+        <h1
+          className={
+            imgLink ? "article-title article-title-img" : "article-title"
+          }
+          style={{ paddingTop: "50px" }}
+        >
           MBM UNIVERSITY ACT, 2021 passed by Rajasthan Legislative Assembly on
           Sep 17, 2021
         </h1>
@@ -31,11 +42,11 @@ function article() {
           </Button>
           <hr />
         </div>
-        <div style={{ textAlign: "center" }}>
-          <small className="article-subtitle">
-            Posted by Admin under Announcements on 1 may, 2021
-          </small>
-        </div>
+      </div>
+      <div className="container" style={{ textAlign: "center" }}>
+        <small className="article-subtitle">
+          Posted by Admin under Announcements on 1 may, 2021
+        </small>
       </div>
       <div className="article-contentContainer container">
         <p>
