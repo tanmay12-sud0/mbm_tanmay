@@ -1,7 +1,7 @@
 import React from "react";
 // import Head from "next/head";
 // import Link from "next/link";
-import { Button, Modal } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 // import { IoIosMailOpen } from "react-icons/io";
 // import MenuList from "../UI/MenuList";
 import PageTitle from "../ui/PageTitle";
@@ -11,7 +11,9 @@ import { useState } from "react";
 // import { useEffect } from "react";
 import HeadNavbarDrawer from "../ui/HeadNavbarDrawer";
 import AppsIcon from "@mui/icons-material/Apps";
-
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import FacebookIcon from "@mui/icons-material/Facebook";
 export default function Header({ menus, globalVariables }) {
   const [show, setShow] = useState(false);
 
@@ -244,6 +246,8 @@ export default function Header({ menus, globalVariables }) {
                         border: "2px dashed #29425f",
                         textAlign: "center",
                         padding: "5px",
+                        paddingTop: "10px",
+                        paddingBottom: "10px",
                       }}
                     >
                       <p
@@ -298,12 +302,37 @@ export default function Header({ menus, globalVariables }) {
                       </p>
                       <p
                         style={{
-                          fontSize: "1rem",
+                          fontSize: "1.5rem",
                           color: "#29425f",
+                          marginTop: "10px",
                           marginBottom: "0px",
+                          paddingBottom: "10px",
                         }}
                       >
-                        Ratanada, Jodhpur
+                        <a
+                          href="#"
+                          style={{
+                            color: "#29425f",
+                          }}
+                        >
+                          <FacebookIcon></FacebookIcon>
+                        </a>
+                        <a
+                          href="#"
+                          style={{
+                            color: "red",
+                          }}
+                        >
+                          <InstagramIcon></InstagramIcon>
+                        </a>
+                        <a
+                          href="#"
+                          style={{
+                            color: "#0d6efd",
+                          }}
+                        >
+                          <TwitterIcon></TwitterIcon>
+                        </a>
                       </p>
                       <p
                         style={{
@@ -311,9 +340,7 @@ export default function Header({ menus, globalVariables }) {
                           color: "#cc0c1e",
                           marginBottom: "0px",
                         }}
-                      >
-                        Rajasthan -342011
-                      </p>
+                      ></p>
                     </div>
                   </div>
                 </div>
