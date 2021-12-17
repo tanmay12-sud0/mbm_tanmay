@@ -3,8 +3,27 @@ import Head from "next/head";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
+import MBM_API from "../../apis";
+import { useEffect } from "react";
 
 export default function FooterCard({ menus }) {
+
+  // const getData = async() => {
+  //   try {
+  //      let res = await MBM_API.getHeader({
+  //       search: "mbm_university_text"
+  //      });
+  //      console.log(res.data)
+  //   } catch (error) {
+      
+  //   }
+  // }
+
+  // useEffect(async () => {
+  //     getData();
+  // }, []);
+
+
   return (
     <>
       <Head>

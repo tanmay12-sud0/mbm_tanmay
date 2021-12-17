@@ -4,8 +4,29 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import Avatar from "@mui/material/Avatar";
+import { useEffect } from "react";
+// import MBM_API from "../../apis";
 
 function VcDesk() {
+
+  // const getData = async() => {
+  //   try {
+  //      let res = await MBM_API.getHeader({
+  //       search: "mbm_university_text"
+  //      });
+  //      console.log(res.data)
+  //   } catch (error) {
+      
+  //   }
+  // }
+
+  // useEffect(async () => {
+  //     getData();
+  // }, []);
+
+
+
+
   return (
     <div>
       <div className="row" style={{ marginTop: "100px" }}>

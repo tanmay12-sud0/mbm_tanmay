@@ -1,6 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
+// import MBM_API from "../../apis";
+// import MBM_API from "../../apis";
+// import { Directus } from '@directus/sdk';
 
-function MbmIntro() {
+
+function MbmIntro({ mbmNitro, mbmNitr}) {
+
+
+  useEffect(() => {
+    // console.log(mbmNitro);
+    console.log(mbmNitr);
+  }, [mbmNitr])
+
+  // useEffect(() => {
+  //   console.log(mbmNitr);
+  // }, [mbmNitr]);
+
+
   return (
     <div>
       {" "}
@@ -28,11 +44,8 @@ function MbmIntro() {
             illum dolores asperiores officiis fugit culpa fuga! praesentium quo
             iusto sapiente, repudiandae nisi. Veritatis accusamus placeat atque
             cum. Ipsum commodi, earum ipsa iste dolores ad, maxime nulla soluta
-            neque dolore hic quos molestiae vero eligendi similique ducimus.
-            Delectus necessitatibus eius sint at, nobis beatae accusamus ab
-            autem natus consectetur unde nihil expedita deserunt sunt sit velit
-            quasi quidem, a quibusdam non alias officiis voluptatibus provident!
-            Porro, exercitationem maiores.
+            neque 
+            {mbmNitro}
           </p>
           <div className="col-12">
             <div className="row d-flex">

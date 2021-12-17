@@ -1,10 +1,12 @@
-import React from "react";
+import React,{useEffect} from "react";
 // import Head from "next/head";
 // import Link from "next/link";
 import { Modal } from "react-bootstrap";
 // import { IoIosMailOpen } from "react-icons/io";
 // import MenuList from "../UI/MenuList";
 import PageTitle from "../ui/PageTitle";
+// import MBM_API from "apis";
+
 import RoomIcon from "@mui/icons-material/Room";
 import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
 import { useState } from "react";
@@ -14,12 +16,31 @@ import AppsIcon from "@mui/icons-material/Apps";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
+import MBM_API from "../../apis";
 export default function Header({ menus, globalVariables }) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const ContactPopup = ({ text }) => {
+
+    const getData = async() => {
+      try {
+         let res = await MBM_API.getHeader({
+          search: "mbm_university_text"
+         });
+         console.log(res.data)
+      } catch (error) {
+        
+      }
+    }
+  
+    useEffect(async () => {
+        getData();
+    }, []);
+
+
+
     return (
       <>
         <button className="header-contact-popup-button" onClick={handleShow}>
